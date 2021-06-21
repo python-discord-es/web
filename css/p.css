@@ -57,13 +57,19 @@ a:hover {
 }
 
 .red {
-  color: #ff6666;
-  font-weight: bold;
+  color: #e12d1b;
+  font-style: normal;
 }
 
 .blue {
   color: #346792;
-  font-weight: bold;
+  font-style: normal;
+}
+
+.white {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
 }
 
 blockquote {
