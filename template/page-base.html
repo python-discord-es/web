@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Hablemos Python</title>
+
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Bootstrap Icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Google fonts-->
+  <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" type="text/css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6cf87c29c5.js" crossorigin="anonymous"></script>
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/code.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+
+  <!-- Menú -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand" href="index.html">
+        <img style="vertical-align: middle; margin-bottom: 10px;" src="assets/img/logo-emoji.png" />Hablemos Python
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#acerca">Acerca</a></li>
+          <li class="nav-item"><a class="nav-link" href="coc.html">Código de Conducta</a></li>
+          <li class="nav-item dropdown" id="myDropdown">
+            <a class="nav-link dropdown-toggle" href="#recursos" data-bs-toggle="dropdown">Recursos</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="principiantes.html">Principiantes</a></li>
+              <li><a class="dropdown-item" href="cursosylibros.html">Cursos y Libros</a></li>
+              <li><a class="dropdown-item" href="faq.html">Pregunas Frecuentes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" id="myDropdown">
+            <a class="nav-link dropdown-toggle" href="#info" data-bs-toggle="dropdown">Información</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="normativa.html">Normativa</a></li>
+              <li><a class="dropdown-item" href="preguntarayudar.html">Preguntar y Ayudar</a></li>
+              <li><a class="dropdown-item" href="ofertas.html">Ofertas de trabajo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- empty section for header color -->
+  <header class="masthead-page">
+  </header>
+
+
+  <section class="page-section-single bg-primary" id="acerca">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">{{ page_title }}</h2>
+          <hr class="divider divider-light" />
+          <p class="text-white-75 mb-4">
+            {{ page_description }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section" id="toc">
+    <div class="container px-4 px-lg-5">
+    <h2>Temas</h2>
+    {{ toc }}
+    <hr class="divider divider-blue-start"/>
+    </div>
+  </section>
+  <!-- light section -->
+  <section class="page-section" id="services">
+    <div class="container px-4 px-lg-5">
+      <!-- contenido -->
+      {{ content }}
+    </div>
+  </section>
+
+  <!-- Contact-->
+  <section class="page-section bg-primary" id="contacto">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">¡Contáctanos!</h2>
+          <hr class="divider divider-light" />
+          <p class="text-white-75 mb-4">
+            ¿Tienes alguna pregunta? ¿Te gustaría hacer una propuesta?
+          </p>
+          <p class="text-white-75 mb-4">
+            No dudes en ponerte en contacto con el equipo de Python en Español.
+          </p>
+          <h4 class="text-white">contacto [at] hablemospython.dev</h4>
+          <p class="text-white-75 mb-4">
+          <i class="far fa-envelope fa-2x"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer-->
+  <footer class="bg-light py-5">
+      <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - Python en Español</div></div>
+  </footer>
+
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

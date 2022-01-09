@@ -1,150 +1,251 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/p.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
-  <script src="https://kit.fontawesome.com/6cf87c29c5.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Hablemos Python</title>
 
-  <!-- Matomo -->
-  <script type="text/javascript">
-    var _paq = window._paq = window._paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="//analytics.palta.cc/";
-      _paq.push(['setTrackerUrl', u+'matomo.php']);
-      _paq.push(['setSiteId', '1']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-    })();
-  </script>
-  <noscript><p><img src="//analytics.palta.cc/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
-  <!-- End Matomo Code -->
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Bootstrap Icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Google fonts-->
+  <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" type="text/css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6cf87c29c5.js" crossorigin="anonymous"></script>
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/code.css" rel="stylesheet" />
 </head>
 
-<body class="">
-  <main>
-    <div class="container d-flex">
-      <div class="row align-self-center">
-        <div class="col-12 mx-auto">
-          <div class="row">
-            <div class="col-4">
-              <img class="logo" src="img/logo.png" />
-            </div>
-            <div class="col-8">
-              <h1>Python en Espa<i class="yellow">ñ</i>ol</h1>
-              <p> 🇦🇷 🇧🇴 🇨🇱 🇨🇴 🇨🇷 🇨🇺 🇪🇨 🇸🇻 🇪🇸 🇬🇹 🇬🇶 🇭🇳 🇲🇽 🇳🇮 🇵🇦 🇵🇾 🇵🇪 🇵🇷 🇩🇴 🇺🇾
-                🇻🇪 </p>
+<body id="page-top">
 
-              <blockquote>
-                La comunidad hispanohablante de Python más grande del mundo 🐍 🎉.
-                <br />
-                Recuerda seguir y respetar nuestro
-                <a href="https://github.com/python-discord-es/codigo-de-conducta/blob/main/codigo-de-conducta.md">Código
-                  de Conducta</a>.
-              </blockquote>
+  <!-- Menú -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand" href="index.html">
+        <img style="vertical-align: middle; margin-bottom: 10px;" src="assets/img/logo-emoji.png" />Hablemos Python
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#acerca">Acerca</a></li>
+          <li class="nav-item"><a class="nav-link" href="coc.html">Código de Conducta</a></li>
+          <li class="nav-item dropdown" id="myDropdown">
+            <a class="nav-link dropdown-toggle" href="#recursos" data-bs-toggle="dropdown">Recursos</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="principiantes.html">Principiantes</a></li>
+              <li><a class="dropdown-item" href="cursosylibros.html">Cursos y Libros</a></li>
+              <li><a class="dropdown-item" href="faq.html">Pregunas Frecuentes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" id="myDropdown">
+            <a class="nav-link dropdown-toggle" href="#info" data-bs-toggle="dropdown">Información</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="normativa.html">Normativa</a></li>
+              <li><a class="dropdown-item" href="preguntarayudar.html">Preguntar y Ayudar</a></li>
+              <li><a class="dropdown-item" href="ofertas.html">Ofertas de trabajo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-              <ul>
-              </ul>
+  <!-- Portada -->
+  <header class="masthead">
+    <div class="container px-4 px-lg-5 h-100">
+      <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-3 align-center">
+          <img class="logo" src="assets/img/logo.png" />
+        </div>
+        <div class="col-lg-8 align-start">
+          <h1 class="text-white font-weight-bold">Python en Español</h1>
+          <p> 🇦🇷 🇧🇴 🇨🇱 🇨🇴 🇨🇷 🇨🇺 🇪🇨 🇸🇻 🇪🇸 🇬🇹 🇬🇶 🇭🇳 🇲🇽 🇳🇮 🇵🇦 🇵🇾 🇵🇪 🇵🇷 🇩🇴 🇺🇾
+          <hr class="divider" />
+          <p class="text-white-75 mb-5">
+            La comunidad hispanohablante de Python más grande del mundo 🐍 🎉<br/>
+            Recuerda seguir y respetar nuestro
+            <a href="https://github.com/python-discord-es/codigo-de-conducta/blob/main/codigo-de-conducta.md">Código de Conducta</a>.
+          </p>
+          <a class="boton-unete" href="https://discord.gg/hablemospython">
+            <button type="button" class="btn btn-primary btn-xl">
+              <i style="vertical-align: middle;" class="fab fa-discord fa-2x"></i> ¡Únete a Discord!</a>
+            </button>
+          </a>
+          <a class="boton-unete" href="https://t.me/PythonEsp">
+            <button type="button" class="btn btn-primary btn-xl">
+              <i style="vertical-align: middle;" class="fab fa-telegram fa-2x"></i> ¡Únete a Telegram!</a>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
 
-              <div class="row mt-2">
-                <div class="col-8">
-                  <a href="https://discord.gg/35E3Ph7Fez">
-                    <button type="button" class="btn btn-light valign size-h4">
-                      <i class="fab fa-discord fa-2x"></i><span>¡Únete a Discord!</span>
-                    </button>
-                  </a>
-                </div>
-              </div>
+  <!-- Acerca -->
+  <section class="page-section bg-primary" id="acerca">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">De la comunidad, para la comunidad</h2>
+          <hr class="divider divider-light" />
+          <p class="text-white-90 mb-4">
+            <b class="text-yellow">Python en Español</b> es una iniciativa que nació del esfuerzo de personas de países hispanohablantes
+            para generar un lugar central donde la comunidad pudiera seguir creciendo y fortaleciéndose.
+          </p>
+          <p class="text-white-90 mb-4">
+            Somos una comunidad <span class="text-yellow">basada en el respeto</span>,
+            para ofrecer <span class="text-yellow">un lugar seguro</span> donde cualquier persona
+            pueda comenzar con Python o mejorar sus conocimientos.
+          </p>
+          <p class="text-white-90 mb-4">
+            En nuestros canales <span class="text-yellow">podrás encontrar</span> actividades, recursos, consejos, conferencias,
+            meetups, noticias, proyectos y mucho más temas relacionados a Python.
+          </p>
+          <a class="btn btn-light btn-xl" href="#contacto">Contáctanos</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-              <div class="row mt-2">
-                <a class="btn btn-outline-light col-4 ml-3 text-center" role="button"
-                  href="https://twitter.com/intent/tweet?text=%C2%A1%C3%9Anete%20a%20la%20comunidad%20de%20Python%20en%20Espa%C3%B1ol!%20https://discord.gg/35E3Ph7Fez">
-                  <i class="fab fa-twitter fa-1x"></i><span class="ml-2">¡Twitéalo!</span>
-                </a>
-                <a class="btn btn-outline-light col-4 ml-3 text-center" role="button"
-                  href="http://www.facebook.com/sharer.php?s=100&p[title]=%C2%A1%C3%9Anete%20a%20la%20comunidad%20de%20Python%20en%20Espa%C3%B1ol!&p[url]=https://discord.gg/35E3Ph7Fez">
-                  <i class="fab fa-facebook fa-1x"></i><span class="ml-2">¡Compártelo!</span>
-                </a>
-              </div>
-
-            </div>
+  <!-- Plataformas -->
+  <section class="page-section" id="platforms">
+    <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0">Plataformas, recursos e información</h2>
+      <hr class="divider" />
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><a href="https://discord.gg/hablemospython"><i style="color: #346792;" class="fab fa-discord fa-3x"></i></a></div>
+            <h3 style="color: #346792;" class="h4 mb-2">Discord</h3>
+            <p class="text-muted mb-0">Servidor formado de muchos canales de texto, audio y video para temáticas relacionadas a Python.</p>
+            <p><a style="color: #738adb;" href="https://discord.com/partners"><img style="vertical-align: middle;" src="assets/img/discord-partner.png"/>Discord Partner</a></p>
           </div>
         </div>
-        <div class="container-fluid">
-
-          <div class="row p-3 mt-2" style="background-color: rgba(253,193,48,0.9); color: black;">
-            <div class="col-12">
-              <h4 style="text-align: center; width: 100%;">Votaciones Python Software Foundation</h4>
-              <p style="width: 100%;text-decoration: center;">
-              Estamos muy felices que <i class="red">2 personas de las 5</i> que logramos dar nuestro apoyo
-              durante el periodo de elecciones hayan conseguido 2 plazas (de las 3 disponibles 😯) en la Junta Directiva
-              de la <a href="https://www.python.org/psf-landing/">Python Software Foundation</a>.
-              </p>
-            </div>
-            <div class="col-12">
-              <h4 style="width: 100%;text-align: center; color: white;font-size: 100%;">
-              ¡Felicitaciones a Débora y Tania por haber sido electas! 🥳
-              </h4>
-            </div>
-            <div class="col-12">
-              <div class="row justify-content-center" style="background-color: rgb(230,179,50, 1); color: black;">
-                <!-- Débora -->
-                <div class="col-2 text-center">
-                  <img src="https://pbs.twimg.com/profile_images/1352231714635079680/nwMIeBLj_400x400.jpg"
-                    class="rounded-circle" alt="Debora" style="width: 50%;">
-                  <p>
-                    <a href="https://twitter.com/pydebb">Débora Azevedo <i class="fab fa-twitter"></i></a>
-                    <br />
-                    <a style="color: black;" href="https://deboraazevedo.github.io/statement-psf-espanol/"><button
-                        type="button" class="btn btn-success mb-2">candidatura (ES)</button></a>
-                    <a style="color: black;"
-                      href="https://www.python.org/nominations/elections/2021-python-software-foundation-board/nominees/debora-azevedo/"><button
-                        type="button" class="btn btn-secondary">candidatura (EN)</button></a>
-                  </p>
-                </div>
-                <!-- Tania -->
-                <div class="col-2 text-center">
-                  <img src="https://pbs.twimg.com/profile_images/1260932250557755393/QLSkmhya_400x400.jpg"
-                    class="rounded-circle" alt="Tania" style="width: 50%;">
-                  <p>
-                    <a href="https://twitter.com/ixek">Tania Allard <i class="fab fa-twitter"></i></a>
-                    <br /><a style="color: black;"
-                      href="https://www.python.org/nominations/elections/2021-python-software-foundation-board/nominees/tania-allard/"><button
-                        type="button" class="btn btn-secondary">candidatura</button></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12">
-              <div class="row justify-content-center" style="background-color: rgb(230,179,50, 1); color: black;">
-                <div class="col text-center">
-                  <p style="width: 100%">
-                  Ahora comienza el camino para <i class="red">brindar nuestro apoyo</i>
-                  a proyectos que nuestras candidatas
-                  realizarán para mejorar la comunidad 🎉
-                  </p>
-                </div>
-              </div>
-            </div>
-
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><a href="https://t.me/PythonEsp"><i style="color: #346792;" class="fab fa-telegram fa-3x"></i></a></div>
+            <h3 style="color: #346792;" class="h4 mb-2">Telegram</h3>
+            <p class="text-muted mb-0">Canal enfocado a discusiones y anuncios breves.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><a href="https://www.youtube.com/channel/UClhDhiyKpVafTWfj4FYad1Q"><i style="color: #346792;" class="fab fa-youtube fa-3x"></i></a></div>
+            <h3 style="color: #346792;" class="h4 mb-2">YouTube</h3>
+            <p class="text-muted mb-0">Video tutoriales, iniciativas de la comunidad global, noticias, y charlas.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><a href="https://github.com/python-discord-es"><i style="color: #346792;" class="fab fa-github fa-3x"></i></a></div>
+            <h3 style="color: #346792;" class="h4 mb-2">Github</h3>
+            <p class="text-muted mb-0">Repositorios donde encontrarás el código de este sitio, bots y otras aplicaciones.</p>
           </div>
         </div>
       </div>
     </div>
-  </main>
+  </section>
 
-  <footer class="sticky">
-    <div class="container text-center">
-      <i class="fab fa-creative-commons" aria-hidden="true"></i> <i class="yellow">Python en Español 2021</i> | De
-      la comunidad, para la comunidad.
+  <!-- recursos e información -->
+  <div id="recursos">
+    <div class="container-fluid p-0">
+      <div class="row g-0">
+        <div class="col-lg-4 col-sm-6">
+          <a class="recursos-box" href="principiantes.html" title="Project Name">
+            <img class="img-fluid img-transparent" src="assets/img/recursos/principiante.png" alt="imagen principiantes" />
+            <div class="recursos-box-caption">
+              <div class="project-category">Recursos</div>
+              <div class="project-name">Principiantes</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="recursos-box" href="cursosylibros.html" title="Project Name">
+            <img class="img-fluid img-transparent" src="assets/img/recursos/libros.png" alt="imagen de libros" />
+            <div class="recursos-box-caption">
+              <div class="project-category">Recursos</div>
+              <div class="project-name">Cursos y Libros</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="recursos-box" href="faq.html" title="Project Name">
+            <img class="img-fluid img-transparent" src="assets/img/recursos/preguntas-frecuentes.png" alt="..." />
+            <div class="recursos-box-caption">
+              <div class="project-category">Recursos</div>
+              <div class="project-name">Preguntas Frecuentes</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="recursos-box" href="normativa.html" title="Project Name">
+            <img class="img-fluid img-transparent" src="assets/img/recursos/reglas.png" alt="imagen principiantes" />
+            <div class="recursos-box-caption">
+              <div class="project-category">Información</div>
+              <div class="project-name">Normativa</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="recursos-box" href="preguntarayudar.html" title="Project Name">
+            <img class="img-fluid img-transparent" src="assets/img/recursos/preguntas.png" alt="imagen principiantes" />
+            <div class="recursos-box-caption">
+              <div class="project-category">Información</div>
+              <div class="project-name">Preguntar y Ayudar</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="recursos-box" href="ofertas.html" title="Project Name">
+            <img class="img-fluid img-transparent" src="assets/img/recursos/trabajo.png" alt="imagen principiantes" />
+            <div class="recursos-box-caption">
+              <div class="project-category">Información</div>
+              <div class="project-name">Ofertas de Trabajo</div>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
+  </div>
+  <!-- Contact-->
+  <section class="page-section bg-primary" id="contacto">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">¡Contáctanos!</h2>
+          <hr class="divider divider-light" />
+          <p class="text-white-75 mb-4">
+            ¿Tienes alguna pregunta? ¿Te gustaría hacer una propuesta?
+          </p>
+          <p class="text-white-75 mb-4">
+            No dudes en ponerte en contacto con el equipo de Python en Español.
+          </p>
+          <h4 class="text-white">contacto [at] hablemospython.dev</h4>
+          <p class="text-white-75 mb-4">
+          <i class="far fa-envelope fa-2x"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer-->
+  <footer class="bg-light py-5">
+      <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - Python en Español</div></div>
   </footer>
+
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
