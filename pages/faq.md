@@ -58,7 +58,9 @@ En Latinoamerica, puedes encontrar los siguientes canales:
 
 ## ¿Hay más servidores de Discord relacionados con Python en español?
 
-TODO
+- [Python Chile](https://discord.gg/dTHMfJvauS)
+- [Python La Paz](https://discord.gg/Fr2HUqv64P)
+- [Python Colombia](https://discord.gg/MGYQzUaA3S)
 
 ## ¿Necesitas ayuda con un programa?
 
