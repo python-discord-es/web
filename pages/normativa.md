@@ -14,7 +14,7 @@ Sé amable y paciente, especialmente con quienes están empezando.
 - No se apoyan proyectos ilegales o relacionados a datos o acciones ilegales
 - No hace falta que preguntes «¿alguien me puede ayudar con X?» o «¿hay algún
   experto en X?», pregunta directamente
-- Preguntas Frecuenctes TODO
+- Preguntas Frecuentes TODO
 - La versión 2.7 de Python ha llegado a su fin de vida. Si tienes que empezar
   que sea con una 3.7 o superior
 - Si eres principiante te recomendamos lectura para empezar: TODO
@@ -30,8 +30,8 @@ Sé amable y paciente, especialmente con quienes están empezando.
 - Puedes obtener las normas para las ofertas de empleo o cualquier otra actividad remunerada
   enviando el mensaje `#ofertas`
 
-Debido a que telegram es solo un canal, existen más restricciones para asegurar
-que el flujo de información no sea muy abrumante.
+Debido a que Telegram es solo un canal, existen más restricciones para asegurar
+que el flujo de información no sea muy abrumador.
 
 - Temas on-topic: dudas sobre Python, instalación de paquetes, discusión general
 - Temas off-topic: todo lo que no es on-topic 😁. En caso que quieras de todas
@@ -66,7 +66,7 @@ tengas un buen comienzo en la comunidad.
 ### En Discord
 
 - Te recomendamos que te presentes en el canal `presentaciones` cuando llegues
-- ¿Algún proyecto, iniciativa, o campaña personal? anuncialo en el canal `sala-de-exposición`
+- ¿Algún proyecto, iniciativa, o campaña personal? anúncialo en el canal `sala-de-exposición`
 - Pasa por el canal `encuestas📈` y ayúdanos a saber más de ti
 
 ¡Disfruta del grupo!

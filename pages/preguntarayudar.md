@@ -13,11 +13,11 @@ escribe tu pregunta en el canal `ayuda-general`.
 Para compartir tu código, errores, y detalles de tu pregunta, te recomendamos
 usar servicios como:
 
-- https://dpaste.com/
-- https://linkode.org/
-- https://pastebin.com/
-- https://repl.it/
-- https://gist.github.com/
+- [dpaste.com/](https://dpaste.com/)
+- [linkode.org/](https://linkode.org/)
+- [pastebin.com/](https://pastebin.com/)
+- [repl.it/](https://repl.it/)
+- [gist.github.com/](https://gist.github.com/)
 
 intenta evitar enviar fotos de tu pantalla, para que la gente pueda leer tu
 código de mejor manera.

@@ -12,7 +12,7 @@ de comportamientos inadecuados.
 ## ¿Por qué un código de conducta?
 
 Siguiendo con el zen de Python, explícito mejor que implícito. Explicitar qué
-se espera del ambiente de participacion en "Python en español":
+se espera del ambiente de participación en "Python en español":
 
 * Favorece que más personas sepan que son bienvenidas.
 * Evita ambigüedades.
