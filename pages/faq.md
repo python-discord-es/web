@@ -62,30 +62,42 @@ TODO
 
 ## ¿Necesitas ayuda con un programa?
 
-Si es de las primeras veces que preguntas en un foro, puede interesarte aprender cómo hacer preguntas y, una vez te decidas a preguntar, nos cuentes también qué has intentado para que funcione tu código. Para que no vayamos a ciegas, es recomendable que pegues tu código en una de las utilidades de abajo y compartas la URL generada en el canal:
+Si es de las primeras veces que preguntas en un foro, puede interesarte
+aprender cómo hacer preguntas y, una vez te decidas a preguntar, nos cuentes
+también qué has intentado para que funcione tu código. Para que no vayamos
+a ciegas, es recomendable que pegues tu código en una de las utilidades de
+abajo y compartas la URL generada en el canal:
 
-    https://pastebin.com/
-    https://bpaste.net/
-    https://repl.it/languages/python3
-    https://trinket.io/python
-    https://gist.github.com/
+- [pastebin.com/](https://pastebin.com/)
+- [bpaste.net/](https://bpaste.net/)
+- [repl.it/languages/python3](https://repl.it/languages/python3)
+- [trinket.io/python](https://trinket.io/python)
+- [gist.github.com/](https://gist.github.com/)
 
 O indicarnos tu repositorio de código en:
 
-    https://github.com/
-    https://gitlab.com/
-    https://bitbucket.org/
+- [github.com/](https://github.com/)
+- [gitlab.com/](https://gitlab.com/)
+- [bitbucket.org/](https://bitbucket.org/)
 
 ## ¿Cuál es el mejor editor/IDE para Python?
 
-Cada persona tiene sus preferencias, experiencia, sistema operativo, necesidades, etc. Es importante sentirse cómodo con la herramienta que más vas a utilizar. Por lo tanto, en lugar de basarte en la opinión subjetiva de los demás (con otras preferencias, experiencias, ...), te resultará mucho más útil escoger uno o varios (de entre los listados que te damos a continuación) y probar durante un tiempo cada una. Solo tú puedes contestar a la pregunta.
+Cada persona tiene sus preferencias, experiencia, sistema operativo,
+necesidades, etc. Es importante sentirse cómodo con la herramienta que más vas
+a utilizar. Por lo tanto, en lugar de basarte en la opinión subjetiva de los
+demás (con otras preferencias, experiencias, ...), te resultará mucho más útil
+escoger uno o varios (de entre los listados que te damos a continuación)
+y probar durante un tiempo cada una. Solo tú puedes contestar a la pregunta.
 
-En [Full Stack Python](https://www.fullstackpython.com/) se recopila
-una buena selección de direcciones sobre [entornos de desarrollo](https://www.fullstackpython.com/development-environments.html) (en inglés).
-También tienes una completa [tabla comparativa](https://www.reddit.com/r/learnpython/wiki/ide)
-en reddit que te puede servir de guía para escoger.
+En [Full Stack Python](https://www.fullstackpython.com/) se recopila una buena
+selección de direcciones sobre [entornos de
+desarrollo](https://www.fullstackpython.com/development-environments.html) (en
+inglés).  También tienes una completa [tabla
+comparativa](https://www.reddit.com/r/learnpython/wiki/ide) en reddit que te
+puede servir de guía para escoger.
 
-En la misma [wiki de Python.org](https://wiki.python.org/) hay un par de listados exhaustivos sobre editores e IDEs:
+En la misma [wiki de Python.org](https://wiki.python.org/) hay un par de
+listados exhaustivos sobre editores e IDEs:
 
 - [Editor de texto](https://wiki.python.org/moin/PythonEditors)
 - [IDEs](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
@@ -93,9 +105,19 @@ En la misma [wiki de Python.org](https://wiki.python.org/) hay un par de listado
 
 ## ¿Qué biblioteca/módulo/framework se recomienda para...?
 
-Antes de preguntar por una librería o framework puedes echar un vistazo a las alternativas que hay en el ámbito de tu problema. Un recurso muy interesante para poder conocer dichas alternativas es [awesome-python](https://github.com/vinta/awesome-python). Verás que cubre muchos ámbitos. Hay listas más específicas si tu pregunta trata de [Django](https://gitlab.com/rosarior/awesome-django), [Flask](https://github.com/humiaozuzu/awesome-flask) o [Pyramid](https://github.com/uralbash/awesome-pyramid).
+Antes de preguntar por una librería o framework puedes echar un vistazo a las
+alternativas que hay en el ámbito de tu problema. Un recurso muy interesante
+para poder conocer dichas alternativas es
+[awesome-python](https://github.com/vinta/awesome-python). Verás que cubre
+muchos ámbitos. Hay listas más específicas si tu pregunta trata de
+[Django](https://gitlab.com/rosarior/awesome-django),
+[Flask](https://github.com/humiaozuzu/awesome-flask)
+o [Pyramid](https://github.com/uralbash/awesome-pyramid).
 
-Intenta hacer una pregunta concreta. No es buena idea preguntar ¿qué es mejor X o Y?. Sin información, la respuesta de cualquier participante será subjetiva. Matiza cuál es el problema que quieres resolver para que podamos ayudarte en la recomendación.
+Intenta hacer una pregunta concreta. No es buena idea preguntar ¿qué es mejor
+X o Y?. Sin información, la respuesta de cualquier participante será subjetiva.
+Matiza cuál es el problema que quieres resolver para que podamos ayudarte en la
+recomendación.
 
 ### Aplicaciones gráficas (GUI)
 
