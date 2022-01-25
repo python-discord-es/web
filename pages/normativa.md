@@ -14,10 +14,11 @@ Sé amable y paciente, especialmente con quienes están empezando.
 - No se apoyan proyectos ilegales o relacionados a datos o acciones ilegales
 - No hace falta que preguntes «¿alguien me puede ayudar con X?» o «¿hay algún
   experto en X?», pregunta directamente
-- Preguntas Frecuentes TODO
+- [Preguntas Frecuentes](faq.html)
 - La versión 2.7 de Python ha llegado a su fin de vida. Si tienes que empezar
   que sea con una 3.7 o superior
-- Si eres principiante te recomendamos lectura para empezar: TODO
+- Si eres principiante te recomendamos [lectura para
+    empezar](principiantes.html)
 - Romper el código de conducta o cualquiera de estas normas podrá suponer la
   expulsión del grupo
 
