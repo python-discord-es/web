@@ -11543,8 +11543,11 @@ header.masthead h1, header.masthead .h1 {
   background: rgba(52, 103, 146, 0.9);
   color: white;
 }
-
 .img-transparent {
    opacity: 0.3;
-
+}
+@media (max-width: 576px) {
+  .button-space {
+    margin-bottom: 20px;
+  }
 }
