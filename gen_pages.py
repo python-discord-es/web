@@ -76,6 +76,7 @@ for p_key, p_values in pages.items():
         "toc": md.toc,
         "content": _content,
         "page_title": p_values["title"],
+        "page_url": f"{p_key}.html",
         "page_description": p_values["description"],
     }
 
