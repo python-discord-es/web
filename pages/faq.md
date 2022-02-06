@@ -213,6 +213,35 @@ más realista:
 - [Yes, Python is Slow, and I Don’t Care](https://medium.com/pyslackers/yes-python-is-slow-and-i-dont-care-13763980b5a1)
 - [10 Myths of Enterprise Python](http://sedimental.org/10_myths_of_enterprise_python.html)
 
+## Instale un módulo y no funciona ¿Cómo se resuelve?
+
+Esta pregunta suele ser muy frecuente en distintas plataformas, y lo más
+importante es saber como está configurado nuestro entorno y proyecto.
+
+¿Creaste un entorno virtual para tu proyecto?
+
+- Sí, entonces verifica que tu IDE (PyCharm, VScode, etc) utiliza el ejecutable
+  `python` de ese entorno virtual.
+- No, verifica que al escribir `pip` sea el correspondiente a tu intérprete de
+  Python en uso.
+
+En Linux y macOS puedes clarificar esto ejecutando el comando `which python`
+o `which pip` en tu terminal.
+En Windows, puedes ejecutar el comando `where` para verificarlo de la misma
+forma.
+
+Te recomendamos nunca instalar módulos con `pip install ...` sin haber
+creado un entorno virtual. Esto es principalmente para que no instales
+módulos en tu sistema o cuenta de usuario que vayan a chocar con tu
+configuración de cada proyecto.
+
+Solo crear un nuevo entorno con `python -m venv nombre`
+(donde `nombre` es el nombre que quieras para tu entorno),
+y luego para activarlo:
+
+- En Linux y macOS, `source nombre/bin/activate`,
+- En Windows, `nombre\Scripts\activate`.
+
 ## ¿Puedo publicar una oferta de trabajo?
 
 Mira las normativas para [publicar una oferta de trabajo](ofertas.html) en
