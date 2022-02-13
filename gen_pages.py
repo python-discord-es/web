@@ -81,6 +81,6 @@ for p_key, p_values in pages.items():
     }
 
     page_rendered = template.render(conf)
-    with open(f"{page.stem}.html", "w") as f:
+    with open(f"./deploy/{page.stem}.html", "w") as f:
         f.write(page_rendered)
         print(f"> Written {p_key}")
