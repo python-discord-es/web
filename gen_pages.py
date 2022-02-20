@@ -60,6 +60,13 @@ pages = {
             "mantener una comunidad saludable e inclusiva."
         ),
     },
+    "aprendepython": {
+        "filename": "pages/aprendepython.md",
+        "title": "Aprende Python Construyendo",
+        "description": (
+            "Con la ayuda de más personas, podrás mejorar tu portafolio 💼 para estar listo al momento de buscar trabajo como Python dev 🐍 "
+        ),
+    },
 }
 
 template = Template(open(base).read())
