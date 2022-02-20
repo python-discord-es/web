@@ -51,6 +51,7 @@ En Latinoamerica, puedes encontrar los siguientes canales:
 - [México](https://t.me/PythonMexico)
 - [México CDMX](https://t.me/pythonCDMX)
 - [Nicaragua (Canal)](https://t.me/python_nicaragua)
+- [Panamá](https://t.me/PythonPanama)
 - [Paraguay](https://t.me/pythonparaguay)
 - [Perú](https://t.me/PythonPeru)
 - [Uruguay](https://t.me/PythonUruguay)
