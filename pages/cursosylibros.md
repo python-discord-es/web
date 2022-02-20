@@ -13,6 +13,7 @@
 * [Tutorial de Django Girls](https://tutorial.djangogirls.org/es/)
 * [Introducción a la programación con Python 3](http://dx.doi.org/10.6035/Sapientia93) (Universitat Jaume I - Castellón)
 * [Introducción a la programación con Python](http://mclibre.org/consultar/python/) (Barto Sintes - IES Abastos - Valencia)
+* [Una guía simplificada para aprender python de nivel básico a nivel avanzado](https://ellibrodepython.com/)
 
 También hay videos con bastante popularidad, como:
 
