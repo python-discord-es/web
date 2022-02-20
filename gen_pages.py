@@ -60,6 +60,13 @@ pages = {
             "mantener una comunidad saludable e inclusiva."
         ),
     },
+    "aprendepython": {
+        "filename": "pages/aprendepython.md",
+        "title": "Aprende Python Construyendo",
+        "description": (
+            "Con la ayuda de más personas, podrás mejorar tu portafolio 💼 para estar listo al momento de buscar trabajo como Python dev 🐍 "
+        ),
+    },
 }
 
 template = Template(open(base).read())
@@ -81,6 +88,6 @@ for p_key, p_values in pages.items():
     }
 
     page_rendered = template.render(conf)
-    with open(f"{page.stem}.html", "w") as f:
+    with open(f"./deploy/{page.stem}.html", "w") as f:
         f.write(page_rendered)
         print(f"> Written {p_key}")
