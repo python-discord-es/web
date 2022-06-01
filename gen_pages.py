@@ -67,6 +67,13 @@ pages = {
             "Con la ayuda de más personas, podrás mejorar tu portafolio 💼 para estar listo al momento de buscar trabajo como Python dev 🐍 "
         ),
     },
+    "politica_privacidad": {
+        "filename": "pages/politica_privacidad.md",
+        "title": "Política de Privacidad",
+        "description": (
+            "Documento que detalla los datos que se almacenan relacionados a cada usuario la comunidad Python en Español"
+        ),
+    },
 }
 
 template = Template(open(base).read())
