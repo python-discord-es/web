@@ -76,7 +76,7 @@ for p_key, p_values in pages.items():
     print(page)
 
     md = markdown.Markdown(extensions=['toc', 'tables', 'fenced_code', 'codehilite'])
-    with open(page) as f:
+    with open(page, encoding="utf-8") as f:
         _content = md.convert(f.read())
 
     conf = {
@@ -88,6 +88,6 @@ for p_key, p_values in pages.items():
     }
 
     page_rendered = template.render(conf)
-    with open(f"./deploy/{page.stem}.html", "w") as f:
+    with open(f"./deploy/{page.stem}.html", "w", encoding="utf-8") as f:
         f.write(page_rendered)
         print(f"> Written {p_key}")
