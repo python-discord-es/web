@@ -36,6 +36,14 @@ En caso de no tener problema con leer en inglés, la oferta es mucho mayor:
 
 * [Python's original tutorial](https://docs.python.org/3/tutorial/)
 * [Learning Python](http://docs.python-guide.org/en/latest/intro/learning/) - a section from [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/) (a very good and complete list of resources)
-* [Python for Everybody](https://books.trinket.io/pfe/) por Charles Severance (Dr. Chuck)
-* [Python Free Programming Books](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md#python) - libros con licencias libres
+* Python for Everybody: [libro](https://books.trinket.io/pfe/) y excelente [curso gratuito](https://www.py4e.com/) por Charles Severance (Dr. Chuck). 
+* [Python Free Programming Books](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#python) - libros con licencias libres
 * [Awesome Python Books](https://github.com/Junnplus/awesome-python-books) - libros ordenados por categorías
+
+## Podcasts
+
+Transporte público, tareas del hogar... escuchar podcasts es una forma amena de mantenerse al día de lo que pasa en la comunidad python:
+
+* [Pybites](https://www.pybitespodcast.com/) de Julian Sequeira y Bob Belderbos. Formato: 30', semanal. Comentario y consejos sobre python y desarrollo profesional (en inglés)
+* [Talk Python to me](https://talkpython.fm/) de Michael Kennedy. Formato: 60', semanal. Entrevistas informales con expertos de la industria (en inglés) 
+* [Real Python](https://realpython.com/podcasts/rpp/) de Christopher Bailey. Formato: 60', semanal. Entrevistas y consejos sobre programación y desarrollo profesional (en inglés)
