@@ -46,4 +46,4 @@ Transporte público, tareas del hogar... escuchar podcasts es una forma amena de
 
 * [Pybites](https://www.pybitespodcast.com/) de Julian Sequeira y Bob Belderbos. Formato: 30', semanal. Comentario y consejos sobre python y desarrollo profesional (en inglés)
 * [Talk Python to me](https://talkpython.fm/) de Michael Kennedy. Formato: 60', semanal. Entrevistas informales con expertos de la industria (en inglés) 
-* [Real Python](https://realpython.com/podcasts/rpp/) de Christopher Bailey. Formato: 60', semanal. Entrevistas y consejos sobre programación sobre y desarrollo profesional (en inglés)
+* [Real Python](https://realpython.com/podcasts/rpp/) de Christopher Bailey. Formato: 60', semanal. Entrevistas y consejos sobre programación y desarrollo profesional (en inglés)
