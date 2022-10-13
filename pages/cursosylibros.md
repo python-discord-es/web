@@ -42,6 +42,8 @@ En caso de no tener problema con leer en inglés, la oferta es mucho mayor:
 
 ## Podcasts
 
-* [Pybites]() de Julian Sequeira y Bob Belderbos. Formato: 30', semanal. Comentario y consejos sobre python y desarrollo profesional (en inglés)
+Transporte público, tareas del hogar... escuchar podcasts es una forma amena de mantenerse al día de lo que pasa en la comunidad python:
+
+* [Pybites](https://www.pybitespodcast.com/) de Julian Sequeira y Bob Belderbos. Formato: 30', semanal. Comentario y consejos sobre python y desarrollo profesional (en inglés)
 * [Talk Python to me](https://talkpython.fm/) de Michael Kennedy. Formato: 60', semanal. Entrevistas informales con expertos de la industria (en inglés) 
 * [Real Python](https://realpython.com/podcasts/rpp/) de Christopher Bailey. Formato: 60', semanal. Entrevistas y consejos sobre programación sobre y desarrollo profesional (en inglés)
