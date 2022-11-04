@@ -23,6 +23,7 @@ Mira nuestras recomendaciones de [cursos y libros](cursosylibros.html).
 
 En España, puedes encontrar los siguientes grupos:
 
+- [A Coruña] (https://t.me/pythoncorunha))
 - [Alicante](https://t.me/python_alc)
 - [Barcelona(canal)](https://t.me/pybcn)
 - [Canarias](https://t.me/pythoncanarias)
