@@ -12,6 +12,8 @@ Sé amable y paciente, especialmente con quienes están empezando.
 - Las bromas o comentarios negativos relacionados al desconocimiento de algún
   tema no son admitidas en este espacio.
 - No se apoyan proyectos ilegales o relacionados a datos o acciones ilegales
+- No se aceptan respuestas tipo "Let me google that for you", ni copiadas
+  literales de cualquier IA que responda preguntas.
 - No hace falta que preguntes «¿alguien me puede ayudar con X?» o «¿hay algún
   experto en X?», pregunta directamente
 - [Preguntas Frecuentes](faq.html)
