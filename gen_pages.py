@@ -39,6 +39,30 @@ pages = {
             "información."
         ),
     },
+    "tutoriales": {
+        "filename": "pages/tutoriales.md",
+        "title": "Tutoriales",
+        "description": (
+            "Guías de tareas y procesos habituales en Python."
+        ),
+    },
+    "comienzacomunidad": {
+        "filename": "pages/comienzacomunidad.md",
+        "title": "Comienza tu comunidad",
+        "description": (
+            "¿Te gustaría comenzar una comunidad local? Mira estas "
+            "recomendaciones, consejos, beneficios y otros detalles "
+            "para comenzar."
+        ),
+    },
+    "otrascomunidades": {
+        "filename": "pages/otrascomunidades.md",
+        "title": "Otras comunidades",
+        "description": (
+            "Lista de otras comunidades de Python y temáticas relacionadas "
+            "al mismo lenguaje de programación."
+        ),
+    },
     "preguntarayudar": {
         "filename": "pages/preguntarayudar.md",
         "title": "Preguntar y Ayudar",

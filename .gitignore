@@ -2,15 +2,18 @@
 env/
 
 # Generated pages
+aprendepython.html
 coc.html
+comienzacomunidad.html
 cursosylibros.html
 faq.html
 normativa.html
 ofertas.html
+otrascomunidades.html
+politica_privacidad.html
 preguntarayudar.html
 principiantes.html
-aprendepython.html
-politica_privacidad.html
+tutoriales.html
 
 # aspell
 *.bak
