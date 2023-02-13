@@ -123,7 +123,7 @@
         {% if comunidades %}
         <div class="container px-4 px-lg-5">
 
-        <h2>Discord <i class="fa-brands fa-discord"></i></h2>
+        <h2 id="discord">Discord <i class="fa-brands fa-discord"></i></h2>
         <div class="row flex">
           {% for nombre, datos in comunidades['discord'].items() %}
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
@@ -139,8 +139,8 @@
           {% endfor %}
         </div>
 
-        <h2>Telegram <i class="fa-brands fa-telegram"></i></h2>
-        <h3>Latinoamérica</h3>
+        <h2 id="telegram">Telegram <i class="fa-brands fa-telegram"></i></h2>
+        <h3 id="latinoamerica">Latinoamérica</h3>
         <div class="row flex">
           {% for nombre, datos in comunidades['telegram']['latam'].items() %}
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
@@ -156,7 +156,7 @@
           {% endfor %}
         </div>
 
-        <h3>España</h3>
+        <h3 id="espana">España</h3>
         <div class="row flex">
           {% for nombre, datos in comunidades['telegram']['spain'].items() %}
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
@@ -172,7 +172,7 @@
           {% endfor %}
         </div>
 
-        <h3>Temática</h3>
+        <h3 id="tematica">Temática</h3>
         <ul>
           {% for nombre, datos in comunidades['telegram']['topics'].items() %}
           <li><a href="{{ datos['url'] }}">{{ nombre }}</a></li>

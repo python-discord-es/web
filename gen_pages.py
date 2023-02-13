@@ -1,6 +1,7 @@
 import markdown
 from pathlib import Path
 from jinja2 import Template
+from textwrap import dedent
 
 import sys
 sys.path.append(".")
@@ -16,7 +17,6 @@ template = Template(open(base).read())
 
 for p_key, p_values in pages.items():
     page = Path(p_values["filename"])
-    print(page)
 
     md = markdown.Markdown(extensions=['toc', 'tables', 'fenced_code', 'codehilite'])
     with open(page, encoding="utf-8") as f:
@@ -25,7 +25,23 @@ for p_key, p_values in pages.items():
     _comunidades = ""
     if p_key == "otrascomunidades":
         _comunidades = comm
-
+        # hack to replace the TOC for pages that will be added
+        # at render time.
+        md.toc = dedent("""\
+            <div class="toc">
+            <ul>
+            <li><a href="#mejora-la-lista">Mejora la lista</a></li>
+            <li><a href="#discord">Discord </a></li>
+            <li><a href="#telegram">Telegram </a>
+                <ul>
+                <li><a href="#latinoamerica">Latinoamérica</a></li>
+                <li><a href="#espana">España</a></li>
+                <li><a href="#tematica">Temática</a></li>
+                </ul>
+            </li>
+            </ul>
+            </div>
+            """)
 
     conf = {
         "toc": md.toc,
