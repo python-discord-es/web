@@ -14,6 +14,11 @@ politica_privacidad.html
 preguntarayudar.html
 principiantes.html
 tutoriales.html
+atribuciones.html
+psf.html
 
 # aspell
 *.bak
+
+# fontawesome
+deploy/fontawesome630
