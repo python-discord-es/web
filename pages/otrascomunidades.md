@@ -289,6 +289,17 @@ arreglar un enlace, o ajustar el nombre, envía un PR.
 
   <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
     <div class="card mb-3">
+    <a href="https://t.me/pythoncorunha" class="stretched-link">
+      <img class="card-img-top" src="assets/comunidades/python_corunha.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Python Coruña</h5>
+      </div>
+    </a>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+    <div class="card mb-3">
     <a href="https://t.me/ExtrePython_grupo" class="stretched-link">
       <img class="card-img-top" src="assets/comunidades/python_logo.png" alt="Card image cap">
       <div class="card-body">
