@@ -1,48 +1,35 @@
 ## Consejos antes de preguntar
 
-<div class="container p-5">
-  <div class="row d-flex align-items-center justify-content-center">
-    <div class="col-6 col-md-8">
-      <ul>
-        <li>
-          La fuente más fiable a la que puedes acudir es la
-          <a href="https://docs.python.org/es/3/">documentación oficial</a>
-          que está disponible en Español. No olvides que Python provee un
-          <a href="https://docs.python.org/es/3/tutorial/index.html">Tutorial oficial</a>.
-        </li>
-        <li>
-          Realiza tu consulta en un buscador como
-          <a href="https://google.com">Google</a> o
-          <a href="https://duckduckgo.com">DuckDuckGo</a> para
-          comprobar si existe material pedagógico que pueda resolver tu
-          duda. Si tienes dudas de como hacer tus búsquedas, te recomendamos
-          usar la palabra <i>"python"</i> acompañada por el módulo que estés usando,
-          más la funcionalidad que necesitas.
-        <li>
-          Si estás aprendiendo Python desde hace poco tiempo,
-          tendrás que adquirir el <b>hábito de consultar y procesar mucha
-          información</b>, y es normal visitar muchos lugares para encontrar
-          una solución, ¡no te desanimes!
-        </li>
-        <li>
-          Consulta también páginas dedicadas en exclusiva a responder preguntas
-          sobre Python como <a href="https://stackoverflow.com">StackOverflow</a>,
-          o el <a href="https://discuss.python.org">oficial de Python</a>.
-        </li>
-      </ul>
-    </div>
-    <div class="col-3 col-md-4">
-      <img class="img-fluid img-style" src="assets/img/python_book_computer.jpg" />
-    </div>
-  </div>
-</div>
+* La fuente más fiable a la que puedes acudir es la
+  <a href="https://docs.python.org/es/3/">documentación oficial</a> que está
+  disponible en Español. No olvides que Python provee un <a
+  href="https://docs.python.org/es/3/tutorial/index.html">Tutorial
+  oficial</a>.
+
+* Realiza tu consulta en un buscador como
+  <a href="https://google.com">Google</a> o
+  <a href="https://duckduckgo.com">DuckDuckGo</a> para
+  comprobar si existe material pedagógico que pueda resolver tu
+  duda. Si tienes dudas de como hacer tus búsquedas, te recomendamos
+  usar la palabra <i>"python"</i> acompañada por el módulo que estés usando,
+  más la funcionalidad que necesitas.
+
+* Si estás aprendiendo Python desde hace poco tiempo,
+  tendrás que adquirir el <b>hábito de consultar y procesar mucha
+  información</b>, y es normal visitar muchos lugares para encontrar
+  una solución, ¡no te desanimes!
+
+* Consulta también páginas dedicadas en exclusiva a responder preguntas
+  sobre Python como <a href="https://stackoverflow.com">StackOverflow</a>,
+  o el <a href="https://discuss.python.org">oficial de Python</a>.
 
 ## Mejores preguntas
 
 <div class="container p-5">
   <div class="row d-flex align-items-center justify-content-center">
     <div class="col-3 col-md-4">
-    <img class="img-fluid img-style" src="assets/img/taking_notes.jpg" />
+    <img class="img-fluid img-style"
+    src="assets/img/recursos/mejores_preguntas.png" />
     </div>
     <div class="col-6 col-md-8">
       <ul>
