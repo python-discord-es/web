@@ -27,7 +27,10 @@ pages = {
     "faq": {
         "filename": "pages/faq.md",
         "title": "Preguntas Frecuentes",
-        "description": "Descripción faq",
+        "description": (
+            "Algunas preguntas que se repiten en las distintas "
+            "plataformas entre las personas de la comunidad."
+        ),
     },
     "normativa": {
         "filename": "pages/normativa.md",
@@ -39,15 +42,43 @@ pages = {
             "información."
         ),
     },
+    "psf": {
+        "filename": "pages/psf.md",
+        "title": "Python Software Foundation",
+        "description": (
+            "La Python Software Foundation (PSF) es una organización dedicada "
+            "al avance de la tecnología de código abierto relacionada con el "
+            "lenguaje de programación Python."
+        ),
+    },
+    "comienzacomunidad": {
+        "filename": "pages/comienzacomunidad.md",
+        "title": "Comienza una comunidad",
+        "description": (
+            "¿Te gustaría comenzar una comunidad local? Mira estas "
+            "recomendaciones, consejos, beneficios y otros detalles "
+            "para comenzar."
+        ),
+    },
+    "otrascomunidades": {
+        "filename": "pages/otrascomunidades.md",
+        "title": "Otras comunidades",
+        "description": (
+            "Lista de otras comunidades de Python y temáticas relacionadas "
+            "al mismo lenguaje de programación."
+        ),
+    },
     "preguntarayudar": {
         "filename": "pages/preguntarayudar.md",
         "title": "Preguntar y Ayudar",
-        "description": "Descripción como preguntar",
+        "description": "Recomendaciones para Preguntar y Ayudar mejor",
     },
     "ofertas": {
         "filename": "pages/ofertas.md",
         "title": "Ofertas de Trabajo",
-        "description": "Descripción ofertas",
+        "description": (
+            "Normativa para el envio de ofertas de trabajo en nuestra "
+            "comunidad"),
     },
     "coc": {
         "filename": "pages/coc.md",
@@ -64,14 +95,23 @@ pages = {
         "filename": "pages/aprendepython.md",
         "title": "Aprende Python Construyendo",
         "description": (
-            "Con la ayuda de más personas, podrás mejorar tu portafolio 💼 para estar listo al momento de buscar trabajo como Python dev 🐍 "
+            "Con la ayuda de más personas, podrás mejorar tu portafolio 💼 "
+            "para estar listo al momento de buscar trabajo como Python dev 🐍"
         ),
     },
     "politica_privacidad": {
         "filename": "pages/politica_privacidad.md",
         "title": "Política de Privacidad",
         "description": (
-            "Documento que detalla los datos que se almacenan relacionados a cada usuario la comunidad Python en Español"
+            "Documento que detalla los datos que se almacenan relacionados a "
+            "cada usuario la comunidad Python en Español"
+        ),
+    },
+    "atribuciones": {
+        "filename": "pages/atribuciones.md",
+        "title": "Atribuciones",
+        "description": (
+            "Referencias a recursos utilizados en el sitio web"
         ),
     },
 }
