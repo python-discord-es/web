@@ -110,7 +110,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(1.375rem + 1.2vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -119,7 +119,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.325rem + 0.4vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -128,7 +128,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.3rem + 0.1vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
@@ -11318,7 +11318,7 @@ body {
 }
 
 .page-section {
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0 0.5rem 0;
 }
 
 .page-section-single {

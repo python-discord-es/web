@@ -33,10 +33,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" type="text/css">
   <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/6cf87c29c5.js" crossorigin="anonymous"></script>
+  <link href="fontawesome630/css/fontawesome.css" rel="stylesheet">
+  <link href="fontawesome630/css/brands.css" rel="stylesheet">
+  <link href="fontawesome630/css/solid.css" rel="stylesheet">
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
   <link href="css/code.css" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
 </head>
 </head>
 
@@ -51,7 +54,6 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto my-2 my-lg-0">
-          <li class="nav-item"><a class="nav-link" href="#acerca">Acerca</a></li>
           <li class="nav-item"><a class="nav-link" href="coc.html">Código de Conducta</a></li>
           <li class="nav-item dropdown" id="myDropdown">
             <a class="nav-link dropdown-toggle" href="#recursos" data-bs-toggle="dropdown">Recursos</a>
@@ -67,6 +69,14 @@
               <li><a class="dropdown-item" href="normativa.html">Normativa</a></li>
               <li><a class="dropdown-item" href="preguntarayudar.html">Preguntar y Ayudar</a></li>
               <li><a class="dropdown-item" href="ofertas.html">Ofertas de trabajo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" id="myDropdown">
+            <a class="nav-link dropdown-toggle" href="#info" data-bs-toggle="dropdown">Comunidad</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="psf.html">Python Software Foundation</a></li>
+              <li><a class="dropdown-item" href="comienzacomunidad.html">Comienza una comunidad</a></li>
+              <li><a class="dropdown-item" href="otrascomunidades.html">Otras comunidades</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown" id="myDropdown">
@@ -182,7 +192,7 @@
     <div class="container-fluid p-0">
       <div class="row g-0">
         <div class="col-lg-4 col-sm-6">
-          <a class="recursos-box" href="principiantes.html" title="Project Name">
+          <a class="recursos-box" href="principiantes.html" title="Principiantes">
             <img class="img-fluid img-transparent" src="assets/img/recursos/principiante.png" alt="imagen principiantes" />
             <div class="recursos-box-caption">
               <div class="project-category">Recursos</div>
@@ -191,7 +201,7 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="recursos-box" href="cursosylibros.html" title="Project Name">
+          <a class="recursos-box" href="cursosylibros.html" title="Cursos y Libros">
             <img class="img-fluid img-transparent" src="assets/img/recursos/libros.png" alt="imagen de libros" />
             <div class="recursos-box-caption">
               <div class="project-category">Recursos</div>
@@ -200,7 +210,7 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="recursos-box" href="faq.html" title="Project Name">
+          <a class="recursos-box" href="faq.html" title="Preguntas frecuentes">
             <img class="img-fluid img-transparent" src="assets/img/recursos/preguntas-frecuentes.png" alt="..." />
             <div class="recursos-box-caption">
               <div class="project-category">Recursos</div>
@@ -209,7 +219,34 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="recursos-box" href="normativa.html" title="Project Name">
+          <a class="recursos-box" href="psf.html" title="Python Software Foundation">
+            <img class="img-fluid img-transparent" src="assets/img/recursos/aprendiendo.png" alt="imagen principiantes" />
+            <div class="recursos-box-caption">
+              <div class="project-category">Comunidad</div>
+              <div class="project-name">Python Software Foundation</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="recursos-box" href="comienzacomunidad.html" title="Comienza una comunidad">
+            <img class="img-fluid img-transparent" src="assets/img/recursos/construir_comunidad.png" alt="imagen principiantes" />
+            <div class="recursos-box-caption">
+              <div class="project-category">Comunidad</div>
+              <div class="project-name">Comienza una comunidad</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="recursos-box" href="otrascomunidades.html" title="Otras comunidades">
+            <img class="img-fluid img-transparent" src="assets/img/recursos/otras_comunidades.png" alt="imagen principiantes" />
+            <div class="recursos-box-caption">
+              <div class="project-category">Comunidad</div>
+              <div class="project-name">Otros grupos e iniciativas</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="recursos-box" href="normativa.html" title="Normativa">
             <img class="img-fluid img-transparent" src="assets/img/recursos/reglas.png" alt="imagen principiantes" />
             <div class="recursos-box-caption">
               <div class="project-category">Información</div>
@@ -218,34 +255,7 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="recursos-box" href="tutoriales.html" title="Project Name">
-            <img class="img-fluid img-transparent" src="assets/img/recursos/aprendiendo.png" alt="imagen principiantes" />
-            <div class="recursos-box-caption">
-              <div class="project-category">Recursos</div>
-              <div class="project-name">Tutoriales</div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="recursos-box" href="comienzacomunidad.html" title="Project Name">
-            <img class="img-fluid img-transparent" src="assets/img/recursos/construir_comunidad.png" alt="imagen principiantes" />
-            <div class="recursos-box-caption">
-              <div class="project-category">Información</div>
-              <div class="project-name">Comienza tu comunidad</div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="recursos-box" href="otrascomunidades.html" title="Project Name">
-            <img class="img-fluid img-transparent" src="assets/img/recursos/otras_comunidades.png" alt="imagen principiantes" />
-            <div class="recursos-box-caption">
-              <div class="project-category">Información</div>
-              <div class="project-name">Otros grupos e iniciativas</div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="recursos-box" href="preguntarayudar.html" title="Project Name">
+          <a class="recursos-box" href="preguntarayudar.html" title="Preguntar y Ayudar">
             <img class="img-fluid img-transparent" src="assets/img/recursos/preguntas.png" alt="imagen principiantes" />
             <div class="recursos-box-caption">
               <div class="project-category">Información</div>
@@ -254,7 +264,7 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="recursos-box" href="ofertas.html" title="Project Name">
+          <a class="recursos-box" href="ofertas.html" title="Ofertas">
             <img class="img-fluid img-transparent" src="assets/img/recursos/trabajo.png" alt="imagen principiantes" />
             <div class="recursos-box-caption">
               <div class="project-category">Información</div>

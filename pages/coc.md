@@ -81,9 +81,9 @@ Los casos de comportamiento abusivo, acosador o inaceptable de otro modo podrán
 ser denunciados a las personas administradoras de la comunidad responsables del
 cumplimiento:
 
-* En **Telegram**, al grupo Python en español (META) o directamente a algún
-  administrador del grupo si es necesario mantener tu privacidad al momento de
-  realizar el reporte.
+* En **Telegram**, al grupo [Python en Español (Moderación y Sugerencias)](https://t.me/pythonespmod)
+  o directamente a algún administrador del grupo si es necesario mantener tu privacidad al momento
+  de realizar el reporte.
 * En **Discord**, de manera provisional mientras la comunidad decide sus propios
   mecanismos, los casos de comportamiento abusivo, acosador o inaceptable de
   otro modo podrán ser denunciados a las personas con el rol "Coordinación".

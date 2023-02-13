@@ -1,69 +1,16 @@
-## ¿Qué curso/libro es recomendable para empezar?
+### ¿Qué curso/libro es recomendable para empezar?
 
 Mira nuestras recomendaciones de [cursos y libros](cursosylibros.html).
 
-## ¿Hay más grupos de Telegram relacionados con Python en español?
+### ¿Hay más grupos de Telegram relacionados con Python en español?
 
-¡Claro! Si buscas grupos por temática, puedes visitar los siguientes grupos:
+¡Claro! Mira la sección [otras comunidades](otrascomunidades.html)
 
-- [Traducción de la documentación oficial de Python](https://t.me/python_docs_es)
-- [Python Científico](https://t.me/python_cientifico)
-- [SciPy Latinoamericano](https://t.me/scipyla)
-- [AeroPython](https://t.me/AeroPython)
-- [Django España](https://t.me/DjangoEsp)
-- [Django Venezuela](https://t.me/DjangoVE)
-- [Flask España](https://t.me/FlaskEsp)
-- [Kivy Python (es)](https://t.me/kivy_python_es)
-- [Odoo en español](https://t.me/odoo_es)
-- [Python para docentes](https://t.me/pythonparadocentes)
-- [Un Python al día (canal)](https://t.me/UnPythonAlDia)
-- [Aprende Python (canal)](https://t.me/aprendepython)
-- [Sólo Python](https://t.me/Python_es)
-- [Tryton en español](https://t.me/trytonespana)
+### ¿Hay más servidores de Discord relacionados con Python en español?
 
-En España, puedes encontrar los siguientes grupos:
+¡Claro! Mira la sección [otras comunidades](otrascomunidades.html)
 
-- [Alicante](https://t.me/python_alc)
-- [Barcelona(canal)](https://t.me/pybcn)
-- [Canarias](https://t.me/pythoncanarias)
-- [Castilla y León](https://t.me/PyCyL)
-- [Catalunya](https://t.me/pythoncatalunya)
-- [Extremadura (canal)](https://t.me/ExtrePython)
-- [Girona](https://t.me/pygrn)
-- [Granada](https://t.me/pythongranada)
-- [Guadalajara](https://t.me/pythonguada)
-- [Madrid](https://t.me/pythonmadrid)
-- [Málaga](https://t.me/python_malaga)
-- [Sevilla](https://t.me/joinchat/AgH9wQ4oQVIpbW_1gDvH-A)
-- [Valencia](https://t.me/python_vlc)
-- [Vigo](https://t.me/joinchat/DdKphwfW2-qqPf5JsVGjCg)
-- [Zaragoza](https://t.me/PythonZaragoza)
-
-En Latinoamerica, puedes encontrar los siguientes canales:
-
-- [Argentina](https://t.me/pythonargentina)
-- [Argentina Norte](https://t.me/pythonnorte)
-- [Bolivia](https://t.me/PythonBolivia)
-- [Chile](https://t.me/PythonChile)
-- [Colombia](https://t.me/pythoncolombia)
-- [Cuba](https://t.me/pythoncuba)
-- [Ecuador](https://t.me/PythonEcuador)
-- [México](https://t.me/PythonMexico)
-- [México CDMX](https://t.me/pythonCDMX)
-- [Nicaragua (Canal)](https://t.me/python_nicaragua)
-- [Panamá](https://t.me/PythonPanama)
-- [Paraguay](https://t.me/pythonparaguay)
-- [Perú](https://t.me/PythonPeru)
-- [Uruguay](https://t.me/PythonUruguay)
-- [Venezuela](https://t.me/Python_Venezuela)
-
-## ¿Hay más servidores de Discord relacionados con Python en español?
-
-- [Python Chile](https://discord.gg/dTHMfJvauS)
-- [Python La Paz](https://discord.gg/Fr2HUqv64P)
-- [Python Colombia](https://discord.gg/MGYQzUaA3S)
-
-## ¿Necesitas ayuda con un programa?
+### ¿Necesitas ayuda con un programa?
 
 Si es de las primeras veces que preguntas en un foro, puede interesarte
 aprender cómo hacer preguntas y, una vez te decidas a preguntar, nos cuentes
@@ -83,7 +30,7 @@ O indicarnos tu repositorio de código en:
 - [gitlab.com/](https://gitlab.com/)
 - [bitbucket.org/](https://bitbucket.org/)
 
-## ¿Cuál es el mejor editor/IDE para Python?
+### ¿Cuál es el mejor editor/IDE para Python?
 
 Cada persona tiene sus preferencias, experiencia, sistema operativo,
 necesidades, etc. Es importante sentirse cómodo con la herramienta que más vas
@@ -106,7 +53,7 @@ listados exhaustivos sobre editores e IDEs:
 - [IDEs](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
 
 
-## ¿Qué biblioteca/módulo/framework se recomienda para...?
+### ¿Qué biblioteca/módulo/framework se recomienda para...?
 
 Antes de preguntar por una librería o framework puedes echar un vistazo a las
 alternativas que hay en el ámbito de tu problema. Un recurso muy interesante
@@ -122,7 +69,7 @@ X o Y?. Sin información, la respuesta de cualquier participante será subjetiva
 Matiza cuál es el problema que quieres resolver para que podamos ayudarte en la
 recomendación.
 
-### Aplicaciones gráficas (GUI)
+#### Aplicaciones gráficas (GUI)
 
 Las principales opciones que hay ahora mismo (Octubre 2018) en Python para
 crear aplicaciones gráficas son:
@@ -193,7 +140,7 @@ Si quieres ver todas las opciones, puedes leer el
 [herramientas de diseño](https://wiki.python.org/moin/GuiProgramming#GUIDesignToolsandIDEs)
 en la wiki de Python.
 
-### Extraer información de la web
+#### Extraer información de la web
 
 Básicamente tienes dos opciones:
 
@@ -207,7 +154,7 @@ También puede resultarte de ayuda el capítulo de
 del libro [Automate the boring stuff](https://automatetheboringstuff.com/)
 en el que también se utiliza [Selenium](http://www.seleniumhq.org/).
 
-## Dicen por ahí que Python es lento...¿es cierto?
+### Dicen por ahí que Python es lento...¿es cierto?
 
 Es posible que te hayan contado cosas malas de Python pero ¿te crees todo lo
 que te dicen? Te recomendamos que leas un par de páginas para formarte una idea
@@ -216,7 +163,7 @@ más realista:
 - [Yes, Python is Slow, and I Don’t Care](https://medium.com/pyslackers/yes-python-is-slow-and-i-dont-care-13763980b5a1)
 - [10 Myths of Enterprise Python](http://sedimental.org/10_myths_of_enterprise_python.html)
 
-## Instale un módulo y no funciona ¿Cómo se resuelve?
+### Instale un módulo y no funciona ¿Cómo se resuelve?
 
 Esta pregunta suele ser muy frecuente en distintas plataformas, y lo más
 importante es saber como está configurado nuestro entorno y proyecto.
@@ -245,7 +192,7 @@ y luego para activarlo:
 - En Linux y macOS, `source nombre/bin/activate`,
 - En Windows, `nombre\Scripts\activate`.
 
-## ¿Puedo publicar una oferta de trabajo?
+### ¿Puedo publicar una oferta de trabajo?
 
 Mira las normativas para [publicar una oferta de trabajo](ofertas.html) en
 Telegram y Discord.
