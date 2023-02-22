@@ -68,6 +68,10 @@ comm = {
                 "img": "assets/comunidades/python_cdmx.jpg",
             },
             # Nicaragua
+            "Python Nicaragua": {
+                "url": "https://t.me/pythonNIC",
+                "img": "assets/comunidades/python_nicaragua.jpg",
+            },
             # Panamá
             "Python Panamá": {
                 "url": "https://t.me/PythonPanama",
