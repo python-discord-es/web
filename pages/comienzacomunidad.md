@@ -148,3 +148,38 @@ Algunas comunidades formalizadas:
 
 * [Asociación Civil Python Argentina](https://ac.python.org.ar/)
 * [Asociación Python España](https://es.python.org/asociacion/)
+
+## Tipos de conferencias
+
+Si la comunidad tiene experiencia organizando eventos frecuentes como meetups,
+hackathones, sprints, etc es posible que el siguiente paso sea una conferencia.
+
+A la hora de elegir el tipo de evento a realizar es posible que no tengas
+claro la actividad que quieras realizar, acá te dejamos algunos formatos e
+ideas. Recuerda que la organización de tu comunidad puede ser creativa con
+respecto a las actividades y formato.
+
+* **PyDay**: usualmente una conferencia de un día, suele ser una buena opción
+  para ver el interés de la comunidad local, e intentar hacer un evento
+  de varias horas. Realizar un solo track con un par de breaks durante la
+  jornada es una buena idea de estructura inicial. No es necesario tener
+  ponencias principales, pero podría ser una buena idea. Es importante tener
+  alguna charla breve de inicio y cierre del día.
+
+* **Python Pizza**: es un estilo de micro conferencia comenzado hace varios
+    años por la comunidad italiana, que tiene como objetivo ser una conferencia
+    para motivar a personas que no tienen experiencia en conferencias de hacer
+    su primera ponencia. Las charlas suelen ser de 10 minutos, no se aceptan
+    preguntas ni interrupciones, y como el nombre lo indica, se suele pedir
+    Pizzas para la comida principal. El evento suele durar un día. Más
+    información de otras versiones [en éste enlace](https://python.pizza).
+
+* **PyCon**: Las Python Conference (PyCon) son la conferencia más importante de
+    cada comunidad de Python. Por lo general se realizan a nivel país como
+    mínimo, pero existen versiones que incluyen continentes, como la [PyCon
+    Latam](https://pylatam.org). Para esta conferencia es necesario que se
+    planifique con antelación, pues es posible que atraiga a muchas personas
+    interesadas. Se recomienda tener ponencias principales, y que la
+    conferencia pueda durar más de un día. Dependiendo de la magnitud de la
+    comunidad, es posible realizar varios tracks y tener actividades
+    adicionales como Sprints, Charlas relámpago, Workshops, y mucho más.
