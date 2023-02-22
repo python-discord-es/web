@@ -15,6 +15,7 @@ comm = {
     },
     "telegram": {
         "latam": {
+            # Argentina
             "Python Argentina": {
                 "url": "https://t.me/pythonargentina",
                 "img": "assets/comunidades/python_argentina.jpg",
@@ -23,6 +24,7 @@ comm = {
                 "url": "https://t.me/pythonnorte",
                 "img": "assets/comunidades/python_norte.jpg",
             },
+            # Bolivia
             "Python Bolivia": {
                 "url": "https://t.me/PythonBolivia",
                 "img": "assets/comunidades/python_logo.png",
@@ -31,22 +33,32 @@ comm = {
                 "url": "https://t.me/pythonlapaz",
                 "img": "assets/comunidades/python_lapaz.jpg",
             },
+            # Chile
             "Python Chile": {
                 "url": "https://t.me/PythonChile",
                 "img": "assets/comunidades/python_chile.jpg",
             },
+            # Colombia
             "Python Colombia": {
                 "url": "https://t.me/pythoncolombia",
                 "img": "assets/comunidades/python_colombia.jpg",
             },
+            # Costa Rica
+            # Cuba
             "Python Cuba": {
                 "url": "https://t.me/pythoncuba",
                 "img": "assets/comunidades/python_cuba.jpg",
             },
+            # Ecuador
             "Python Ecuador": {
                 "url": "https://t.me/PythonEcuador",
                 "img": "assets/comunidades/python_ecuador.jpg",
             },
+            # El Salvador
+            # Guatemala
+            # Guinea Ecuatorial
+            # Honduras
+            # México
             "Python México": {
                 "url": "https://t.me/PythonMexico",
                 "img": "assets/comunidades/python_mexico.jpg",
@@ -55,22 +67,29 @@ comm = {
                 "url": "https://t.me/pythonCDMX",
                 "img": "assets/comunidades/python_cdmx.jpg",
             },
+            # Nicaragua
+            # Panamá
             "Python Panamá": {
                 "url": "https://t.me/PythonPanama",
                 "img": "assets/comunidades/python_panama.jpg",
             },
+            # Paraguay
             "Python Paraguay": {
                 "url": "https://t.me/pythonparaguay",
                 "img": "assets/comunidades/python_paraguay.jpg",
             },
+            # Perú
             "Python Perú": {
                 "url": "https://t.me/PytonPeru",
                 "img": "assets/comunidades/python_peru.jpg",
             },
+            # República Dominicana
+            # Uruguay
             "Python Uruguay": {
                 "url": "https://t.me/PythonUruguay",
                 "img": "assets/comunidades/python_logo.png",
             },
+            # Venezuela
             "Python Venezuela": {
                 "url": "https://t.me/Python_Venezuela",
                 "img": "assets/comunidades/python_venezuela.jpg",
