@@ -204,6 +204,9 @@ comm = {
             "Tryton en español": {
                 "url": "https://t.me/trytonespana",
             },
+            "MicroPython": {
+                "url": "https://t.me/micropython_es",
+            },
         },
     },
 }
