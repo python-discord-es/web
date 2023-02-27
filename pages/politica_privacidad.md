@@ -127,7 +127,7 @@ la información disponible más adelante en la sección Contacto.
 
 En primera instancia, te recomendamos ponerte en contacto con alguna
 persona con el rol **Coordinación** en el
-<a href="https://discord.gg/hablemospython">servidor de Discord</a>
+<a href="https://discord.gg/35E3Ph7Fez">servidor de Discord</a>
 o directamente con el dueño actual del servidor: `cmaureir#4041`.
 
 En caso que necesites enviar un correo electrónico, puedes escribir
