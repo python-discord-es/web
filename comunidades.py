@@ -117,8 +117,8 @@ comm = {
                 "img": "assets/comunidades/python_logo.png",
             },
             "Python Coruña": {
-                "url": "https://t.me/pythoncorunha",
-                "img": "assets/comunidades/python_corunha.jpg",
+                "url": "https://t.me/pythoncoruna",
+                "img": "assets/comunidades/logo_python_coruna.jpg",
             },
             "Extre Python": {
                 "url": "https://t.me/ExtrePython_grupo",
