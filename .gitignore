@@ -22,3 +22,6 @@ psf.html
 
 # fontawesome
 deploy/fontawesome630
+
+# other files
+__pycache__

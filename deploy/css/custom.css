@@ -156,8 +156,16 @@ main {
 }
 /* End Configuration for smooth/sticky right-menu */
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   padding-top: 1em;
+}
+
+h4, h5 {
+  display: inline-block;
+}
+h5 {
+  color: #346792;
+  margin-left: 20px;
 }
 
 .card a {

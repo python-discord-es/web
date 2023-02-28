@@ -184,11 +184,13 @@
       </div>
     </div>
 
+    {% if 'li' in toc %}
     <nav class="section-nav">
       <div class="container px-4 px-lg-5">
       <h3 class="toc-title">Temas</h3>
       {{ toc }}
     </nav>
+    {% endif %}
   </main>
 
   <!-- Contact-->

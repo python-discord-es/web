@@ -1,37 +1,51 @@
-### ¿Qué curso/libro es recomendable para empezar?
-
+<details markdown="1">
+<summary>
+#### ¿Qué curso/libro es recomendable para empezar?
+</summary>
 Mira nuestras recomendaciones de [cursos y libros](cursosylibros.html).
+</details>
 
-### ¿Hay más grupos de Telegram relacionados con Python en español?
-
+<details markdown="1">
+<summary>
+#### ¿Hay más grupos de Telegram relacionados con Python en español?
+</summary>
 ¡Claro! Mira la sección [otras comunidades](otrascomunidades.html)
+</details>
 
-### ¿Hay más servidores de Discord relacionados con Python en español?
-
+<details markdown="1">
+<summary>
+#### ¿Hay más servidores de Discord relacionados con Python en español?
+</summary>
 ¡Claro! Mira la sección [otras comunidades](otrascomunidades.html)
+</details>
 
-### ¿Necesitas ayuda con un programa?
-
+<details markdown="1">
+<summary>
+#### ¿Necesitas ayuda con un programa?
+</summary>
 Si es de las primeras veces que preguntas en un foro, puede interesarte
 aprender cómo hacer preguntas y, una vez te decidas a preguntar, nos cuentes
 también qué has intentado para que funcione tu código. Para que no vayamos
 a ciegas, es recomendable que pegues tu código en una de las utilidades de
 abajo y compartas la URL generada en el canal:
 
-- [pastebin.com/](https://pastebin.com/)
-- [bpaste.net/](https://bpaste.net/)
-- [repl.it/languages/python3](https://repl.it/languages/python3)
-- [trinket.io/python](https://trinket.io/python)
-- [gist.github.com/](https://gist.github.com/)
+* [pastebin.com](https://pastebin.com)
+* [bpaste.net](https://bpaste.net)
+* [repl.it/languages/python3](https://repl.it/languages/python3)
+* [trinket.io/python](https://trinket.io/python)
+* [gist.github.com](https://gist.github.com)
 
 O indicarnos tu repositorio de código en:
 
-- [github.com/](https://github.com/)
-- [gitlab.com/](https://gitlab.com/)
-- [bitbucket.org/](https://bitbucket.org/)
+* [github.com](https://github.com)
+* [gitlab.com](https://gitlab.com)
+* [bitbucket.org](https://bitbucket.org)
+</details>
 
-### ¿Cuál es el mejor editor/IDE para Python?
-
+<details markdown="1">
+<summary>
+#### ¿Cuál es el mejor editor/IDE para Python?
+</summary>
 Cada persona tiene sus preferencias, experiencia, sistema operativo,
 necesidades, etc. Es importante sentirse cómodo con la herramienta que más vas
 a utilizar. Por lo tanto, en lugar de basarte en la opinión subjetiva de los
@@ -51,10 +65,12 @@ listados exhaustivos sobre editores e IDEs:
 
 - [Editor de texto](https://wiki.python.org/moin/PythonEditors)
 - [IDEs](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
+</details>
 
-
-### ¿Qué biblioteca/módulo/framework se recomienda para...?
-
+<details markdown="1">
+<summary>
+#### ¿Qué biblioteca/módulo/framework se recomienda para...?
+</summary>
 Antes de preguntar por una librería o framework puedes echar un vistazo a las
 alternativas que hay en el ámbito de tu problema. Un recurso muy interesante
 para poder conocer dichas alternativas es
@@ -68,9 +84,12 @@ Intenta hacer una pregunta concreta. No es buena idea preguntar ¿qué es mejor
 X o Y?. Sin información, la respuesta de cualquier participante será subjetiva.
 Matiza cuál es el problema que quieres resolver para que podamos ayudarte en la
 recomendación.
+</details>
 
-#### Aplicaciones gráficas (GUI)
-
+<details markdown="1">
+<summary>
+##### Aplicaciones gráficas (GUI)
+</summary>
 Las principales opciones que hay ahora mismo (Octubre 2018) en Python para
 crear aplicaciones gráficas son:
 
@@ -139,9 +158,12 @@ Si quieres ver todas las opciones, puedes leer el
 [listado de GUIs](https://docs.python.org/3/faq/gui.html) en la web de Python así como
 [herramientas de diseño](https://wiki.python.org/moin/GuiProgramming#GUIDesignToolsandIDEs)
 en la wiki de Python.
+</details>
 
-#### Extraer información de la web
-
+<details markdown="1">
+<summary>
+##### Extraer información de la web
+</summary>
 Básicamente tienes dos opciones:
 
 - Usar [Requests](http://docs.python-requests.org/) para el acceso y
@@ -153,18 +175,24 @@ También puede resultarte de ayuda el capítulo de
 [Web scraping](https://automatetheboringstuff.com/chapter11/)
 del libro [Automate the boring stuff](https://automatetheboringstuff.com/)
 en el que también se utiliza [Selenium](http://www.seleniumhq.org/).
+</details>
 
-### Dicen por ahí que Python es lento...¿es cierto?
-
+<details markdown="1">
+<summary>
+#### Dicen por ahí que Python es lento...¿es cierto?
+</summary>
 Es posible que te hayan contado cosas malas de Python pero ¿te crees todo lo
 que te dicen? Te recomendamos que leas un par de páginas para formarte una idea
 más realista:
 
 - [Yes, Python is Slow, and I Don’t Care](https://medium.com/pyslackers/yes-python-is-slow-and-i-dont-care-13763980b5a1)
 - [10 Myths of Enterprise Python](http://sedimental.org/10_myths_of_enterprise_python.html)
+</details>
 
-### Instale un módulo y no funciona ¿Cómo se resuelve?
-
+<details markdown="1">
+<summary>
+#### Instale un módulo y no funciona ¿Cómo se resuelve?
+</summary>
 Esta pregunta suele ser muy frecuente en distintas plataformas, y lo más
 importante es saber como está configurado nuestro entorno y proyecto.
 
@@ -191,8 +219,12 @@ y luego para activarlo:
 
 - En Linux y macOS, `source nombre/bin/activate`,
 - En Windows, `nombre\Scripts\activate`.
+</details>
 
-### ¿Puedo publicar una oferta de trabajo?
-
+<details markdown="1">
+<summary>
+#### ¿Puedo publicar una oferta de trabajo?
+</summary>
 Mira las normativas para [publicar una oferta de trabajo](ofertas.html) en
 Telegram y Discord.
+</details>
