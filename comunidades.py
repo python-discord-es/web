@@ -136,6 +136,10 @@ comm = {
                 "url": "https://t.me/pythonguada",
                 "img": "assets/comunidades/python_logo.png",
             },
+            "Python La Rioja": {
+                "url": "https://t.me/pythonlarioja",
+                "img": "assets/comunidades/python_larioja.png",
+            },
             "Python Madrid": {
                 "url": "https://t.me/pythonmadrid",
                 "img": "assets/comunidades/python_madrid.jpg",
