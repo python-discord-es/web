@@ -1,26 +1,26 @@
 <details markdown="1">
-<summary>
+<summary markdown="block">
 #### ¿Qué curso/libro es recomendable para empezar?
 </summary>
 Mira nuestras recomendaciones de [cursos y libros](cursosylibros.html).
 </details>
 
 <details markdown="1">
-<summary>
+<summary markdown="block">
 #### ¿Hay más grupos de Telegram relacionados con Python en español?
 </summary>
 ¡Claro! Mira la sección [otras comunidades](otrascomunidades.html)
 </details>
 
 <details markdown="1">
-<summary>
+<summary markdown="block">
 #### ¿Hay más servidores de Discord relacionados con Python en español?
 </summary>
 ¡Claro! Mira la sección [otras comunidades](otrascomunidades.html)
 </details>
 
 <details markdown="1">
-<summary>
+<summary markdown="block">
 #### ¿Necesitas ayuda con un programa?
 </summary>
 Si es de las primeras veces que preguntas en un foro, puede interesarte
@@ -43,7 +43,7 @@ O indicarnos tu repositorio de código en:
 </details>
 
 <details markdown="1">
-<summary>
+<summary markdown="block">
 #### ¿Cuál es el mejor editor/IDE para Python?
 </summary>
 Cada persona tiene sus preferencias, experiencia, sistema operativo,
@@ -68,7 +68,7 @@ listados exhaustivos sobre editores e IDEs:
 </details>
 
 <details markdown="1">
-<summary>
+<summary markdown="block">
 #### ¿Qué biblioteca/módulo/framework se recomienda para...?
 </summary>
 Antes de preguntar por una librería o framework puedes echar un vistazo a las
@@ -87,7 +87,7 @@ recomendación.
 </details>
 
 <details markdown="1">
-<summary>
+<summary markdown="block">
 ##### Aplicaciones gráficas (GUI)
 </summary>
 Las principales opciones que hay ahora mismo (Octubre 2018) en Python para
@@ -161,7 +161,7 @@ en la wiki de Python.
 </details>
 
 <details markdown="1">
-<summary>
+<summary markdown="block">
 ##### Extraer información de la web
 </summary>
 Básicamente tienes dos opciones:
@@ -178,7 +178,7 @@ en el que también se utiliza [Selenium](http://www.seleniumhq.org/).
 </details>
 
 <details markdown="1">
-<summary>
+<summary markdown="block">
 #### Dicen por ahí que Python es lento...¿es cierto?
 </summary>
 Es posible que te hayan contado cosas malas de Python pero ¿te crees todo lo
@@ -190,7 +190,7 @@ más realista:
 </details>
 
 <details markdown="1">
-<summary>
+<summary markdown="block">
 #### Instale un módulo y no funciona ¿Cómo se resuelve?
 </summary>
 Esta pregunta suele ser muy frecuente en distintas plataformas, y lo más
@@ -222,7 +222,7 @@ y luego para activarlo:
 </details>
 
 <details markdown="1">
-<summary>
+<summary markdown="block">
 #### ¿Puedo publicar una oferta de trabajo?
 </summary>
 Mira las normativas para [publicar una oferta de trabajo](ofertas.html) en
