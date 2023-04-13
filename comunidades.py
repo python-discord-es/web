@@ -12,6 +12,10 @@ comm = {
             "url": "https://discord.gg/Fr2HUqv64P",
             "img": "assets/comunidades/python_lapaz.jpg",
         },
+        "Python Panama": {
+            "url": "https://discord.gg/3mEkGHK2",
+            "img": "assets/comunidades/python_panama.jpg",
+        },
     },
     "telegram": {
         "latam": {
