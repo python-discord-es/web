@@ -39,6 +39,7 @@ En caso de no tener problema con leer en inglés, la oferta es mucho mayor:
 * Python for Everybody: [libro](https://books.trinket.io/pfe/) y excelente [curso gratuito](https://www.py4e.com/) por Charles Severance (Dr. Chuck). 
 * [Python Free Programming Books](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#python) - libros con licencias libres
 * [Awesome Python Books](https://github.com/Junnplus/awesome-python-books) - libros ordenados por categorías
+* [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) - Curso asíncrono sobre Data Engineering
 
 ## Podcasts
 
