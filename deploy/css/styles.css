@@ -137,11 +137,11 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1rem + 0.3vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -653,8 +653,8 @@ progress {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--bs-gutter-x, 0.2rem);
+  padding-left: var(--bs-gutter-x, 0.2rem);
   margin-right: auto;
   margin-left: auto;
 }
@@ -4053,8 +4053,6 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -11317,14 +11315,6 @@ body {
   height: 100%;
 }
 
-.page-section {
-  padding: 2rem 0 0.5rem 0;
-}
-
-.page-section-single {
-  padding: 2rem 0;
-}
-
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
 }
@@ -11342,7 +11332,7 @@ body {
 }
 
 .btn-xl {
-  padding: 1.25rem 2.25rem;
+  padding: 0.8rem 1.8rem;
   font-size: 0.85rem;
   font-weight: 700;
   border: none;
@@ -11405,7 +11395,7 @@ hr.divider-blue-start {
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #fff;
@@ -11432,7 +11422,7 @@ hr.divider-blue-start {
 }
 
 header.masthead-page {
-  padding-top: 2rem;
+  /*padding-top: 2rem;*/
   padding-bottom: calc(10rem - 4.5rem);
   background: rgba(19, 46, 69, 1);
   background-position: center;
