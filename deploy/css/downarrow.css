@@ -1,0 +1,35 @@
+/*Modified version from https://unused-css.com/blog/animated-down-arrow/ */
+.down-arrow {
+  position: absolute;
+  top: calc(100vh - 80px);
+  left: calc(50% - 14px);
+  width: 0;
+  height: 30px;
+  animation: jumpInfinite 1.5s infinite;
+  color: #fff;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 32px;
+  height: 32px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+

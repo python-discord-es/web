@@ -51,6 +51,8 @@ para tener mayor claridad de la membresía con derecho a voto (13 minutos)
 o una versión más corta con información similar: (2 minutos)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0BhfGqS7y9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+&nbsp;
+
 
 #### Membresía de Apoyo (*Support member*)
 

@@ -182,3 +182,7 @@ h5 {
   height: 10vw;
   object-fit: cover;
 }
+
+.card-title {
+  margin: 0;
+}
