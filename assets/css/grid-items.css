@@ -1,7 +1,7 @@
 /* GRID */
 .grid {
   display: grid;
-  gap: 0.1rem;
+  gap: 1rem;
   /*grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));*/
   grid-template-columns: auto auto auto;
 }
@@ -20,6 +20,7 @@
 
 .grid > div.item-box {
   height: 100%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .grid > div.item-box > .recursos-box {
