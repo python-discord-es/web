@@ -1,34 +1,53 @@
-import markdown
+import re
+import sys
 from pathlib import Path
-from jinja2 import Template
 from textwrap import dedent
 
-import sys
-sys.path.append(".")
-from paginas import pages
-from comunidades import comm
+import markdown
+from jinja2 import Environment, FileSystemLoader, Template
 
+sys.path.append(".")
+from comunidades import comm
+from paginas import pages
 
 # Create pages
 
-base = "template/page-base.html"
-
-template = Template(open(base).read())
+base = None
+template = None
 
 for p_key, p_values in pages.items():
     page = Path(p_values["filename"])
 
-    md = markdown.Markdown(extensions=['toc', 'tables', 'fenced_code', 'codehilite', "md_in_html"])
+    if base is None:
+        base = "template/base.html"
+        # template = Template(open(base).read())
+        template = Environment(loader=FileSystemLoader("template/")).from_string(open(base).read())
+
+    if "template" in p_values:
+        base = p_values["template"]
+        template = Environment(loader=FileSystemLoader("template/")).from_string(open(base).read())
+        # To reset and open the normal template again
+        base = None
+
+    md = markdown.Markdown(extensions=["toc", "tables", "fenced_code", "codehilite", "md_in_html"])
 
     with open(page, encoding="utf-8") as f:
         _content = md.convert(f.read())
+
+    # Hack for empty details/summary paragraph
+    _content = _content.replace('<p><summary markdown="block"></p>', "")
+
+    # Hack for removing toc from FAQ
+    if page.stem == "faq":
+        _content = re.sub(r'<div class="toc">.*</div>', "", _content)
 
     _comunidades = ""
     if p_key == "otrascomunidades":
         _comunidades = comm
         # hack to replace the TOC for pages that will be added
         # at render time.
-        md.toc = dedent("""\
+        md.toc = dedent(
+            """\
             <div class="toc">
             <ul>
             <li><a href="#mejora-la-lista">Mejora la lista</a></li>
@@ -42,7 +61,8 @@ for p_key, p_values in pages.items():
             </li>
             </ul>
             </div>
-            """)
+            """
+        )
     conf = {
         "toc": md.toc,
         "content": _content,

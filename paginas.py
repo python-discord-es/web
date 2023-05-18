@@ -23,6 +23,7 @@ pages = {
             "Algunas preguntas que se repiten en las distintas "
             "plataformas entre las personas de la comunidad."
         ),
+        "template": "template/base-faq.html",
     },
     "normativa": {
         "filename": "pages/normativa.md",
@@ -59,6 +60,7 @@ pages = {
             "Lista de otras comunidades de Python y temáticas relacionadas "
             "al mismo lenguaje de programación."
         ),
+        "template": "template/base-comunidades.html",
     },
     "preguntarayudar": {
         "filename": "pages/preguntarayudar.md",

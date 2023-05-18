@@ -59,9 +59,9 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --bs-body-font-size: 1rem;
+  --bs-body-font-size: 1.15rem;
   --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
+  --bs-body-line-height: 1.7;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
@@ -244,11 +244,19 @@ sup {
 }
 
 a {
-  color: #fdc130;
+  color: rgb(210, 50, 41);
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
+}
+
+.bg-primary a {
+  color: #fdc130;
+}
+
+.masthead a {
+  color: #fdc130;
 }
 
 .boton-unete {
@@ -4538,6 +4546,7 @@ textarea.form-control-lg {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;

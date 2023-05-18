@@ -75,6 +75,10 @@ main {
   padding-bottom: 1em;
 }
 
+.fullpage {
+  grid-template-columns: 1fr;
+}
+
 .toc {
   font-size: 0.9em;
   margin-top: 1rem;
@@ -149,6 +153,12 @@ main {
     display: none;
   }
 
+  .toc-title {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+
   main {
     grid-template-columns: 1fr;
   }
@@ -181,8 +191,73 @@ h5 {
   width: 100%;
   height: 10vw;
   object-fit: cover;
+  min-height: 100px;
 }
 
-.card-title {
-  margin: 0;
+@media screen and (max-width: 600px) {
+  .card-img-top {
+    min-height: 200px;
+  }
+
+  .card-title {
+    margin: 0;
+  }
+}
+
+.main-content {
+  width: 80%;
+  margin-left: 20%;
+}
+
+@media screen and (max-width: 600px) {
+  .main-content {
+    width: 100%;
+    margin-left: 2%;
+  }
+}
+
+details {
+  display: flex;
+  overflow: hidden;
+  background: rgba(0, 0, 0, .05);
+  border-left: 15px solid #346792;
+  padding:15px;
+  margin-bottom: 10px;
+
+  summary, p {
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: flex-start;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: var(--color-title);
+    padding: 20px;
+    cursor:pointer;
+    &:focus {
+      outline: solid 3px;
+    }
+  }
+
+  &[open] {
+    summary {
+      font-weight: 700;
+    }
+  }
+}
+details[open] summary {
+  background: rgba(0, 0, 100, .05);
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details a {
+  color: rgb(210, 50, 41);
 }

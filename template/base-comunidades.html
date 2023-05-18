@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+{% include 'header.html' %}
+<body id="page-top">
+  {% include 'nav.html' %}
+  <!-- empty section for header color -->
+  <header class="masthead-page">
+  </header>
+
+  <section class="bg-primary" id="acerca">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">{{ page_title }}</h2>
+          <hr class="divider divider-light" />
+          <p class="text-white-75 mb-4">
+            {{ page_description }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="main-content">
+      <!-- light section -->
+      <!-- contenido -->
+      <div class="container px-4 px-lg-5 mt-5">
+        {{ content }}
+      </div>
+      <div class="container px-4 px-lg-5">
+
+      <h2 id="discord">Discord <i class="fa-brands fa-discord"></i></h2>
+      <div class="row flex">
+        {% for nombre, datos in comunidades['discord'].items() %}
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card mb-3">
+            <a href="{{ datos['url'] }}" class="stretched-link">
+              <img class="card-img-top" src="{{ datos['img'] }}" alt="{{ nombre }}">
+            <div class="card-body">
+              <h5 class="card-title">{{ nombre }}</h5>
+            </div>
+          </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <h2 id="telegram">Telegram <i class="fa-brands fa-telegram"></i></h2>
+      <h3 id="latinoamerica">Latinoamérica</h3>
+      <div class="row flex">
+        {% for nombre, datos in comunidades['telegram']['latam'].items() %}
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card mb-3">
+            <a href="{{ datos['url'] }}" class="stretched-link">
+            <img class="card-img-top" src="{{ datos['img'] }}" alt="{{ nombre }}">
+            <div class="card-body">
+              <h5 class="card-title">{{ nombre }}</h5>
+            </div>
+          </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <h3 id="espana">España</h3>
+      <div class="row flex">
+        {% for nombre, datos in comunidades['telegram']['spain'].items() %}
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card mb-3">
+            <a href="{{ datos['url'] }}" class="stretched-link">
+              <img class="card-img-top" src="{{ datos['img'] }}" alt="{{ nombre }}">
+            <div class="card-body">
+              <h5 class="card-title">{{ nombre }}</h5>
+            </div>
+          </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <h3 id="tematica">Temática</h3>
+      <ul>
+        {% for nombre, datos in comunidades['telegram']['topics'].items() %}
+        <li><a href="{{ datos['url'] }}">{{ nombre }}</a></li>
+        {% endfor %}
+      </ul>
+
+      </div>
+    </div>
+
+    {% if 'li' in toc %}
+    {% if page_url != 'faq.html' %}
+    <nav class="section-nav">
+      <div class="container px-4 px-lg-5">
+      <h3 class="toc-title">Temas</h3>
+      {{ toc }}
+    </nav>
+    {% endif %}
+    {% endif %}
+  </main>
+
+  {% include 'contact.html' %}
+  {% include 'footer.html' %}
+</body>
+</html>
