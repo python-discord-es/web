@@ -109,3 +109,48 @@ pages = {
         ),
     },
 }
+
+index_grid = {
+    "Recursos" : {
+        "Principiantes": {
+            "html": "principiantes.html",
+            "img": "assets/img/recursos/principiante.png",
+        },
+        "Cursos y Libros": {
+            "html": "cursosylibros.html",
+            "img": "assets/img/recursos/libros.png",
+        },
+        "Preguntas frecuentes": {
+            "html": "cursosylibros.html",
+            "img": "assets/img/recursos/preguntas-frecuentes.png",
+        },
+    },
+    "Comunidad": {
+        "Python Software Foundation": {
+            "html": "psf.html",
+            "img": "assets/img/recursos/aprendiendo.png",
+        },
+        "Comienza una comunidad": {
+            "html": "comienzacomunidad.html",
+            "img": "assets/img/recursos/construir_comunidad.png",
+        },
+        "Otros grupos e iniciativas": {
+            "html": "otrascomunidades.html",
+            "img": "assets/img/recursos/otras_comunidades.png",
+        },
+    },
+    "Información": {
+        "Normativa": {
+            "html": "normativa.html",
+            "img": "assets/img/recursos/reglas.png",
+        },
+        "Preguntar y ayudar": {
+            "html": "preguntarayudar.html",
+            "img": "assets/img/recursos/preguntas.png",
+        },
+        "Ofertas de trabajo": {
+            "html": "ofertas.html",
+            "img": "assets/img/recursos/trabajo.png",
+        },
+    },
+}

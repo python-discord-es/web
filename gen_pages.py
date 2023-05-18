@@ -1,19 +1,23 @@
 import re
 import sys
+import shutil
 from pathlib import Path
 from textwrap import dedent
 
 import markdown
 from jinja2 import Environment, FileSystemLoader, Template
 
-sys.path.append(".")
 from comunidades import comm
-from paginas import pages
+from paginas import pages, index_grid
+
+DEPLOY_DIR = "_public"
 
 # Create pages
-
 base = None
 template = None
+
+# Copy assets
+shutil.copytree("assets", f"{DEPLOY_DIR}/assets")
 
 for p_key, p_values in pages.items():
     page = Path(p_values["filename"])
@@ -73,6 +77,19 @@ for p_key, p_values in pages.items():
     }
 
     page_rendered = template.render(conf)
-    with open(f"./deploy/{page.stem}.html", "w", encoding="utf-8") as f:
+    with open(f"./{DEPLOY_DIR}/{page.stem}.html", "w", encoding="utf-8") as f:
         f.write(page_rendered)
         print(f"> Written {p_key}")
+
+# Special case for the index
+conf = {
+    "index_grid": index_grid,
+    "page_title": "index",
+    "page_url": "index.html"
+}
+template = Environment(loader=FileSystemLoader("template/")).from_string(open('template/index.html').read())
+page_rendered = template.render(conf)
+with open(f"./{DEPLOY_DIR}/index.html", "w", encoding="utf-8") as f:
+    f.write(page_rendered)
+    print(f"> Written index")
+

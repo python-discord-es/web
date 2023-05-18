@@ -16,12 +16,10 @@ principiantes.html
 tutoriales.html
 atribuciones.html
 psf.html
+index.html
 
 # aspell
 *.bak
-
-# fontawesome
-deploy/fontawesome630
 
 # other files
 __pycache__
