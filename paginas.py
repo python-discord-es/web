@@ -121,7 +121,7 @@ index_grid = {
             "img": "assets/img/recursos/libros.png",
         },
         "Preguntas frecuentes": {
-            "html": "cursosylibros.html",
+            "html": "faq.html",
             "img": "assets/img/recursos/preguntas-frecuentes.png",
         },
     },
