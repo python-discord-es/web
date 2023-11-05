@@ -1,3 +1,7 @@
+@title: Normativa
+@url: normativa.html
+@description: La comunidad está abierta a todas las personas, y en ella se hablan temas que tienen que ver con el lenguaje y la comunidad Python - se preguntan dudas y se intercambia información.
+-----
 ## Normas Generales
 
 Recuerda que hay gente que está comenzando con programación o Python, nada es

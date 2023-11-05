@@ -1,0 +1,31 @@
+<div class="tile my-2 p-2 bg-indigo-100 u-round-xs">
+  <div class="tile__icon">
+    <figure class="avatar avatar--lg"><img src="{podcast_img}"></figure>
+  </div>
+  <div class="tile__container w-100p">
+    <p class="tile__title m-0">
+      {podcast_number} - {podcast_guest}
+    </p>
+    <p class="tile__subtitle m-0">
+      {podcast_desc}
+    </p>
+    <p>
+    <audio class="w-100p mt-2" controls>
+      <source src="{podcast_audio}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    </p>
+  </div>
+  <div class="tile__buttons m-0 u-text-center">
+    <a href="{podcast_video}">
+      <button class="btn-info btn--sm uppercase w-80p">
+        Ver video <i class="fab fa-wrapper fa-youtube" aria-hidden="true"></i>
+      </button>
+    </a>
+    <a href="{podcast_discord}">
+      <button class="btn-link btn--sm uppercase w-80p">
+        Discusión <i class="fab fa-wrapper fa-discord" aria-hidden="true"></i>
+      </button>
+    </a>
+  </div>
+</div>

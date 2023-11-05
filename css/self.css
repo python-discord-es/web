@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hp-bg-dark {
+    --btn-color: 19,46,69;
+    --btn-shadow: 0 0 0 0.2rem rgba(19,46,6.9,0.5);
+    background-color: rgba(19,46,69,var(--bg-opacity)) !important;
+}
+
+.hp-bg-blue {
+    --btn-shadow: 0 0 0 0.2rem rgba(52, 103, 146, 0.5);
+    background-color: rgba(52,103,146,var(--bg-opacity)) !important;
+}
+
+.btn.btn-hp,
+[type=button].btn-hp,
+[type=reset].btn-hp,
+[type=submit].btn-hp,
+button.btn-hp{
+    --btn-color:52,103,146;
+    --btn-fg:246,249,252;
+    --btn-border-color:52,103,146;
+    --btn-shadow:0 0 0 0.2rem rgba(94, 92, 199, 0.5)
+}
+
+.btn.btn-hp:hover,
+[type=button].btn-hp:hover,
+[type=reset].btn-hp:hover,
+[type=submit].btn-hp:hover,
+button.btn-hp:hover{
+    /*
+    --btn-color:64,61,179;
+    --btn-border-color:64,61,179;
+    */
+    --btn-color:255,195,49;
+    --btn-border-color:255,195,49;
+}
+
+.btn.btn-hp.outline:hover,
+[type=button].btn-hp.outline:hover,
+[type=reset].btn-hp.outline:hover,
+[type=submit].btn-hp.outline:hover,
+button.btn-hp.outline:hover{
+    --btn-color:52,103,146;
+}
+
+.toc ul {
+  list-style-type: none;
+}
+
+/* titles margin-top for when clicking on TOC */
+h1, h2, h3, h4 {
+  scroll-margin-top: 5rem;
+}
+
+.header-logo {
+    max-height: 180px;
+}

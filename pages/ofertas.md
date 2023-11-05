@@ -1,3 +1,7 @@
+@title: Ofertas de trabajo
+@url: ofertas.html
+@description: Normativa para el envio de ofertas de trabajo en nuestra comunidad.
+-----
 En primer lugar, queremos dejar claro que hay sitios específicos para publicar
 ofertas de empleo del sector tecnológico, y que nos consta que funcionan
 bastante bien. Personalmente, recomendamos:

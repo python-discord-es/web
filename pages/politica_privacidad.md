@@ -1,3 +1,7 @@
+@title: Política de privacidad
+@url: politica_privacidad.html
+@description: Documento que detalla los datos que se almacenan relacionados a cada usuario la comunidad Python en Español
+-----
 ## Python en Español, su rol y alcance
 
 Python en Español no es una compañía, ni organización formal como

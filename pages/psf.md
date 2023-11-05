@@ -1,3 +1,7 @@
+@title: Python Software Foundation
+@url: psf.html
+@description: La Python Software Foundation (PSF) es una organización dedicada al avance de la tecnología de código abierto relacionada con el lenguaje de programación Python.
+-----
 ## ¿Qué es la PSF?
 
 La misión de Python Software Foundation es promover, proteger y hacer avanzar
@@ -24,7 +28,7 @@ a un país, o comunidad distinta.
 
 Mira el siguiente video para tener más información respecto a la importancia
 de la representación en la junta directiva de la PSF:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mypI0ebC1pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Importancia representación](https://img.youtube.com/vi/mypI0ebC1pM/0.jpg)](https://www.youtube.com/watch?v=mypI0ebC1pM)
 
 ## ¿Cómo me puedo unir a la PSF?
 
@@ -47,12 +51,9 @@ de la PSF son elegibles para votar en las elecciones de la junta de PSF.
 
 Adicionalmente puedes mirar estos videos
 para tener mayor claridad de la membresía con derecho a voto (13 minutos)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t4Km71HR2MQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Membresía con derecho a voto](https://img.youtube.com/vi/t4Km71HR2MQ/0.jpg)](https://www.youtube.com/watch?v=t4Km71HR2MQ)
 o una versión más corta con información similar: (2 minutos)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0BhfGqS7y9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-&nbsp;
-
+[![Membresía con derecho a voto (corto)](https://img.youtube.com/vi/0BhfGqS7y9Q/0.jpg)](https://www.youtube.com/watch?v=0BhfGqS7y9Q)
 
 #### Membresía de Apoyo (*Support member*)
 

@@ -1,3 +1,7 @@
+@title: Comienza una comunidad
+@url: comienzacomunidad.html
+@description: ¿Te gustaría comenzar una comunidad local? Mira estas recomendaciones, consejos, beneficios y otros detalles para comenzar.
+-----
 Antes de comenzar una nueva comunidad, siempre es conveniente buscar si ya
 existe alguna que cumpla con todos los objetivos y misión que tienes en mente.
 Muchas veces existen agrupaciones que necesitan apoyo de más personas, que ya
@@ -44,8 +48,8 @@ así que el aspecto social y humano es esencial.
 > Es muy importante que recuerdes que el logo de Python es una marca registrada
 > y por ende tiene guías para su uso. Si no alteras el logo de Python, la imagen
 > de tu comunidad no necesita aprobación, pero si modificas el logo, necesitas
-> una aprobación especial de la PSF. Puedes leer más en el [sitio de la
-> marca](https://www.python.org/psf/trademarks/)
+> una aprobación especial de la PSF. Puedes leer más en el
+> [sitio de la marca](https://www.python.org/psf/trademarks/)
 
 Existen muchos programas y servicios web para poder pensar en una imagen para
 tu comunidad. Algunas opciones son [Gimp](https://www.gimp.org/),

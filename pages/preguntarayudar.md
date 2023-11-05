@@ -1,3 +1,7 @@
+@title: Preguntar y ayudar
+@url: preguntarayudar.html
+@description: Recomendaciones para Preguntar y Ayudar mejor
+-----
 ## ¿Cómo Preguntar?
 
 Al tener una duda, puede parecer obvio que existe información

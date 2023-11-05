@@ -1,3 +1,7 @@
+@title: Código de conducta
+@url: coc.html
+@description: Nuestro objetivo es que nuestra comunidad sea un lugar seguro para todas las personas interesadas en Python de habla hispana. Para ello, seguimos un código de conducta que nos ayuda a tener un comportamiento adecuado para mantener una comunidad saludable e inclusiva.
+-----
 Al participar en el grupo Python en español, te comprometes a fomentar una
 experiencia libre de acoso para todo el mundo, independientemente de la edad,
 dimensión corporal, discapacidad visible o invisible, etnicidad,

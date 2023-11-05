@@ -1,3 +1,7 @@
+@title: Aprende Python Construyendo
+@url: aprendepython.html
+@description: Con la ayuda de más personas, podrás mejorar tu portafolio 💼 para estar listo al momento de buscar trabajo como Python dev 🐍
+-----
 ## ¿Qué es?
 
 * Si ya tienes cierto conocimiento de Python y quieres mejorar tus habilidades,
@@ -24,32 +28,3 @@
   en el canal
   [#ayuda-general](https://discord.com/channels/775295820618661898/775338929846616084),
   donde alguien del servidor te responderá 💬
-
-## Proyectos
-
-### Clasificación De Objetos En Imágenes (Terminado)
-
-* Mentora: Lorena Montoya
-* Mentora Discord: @Lorena
-* Canal de Discord: -
-* Repositorio: [https://github.com/marilomf/dl-scene-classification](https://github.com/marilomf/dl-scene-classification)
-* Descripción: Construir modelos para clasificar imágenes de paisajes
-  utilizando técnicas de aprendizaje profundo como data augmentation, transfer
-  learning y fine tuning.
-
-### Aplicación Web (En proceso)
-
-* Mentor: Aldo Caneo
-* Mentor Discord: @ancaneo
-* Canal de Discord: [#aplicacion-web-ancaneo](https://discord.com/channels/775295820618661898/912127337208893450) <br>
-* Repositorio: [https://github.com/ancaneo/aplicacion-web](https://github.com/ancaneo/aplicacion-web) <br>
-* Descripción: Construir una aplicación web. Se definirá más adelante foco con el equipo.
-
-### Ecommerce Ais Moda (En proceso)
-
-* Mentor: Josué Balandrano Coronel
-* Mentor Discord: @rmcomplexity
-* Canal De Discord: [#e-commerce-con-django](https://discord.com/channels/775295820618661898/885513338711314483)
-* Repositorio: [https://github.com/Python-en-equipo/e-commerce](https://github.com/Python-en-equipo/e-commerce)
-* Descripción: Hacer un ecommerce usando Django para alojar el negocio de
-  Rafael Torres Moreno, que consiste en venta de ropa.
