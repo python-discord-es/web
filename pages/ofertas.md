@@ -13,9 +13,6 @@ bastante bien. Personalmente, recomendamos:
   empleado.
 - [Linkedin](https://es.linkedin.com/in/ofertasdeempleo), el gigante del empleo.
   Todo el mundo está en Linkedin.
-- [StackOverflow Careers](http://careers.stackoverflow.com/), el alfa y el
-  omega del desarrollador. Cada vez se ven más ofertas de trabajo para empresas
-  de habla hispana.
 
 ## Toda oferta debe incluir
 
