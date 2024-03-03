@@ -173,9 +173,7 @@ comunidades = {
             "Traducción de la documentación oficial de Python": {
                 "url": "https://t.me/python_docs_es"
             },
-            "Python Científico": {
-                "url": "https://t.me/python_cientifico"
-            },
+            "Python Científico": {"url": "https://t.me/python_cientifico"},
             "SciPy Latinoamericano": {
                 "url": "https://t.me/scipyla",
             },
@@ -215,9 +213,13 @@ comunidades = {
             "MicroPython": {
                 "url": "https://t.me/micropython_es",
             },
+            "Data en Español": {
+                "url": "https://t.me/dataEspanol",
+            },
         },
     },
 }
+
 
 def get_cards_from_dict(card, d):
     content = ""
@@ -229,6 +231,7 @@ def get_cards_from_dict(card, d):
         )
     return content
 
+
 def get_list_from_dict(d):
     content = ""
     for name, values in d.items():
@@ -239,7 +242,7 @@ def get_list_from_dict(d):
 def get_comunidades_page(_content):
 
     begin = '<div class="row u-flex u-justify-center">'
-    end = '</div>'
+    end = "</div>"
     card = None
     with open("template/comunidad-card.html", "r") as f:
         card = f.read()
@@ -256,10 +259,15 @@ def get_comunidades_page(_content):
     # Telegram (Topics)
     telegram_topics_content = get_list_from_dict(comunidades["telegram"]["topics"])
 
-    return ( _content
-        .replace("COMUNIDADES_DISCORD", f"{begin}\n{discord_content}\n{end}")
-        .replace("COMUNIDADES_TELEGRAM_LATAM", f"{begin}\n{telegram_latam_content}\n{end}")
-        .replace("COMUNIDADES_TELEGRAM_SPAIN", f"{begin}\n{telegram_spain_content}\n{end}")
-        .replace("COMUNIDADES_TELEGRAM_TEMAS", f"<ul>\n{telegram_topics_content}\n</ul>")
+    return (
+        _content.replace("COMUNIDADES_DISCORD", f"{begin}\n{discord_content}\n{end}")
+        .replace(
+            "COMUNIDADES_TELEGRAM_LATAM", f"{begin}\n{telegram_latam_content}\n{end}"
+        )
+        .replace(
+            "COMUNIDADES_TELEGRAM_SPAIN", f"{begin}\n{telegram_spain_content}\n{end}"
+        )
+        .replace(
+            "COMUNIDADES_TELEGRAM_TEMAS", f"<ul>\n{telegram_topics_content}\n</ul>"
+        )
     )
-
