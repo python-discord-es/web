@@ -1,7 +1,7 @@
 comunidades = {
     "discord": {
         "Python Argentina": {
-            "url": "https://discord.gg/f8ThGtJw",
+            "url": "https://discord.gg/WqaynUdMQF",
             "img": "img/comunidades/python_argentina.jpg",
         },
         "Python Chile": {
