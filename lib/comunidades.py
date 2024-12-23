@@ -217,10 +217,18 @@ comunidades = {
             "MicroPython": {
                 "url": "https://t.me/micropython_es",
             },
-            "Data en Español": {
-                "url": "https://t.me/dataEspanol",
-            },
+            "Ciencia y tecnología": {"url": "https://t.me/natayadevcomunidad"},
         },
+    },
+    "whatsapp": {
+        "topics": {
+            "Ingeniería de datos": {
+                "url": "https://chat.whatsapp.com/CgXo5yI6LwhEdbRJpBWs4u",
+            },
+            "Gobernanza de datos": {
+                "url": "https://chat.whatsapp.com/HsCAtLdmU3E1Ir0CDOrtyr"
+            },
+        }
     },
 }
 
@@ -263,6 +271,11 @@ def get_comunidades_page(_content):
     # Telegram (Topics)
     telegram_topics_content = get_list_from_dict(comunidades["telegram"]["topics"])
 
+    # Whatsapp (Topics)
+    whatsapp_topics_content = get_list_from_dict(comunidades["whatsapp"]["topics"])
+
+    topics_content = telegram_topics_content + whatsapp_topics_content
+
     return (
         _content.replace("COMUNIDADES_DISCORD", f"{begin}\n{discord_content}\n{end}")
         .replace(
@@ -272,6 +285,6 @@ def get_comunidades_page(_content):
             "COMUNIDADES_TELEGRAM_SPAIN", f"{begin}\n{telegram_spain_content}\n{end}"
         )
         .replace(
-            "COMUNIDADES_TELEGRAM_TEMAS", f"<ul>\n{telegram_topics_content}\n</ul>"
+            "COMUNIDADES_TELEGRAM_WHATSAPP_TEMAS", f"<ul>\n{topics_content}\n</ul>"
         )
     )
