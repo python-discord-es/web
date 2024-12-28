@@ -71,7 +71,7 @@ def render_pages(template, md):
 def render_index(template):
     # Special case for the index
     _header = {
-        "@title": "index",
+        "@title": "Inicio",
         "@url": "index.html",
     }
     conf = {
