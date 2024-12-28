@@ -57,3 +57,15 @@ h1, h2, h3, h4 {
 .header-logo {
     max-height: 180px;
 }
+
+.h80 {
+    min-height: 80vh;
+}
+
+.card .card__container {
+    min-height: 15rem;
+}
+
+button {
+    padding: 0.5rem 0.2rem;
+}
