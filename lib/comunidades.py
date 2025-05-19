@@ -169,7 +169,7 @@ comunidades = {
                 "img": "img/comunidades/python_vigo.png",
             },
             "Python Zaragoza": {
-                "url": "https://t.me/PythonZaragoza",
+                "url": "https://t.me/python_zgz",
                 "img": "img/comunidades/python_zaragoza.jpg",
             },
         },
