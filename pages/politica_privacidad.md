@@ -23,14 +23,32 @@ y [Discord](https://discord.com).
 ## ¿Qué datos guardamos?
 
 Guardamos datos compartidos en el servidor de Discord para evitar
-*flood* (repetición de mensajes) por una hora y luego son borrados,
-mensajes que desencadenan la protección *anti-spam*, y *phishing*.
+*flood* (repetición de mensajes), mensajes que desencadenan la
+protección *anti-spam* y *phishing*, y un registro general de los
+mensajes enviados en el servidor.
 
 Adicionalmente, guardamos la información de las personas que
 envían ofertas y eventos, como puedes ver en las siguientes secciones.
 
 Las sanciones de personas también son registradas, para tener control
 y registro del hecho.
+
+## ¿Por cuánto tiempo guardamos los datos?
+
+- La detección de *flood* (repetición de mensajes) usa un contador
+  temporal en memoria que se reinicia cada 30 minutos y nunca se
+  guarda en disco.
+- Los registros que sí incluyen datos personales (mensajes enviados
+  al Bot, envíos de ofertas/eventos, y las decisiones de moderación
+  sobre ellos) se eliminan automáticamente **30 días** después de
+  su creación, sin necesidad de intervención manual.
+- Para reconocer contenido de *spam*/*phishing* ya detectado
+  previamente, el Bot guarda únicamente el propio contenido del
+  mensaje (o el *hash* de una imagen) - **sin ningún dato de la
+  persona que lo envió**. Al no incluir esa vinculación, no se
+  considera un dato personal, y por eso se conserva sin fecha de
+  expiración: solo sirve para reconocer el mismo contenido si vuelve
+  a aparecer, nunca para identificar a quién lo compartió.
 
 ## ¿Qué datos no guardamos?
 
@@ -100,14 +118,23 @@ el bot [Rose](https://missrose.org/) que mantiene registros:
 
 La coordinación y moderación del servidor se realiza con un Bot
 hospedado en un servidor privado, el cuál almacena los siguientes
-registros respecto a tu usuario de Discord:
+registros respecto a tu usuario de Discord. Salvo que se indique lo
+contrario, estos registros se eliminan automáticamente 30 días
+después de su creación:
 
-* Mensajes de los usuarios que interactúan con el Bot
-  `(Message ID, User ID, User Public Name, Message Content or Command)`
-* Mensajes que desencadenan los sistemas anti spam/phishing del Bot
-  `(Message ID, User ID, Message Content)`
+* Registro general de los mensajes enviados en el servidor
+  `(Message ID, User ID, User Public Name, Message Content, Canal, Fecha)`
 * Envíos de ofertas y eventos mediante los canales `#envio-ofertas`
-    y `#envio-eventos` `(Message ID, User ID, Message Content)`
+  y `#envio-eventos`, y la decisión de moderación tomada sobre ellos
+  `(Message ID, User ID, User Public Name, Message Content, moderador/a,
+  motivo si fue rechazado)`
+
+Adicionalmente, para reconocer contenido de *spam*/*phishing* ya
+detectado previamente, el Bot guarda el contenido del mensaje o el
+*hash* de una imagen `(Message Content o Image Hash)` - **sin ningún
+dato de la persona que lo envió**. Este registro no tiene fecha de
+expiración, ya que no incluye datos personales (ver sección
+"¿Por cuánto tiempo guardamos los datos?").
 
 ## Derechos europeos de protección de datos
 
@@ -125,7 +152,18 @@ está sujeto a la RGPD tienes ciertos derechos con respecto a esos datos:
   es posible eliminar todos los mensajes de las plataformas de tu usuario.
 
 Para realizar una solicitud de las descritas anteriormente, utiliza
-la información disponible más adelante en la sección Contacto.
+la información disponible más adelante en la sección Contacto. Una vez
+validada la solicitud de eliminación, una persona del equipo de
+Coordinación la ejecuta mediante una herramienta del Bot que primero
+muestra un resumen de los registros encontrados y exige una
+confirmación explícita antes de eliminar nada de forma permanente.
+Como identificamos tus registros por tu ID de Discord (que no cambia,
+a diferencia de tu nombre de usuario), la eliminación cubre todos los
+registros asociados a tu cuenta, incluso si usaste un nombre de
+usuario distinto en el pasado. Esto no elimina tu historial dentro de
+Discord como plataforma (mensajes, roles, sanciones aplicadas
+directamente por Discord, etc.) - solo lo que nuestro Bot almacena
+por su cuenta.
 
 ## Contacto
 
@@ -142,6 +180,10 @@ esta petición. El *username* tiene la forma `username#XXXX` donde las
 `X` representan números (`discorg tag`).
 Mira la [ayuda  de Discord](https://support.discord.com/hc/es)
 para encontrar información sobre tu `username` y `discord tag`.
+
+---
+
+*Última actualización: 2026-08-15.*
 
 
 
