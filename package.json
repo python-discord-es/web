@@ -1,0 +1,56 @@
+{
+  "name": "astroplate",
+  "version": "6.2.1",
+  "description": "Astro and Tailwindcss boilerplate",
+  "author": "zeon.studio",
+  "license": "MIT",
+  "packageManager": "pnpm@11.17.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/jsonGenerator.js && astro dev",
+    "build": "node scripts/jsonGenerator.js && astro build && node scripts/llmsGenerator.js",
+    "preview": "astro preview",
+    "check": "astro check",
+    "format": "prettier -w ./src",
+    "generate-json": "node scripts/jsonGenerator.js",
+    "generate-llms": "node scripts/llmsGenerator.js"
+  },
+  "dependencies": {
+    "@astrojs/check": "0.9.10",
+    "@astrojs/markdown-remark": "^7.2.4",
+    "@astrojs/mdx": "7.0.8",
+    "@astrojs/sitemap": "3.7.3",
+    "@digi4care/astro-google-tagmanager": "^2.0.0",
+    "@justinribeiro/lite-youtube": "^1.9.0",
+    "astro": "7.2.6",
+    "astro-auto-import": "^0.5.2",
+    "date-fns": "^4.4.0",
+    "github-slugger": "^2.0.0",
+    "gray-matter": "^4.0.3",
+    "marked": "^18.0.10",
+    "remark-collapse": "^0.1.2",
+    "remark-toc": "^9.0.0",
+    "sharp": "^0.35.3",
+    "vite": "^8.2.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/typography": "^0.5.20",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "26.3.0",
+    "eslint": "^10.9.0",
+    "glob": "^13.0.6",
+    "node-html-parser": "^9.0.1",
+    "prettier": "^3.9.6",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwind-bootstrap-grid": "^7.0.0",
+    "tailwindcss": "^4.3.3",
+    "turndown": "^7.2.4",
+    "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "typescript": "$typescript",
+    "astro": "$astro"
+  }
+}

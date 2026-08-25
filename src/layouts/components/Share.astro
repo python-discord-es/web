@@ -1,0 +1,56 @@
+---
+import config from "@/config/config.json";
+import Icon from "./Icon.astro";
+
+const { base_url }: { base_url: string } = config.site;
+const {
+  title,
+  description,
+  slug,
+  className,
+}: { title?: string; description?: string; slug?: string; className?: string } =
+  Astro.props;
+---
+
+<ul class={`${className}`}>
+  <li class="inline-block">
+    <a
+      aria-label="botón para compartir en facebook"
+      href={`https://facebook.com/sharer/sharer.php?u=${base_url}/${slug}`}
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      <Icon name="IoLogoFacebook" />
+    </a>
+  </li>
+  <li class="inline-block">
+    <a
+      aria-label="botón para compartir en twitter"
+      href={`https://twitter.com/intent/tweet/?text=${title}&amp;url=${base_url}/${slug}`}
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      <Icon name="IoLogoTwitter" />
+    </a>
+  </li>
+  <li class="inline-block">
+    <a
+      aria-label="botón para compartir en linkedin"
+      href={`https://www.linkedin.com/shareArticle?mini=true&url=${base_url}/${slug}&title=${title}&summary=${description}&source=${base_url}`}
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      <Icon name="IoLogoLinkedin" />
+    </a>
+  </li>
+  <li class="inline-block">
+    <a
+      aria-label="botón para compartir en pinterest"
+      href={`https://pinterest.com/pin/create/button/?url=${base_url}/${slug}&media=&description=${description}`}
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      <Icon name="IoLogoPinterest" />
+    </a>
+  </li>
+</ul>

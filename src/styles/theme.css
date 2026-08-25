@@ -1,0 +1,52 @@
+/**
+ * Design tokens for Python en Español, as plain Tailwind v4 `@theme` custom
+ * properties. Hand-maintained — edit the values below directly (no build
+ * step, unlike the old theme.json -> themeGenerator.js -> this-file pipeline).
+ */
+@theme {
+  /* === Colors === */
+  --color-primary: #132e45;
+  --color-body: #fff;
+  --color-border: #eaeaea;
+  --color-light: #f6f6f6;
+  --color-dark: #040404;
+  --color-yellow: #ffc331;
+  --color-light-blue: #346792;
+  --color-text: #444444;
+  --color-text-dark: #040404;
+  --color-text-light: #717171;
+  --color-link: #346792;
+
+  /* === Darkmode Colors === */
+  --color-darkmode-primary: #fff;
+  --color-darkmode-body: #1c1c1c;
+  --color-darkmode-border: #3e3e3e;
+  --color-darkmode-light: #222222;
+  --color-darkmode-dark: #fff;
+  --color-darkmode-yellow: #ffc331;
+  --color-darkmode-light-blue: #346792;
+  --color-darkmode-text: #b4afb6;
+  --color-darkmode-text-dark: #fff;
+  --color-darkmode-text-light: #b4afb6;
+  --color-darkmode-link: #ffc331;
+
+  /* === Font Families === */
+  --font-primary: Heebo, sans-serif;
+  --font-secondary: Signika, sans-serif;
+
+  /* === Font Sizes (base 16px, 1.2 scale) === */
+  --text-base: 16px;
+  --text-base-sm: 12.8px;
+  --text-h6: 1.2rem;
+  --text-h6-sm: 1.08rem;
+  --text-h5: 1.44rem;
+  --text-h5-sm: 1.296rem;
+  --text-h4: 1.728rem;
+  --text-h4-sm: 1.5552rem;
+  --text-h3: 2.0736rem;
+  --text-h3-sm: 1.86624rem;
+  --text-h2: 2.48832rem;
+  --text-h2-sm: 2.239488rem;
+  --text-h1: 2.985984rem;
+  --text-h1-sm: 2.6873856rem;
+}

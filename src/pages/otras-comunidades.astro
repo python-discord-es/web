@@ -1,0 +1,77 @@
+---
+import CommunityCard from "@/components/CommunityCard.astro";
+import Base from "@/layouts/Base.astro";
+import {
+  discord,
+  telegramLatam,
+  telegramSpain,
+  telegramTopics,
+  whatsappTopics,
+} from "@/lib/data/communities";
+import PageHeader from "@/partials/PageHeader.astro";
+
+const title = "Otras comunidades";
+const description =
+  "Lista de otras comunidades de Python y temáticas relacionadas al mismo lenguaje de programación.";
+---
+
+<Base title={title} description={description}>
+  <PageHeader title={title} />
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="content mb-10">
+            <blockquote>
+              <p>
+                ¿No está la comunidad de tu localidad? ¡Agrégala! Para ello
+                solo debes enviar un Pull-Request (PR) al <a
+                  href="https://github.com/python-discord-es/web"
+                  target="_blank"
+                  rel="noopener">repositorio del sitio web</a
+                > y la podremos incluir.
+              </p>
+              <p>
+                De la misma forma, si quieres adaptar el logo de alguna
+                comunidad, arreglar un enlace, o ajustar el nombre, envía un
+                PR.
+              </p>
+            </blockquote>
+          </div>
+
+          <h2 class="mb-6">Discord</h2>
+          <div class="mb-14 grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-5">
+            {discord.map((community) => <CommunityCard community={community} />)}
+          </div>
+
+          <h2 class="mb-6">Telegram</h2>
+
+          <h3 class="mb-6">Latinoamérica</h3>
+          <div class="mb-14 grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-5">
+            {telegramLatam.map((community) => (
+              <CommunityCard community={community} />
+            ))}
+          </div>
+
+          <h3 class="mb-6">España</h3>
+          <div class="mb-14 grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-5">
+            {telegramSpain.map((community) => (
+              <CommunityCard community={community} />
+            ))}
+          </div>
+
+          <h3 class="mb-6">Grupos por temática</h3>
+          <ul class="mb-6 list-disc pl-6">
+            {[...telegramTopics, ...whatsappTopics].map((community) => (
+              <li>
+                <a href={community.url} target="_blank" rel="noopener noreferrer">
+                  {community.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

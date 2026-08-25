@@ -1,0 +1,66 @@
+{
+  "site": {
+    "title": "Python en Español",
+    "base_url": "https://hablemospython.dev",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_darkmode": "/images/logo-darkmode.png",
+    "logo_width": "40",
+    "logo_height": "40",
+    "logo_text": "Python en Español"
+  },
+
+  "settings": {
+    "search": true,
+    "sticky_header": true,
+    "theme_switcher": true,
+    "default_theme": "system",
+    "pagination": 8,
+    "summary_length": 200,
+    "blog_folder": "blog"
+  },
+
+  "announcement": {
+    "enable": false,
+    "content": "",
+    "expire_days": 7
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Python en Español © 2026"
+  },
+
+  "navigation_button": {
+    "enable": false,
+    "label": "Discord",
+    "link": "https://discord.gg/hablemospython"
+  },
+
+  "google_tag_manager": {
+    "enable": false,
+    "gtm_id": "GTM-XXXXXX"
+  },
+
+  "disqus": {
+    "enable": false,
+    "shortname": "",
+    "settings": {}
+  },
+
+  "metadata": {
+    "meta_author": "Python en Español",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "La comunidad hispanohablante de Python más grande del mundo"
+  },
+
+  "llms": {
+    "generate_llms_txt": true,
+    "generate_llms_full_txt": true,
+    "generate_individual_md": true,
+    "include": [],
+    "exclude": []
+  }
+}

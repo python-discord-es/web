@@ -1,0 +1,14 @@
+packages:
+  - "."
+
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true
+
+minimumReleaseAgeExclude:
+  - '@astrojs/check@0.9.10'
+  - '@astrojs/mdx@7.0.4 || 7.0.8'
+  - '@types/node@26.1.2 || 26.3.0'
+  - astro@7.1.4 || 7.2.6
+  - '@astrojs/markdown-satteri@0.3.8'

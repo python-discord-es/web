@@ -1,28 +1,44 @@
-# Environments
-env/
+# build output
+dist/
+.output/
+.json/
 
-# Generated pages
-aprendepython.html
-coc.html
-comienzacomunidad.html
-cursosylibros.html
-faq.html
-normativa.html
-ofertas.html
-otrascomunidades.html
-politica_privacidad.html
-preguntarayudar.html
-principiantes.html
-tutoriales.html
-atribuciones.html
-psf.html
-index.html
-pyladies.html
-transmisiones.html
-podcast.html
+# TypeScript incremental build cache
+*.tsbuildinfo
 
-# aspell
-*.bak
+# stray temp file left behind if scripts/llmsGenerator.js is killed mid-run
+astro.config.llms-temp-*.mjs
 
-# other files
-__pycache__
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.vscode
+
+
+# environment variables
+.env
+.env.production
+.env.local
+.env.*.local
+
+# macOS-specific files
+.DS_Store
+
+# ignore .astro directory
+.astro
+
+# ide
+.idea/
+
+# skills
+.agents/
+AGENTS.md
+.mcp.json
+skills-lock.json
+CLAUDE.md

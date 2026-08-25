@@ -1,0 +1,40 @@
+---
+// Native, JS-light accordion (no React). Behavior comes from toggling the
+// `.active` class on click; the actual open/close animation is pure CSS
+// (see .accordion-content / .accordion.active in src/styles/components.css).
+export interface Props {
+  title: string;
+  className?: string;
+}
+
+const { title, className } = Astro.props as Props;
+---
+
+<div class={`accordion ${className ?? ""}`}>
+  <button type="button" class="accordion-header">
+    {title}
+    <svg
+      class="accordion-icon"
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill="currentColor"
+        d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"
+      ></path>
+    </svg>
+  </button>
+  <div class="accordion-content">
+    <slot />
+  </div>
+</div>
+
+<script>
+  // one delegated listener covers every accordion on the page, however many
+  // <Accordion> instances were rendered
+  document.querySelectorAll(".accordion-header").forEach((header) => {
+    header.addEventListener("click", () => {
+      header.closest(".accordion")?.classList.toggle("active");
+    });
+  });
+</script>

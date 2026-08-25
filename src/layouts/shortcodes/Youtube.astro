@@ -1,0 +1,21 @@
+---
+// Thin wrapper around the framework-agnostic <lite-youtube> web component
+// (no React needed — the previous version only used React to lazy-load it).
+export interface Props {
+  id: string;
+  title: string;
+  className?: string;
+}
+
+const { id, title, className } = Astro.props as Props;
+---
+
+<lite-youtube
+  videoid={id}
+  videotitle={title}
+  class={`rounded-lg ${className ?? ""}`}
+></lite-youtube>
+
+<script>
+  import("@justinribeiro/lite-youtube");
+</script>

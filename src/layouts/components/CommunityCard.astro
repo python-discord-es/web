@@ -1,0 +1,31 @@
+---
+import type { Community } from "@/lib/data/communities";
+import ImageMod from "./ImageMod.astro";
+
+interface Props {
+  community: Community;
+}
+
+const { community } = Astro.props as Props;
+---
+
+<a
+  href={community.url}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="block rounded-lg bg-light p-4 text-center transition hover:bg-primary hover:text-white dark:bg-darkmode-light dark:hover:bg-darkmode-primary"
+>
+  {
+    community.img && (
+      <ImageMod
+        src={community.img}
+        alt={community.name}
+        width={80}
+        height={80}
+        class="mx-auto mb-3 rounded-full"
+        format="webp"
+      />
+    )
+  }
+  <span class="font-secondary font-medium">{community.name}</span>
+</a>

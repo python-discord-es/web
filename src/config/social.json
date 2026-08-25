@@ -1,0 +1,24 @@
+{
+  "main": [
+    {
+      "name": "discord",
+      "icon": "FaDiscord",
+      "link": "https://discord.gg/hablemospython"
+    },
+    {
+      "name": "telegram",
+      "icon": "FaTelegram",
+      "link": "https://t.me/PythonEsp"
+    },
+    {
+      "name": "youtube",
+      "icon": "FaYoutube",
+      "link": "https://youtube.com/@hablemospython"
+    },
+    {
+      "name": "github",
+      "icon": "FaGithub",
+      "link": "https://github.com/python-discord-es"
+    }
+  ]
+}

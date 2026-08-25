@@ -1,0 +1,106 @@
+{
+  "main": [
+    {
+      "name": "Inicio",
+      "url": "/"
+    },
+    {
+      "name": "Recursos",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Principiantes",
+          "url": "/principiantes"
+        },
+        {
+          "name": "Cursos y libros",
+          "url": "/cursos-y-libros"
+        },
+        {
+          "name": "Preguntas frecuentes",
+          "url": "/faq"
+        }
+      ]
+    },
+    {
+      "name": "Comunidad",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Comienza una comunidad",
+          "url": "/comienza-comunidad"
+        },
+        {
+          "name": "Otros grupos e iniciativas",
+          "url": "/otras-comunidades"
+        },
+        {
+          "name": "Python Software Foundation",
+          "url": "/psf"
+        }
+      ]
+    },
+    {
+      "name": "Información",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Blog",
+          "url": "/blog"
+        },
+        {
+          "name": "Normativa",
+          "url": "/normativa"
+        },
+        {
+          "name": "Preguntar y ayudar",
+          "url": "/preguntar-ayudar"
+        },
+        {
+          "name": "Ofertas de trabajo",
+          "url": "/ofertas"
+        }
+      ]
+    },
+    {
+      "name": "Iniciativas",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "PyLadies en Español",
+          "url": "/pyladies"
+        },
+        {
+          "name": "Podcast: Bit a bit",
+          "url": "/categories/podcast"
+        },
+        {
+          "name": "Aprende Python Construyendo",
+          "url": "/aprende-python"
+        },
+        {
+          "name": "Transmisiones",
+          "url": "/transmisiones"
+        }
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "name": "Política de privacidad",
+      "url": "/politica-privacidad"
+    },
+    {
+      "name": "Atribuciones",
+      "url": "/atribuciones"
+    },
+    {
+      "name": "Código de conducta",
+      "url": "/codigo-de-conducta"
+    }
+  ]
+}
