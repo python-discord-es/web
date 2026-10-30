@@ -10,11 +10,13 @@ export interface Props {
 const { id, title, className } = Astro.props as Props;
 ---
 
-<lite-youtube
-  videoid={id}
-  videotitle={title}
-  class={`rounded-lg ${className ?? ""}`}
-></lite-youtube>
+<div class="mx-auto my-8 w-full max-w-xl px-4 sm:px-8">
+  <lite-youtube
+    videoid={id}
+    videotitle={title}
+    class={`rounded-lg ${className ?? ""}`}
+  ></lite-youtube>
+</div>
 
 <script>
   import("@justinribeiro/lite-youtube");
