@@ -657,6 +657,12 @@ async function generateLlmsFiles() {
       if (seenPaths.has(urlPath)) continue;
       seenPaths.add(urlPath);
 
+      // Skip Astro redirect stubs (<meta http-equiv="refresh">)
+      if (/http-equiv="refresh"/i.test(fs.readFileSync(file, "utf8"))) {
+        console.log(`   ⤷ Skipping redirect: ${urlPath}`);
+        continue;
+      }
+
       const pageData = await processHtmlFile(file, llms);
 
       if (!pageData.title) {
