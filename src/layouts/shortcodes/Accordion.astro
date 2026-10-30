@@ -2,15 +2,21 @@
 // Native, JS-light accordion (no React). Behavior comes from toggling the
 // `.active` class on click; the actual open/close animation is pure CSS
 // (see .accordion-content / .accordion.active in src/styles/components.css).
+// Each accordion has an anchor id (the `id` prop, or a slug of the title) so
+// a URL like /faq#some-question opens it directly.
+import { slugify } from "@/lib/utils/textConverter";
+
 export interface Props {
   title: string;
+  id?: string;
   className?: string;
 }
 
-const { title, className } = Astro.props as Props;
+const { title, id, className } = Astro.props as Props;
+const anchor = id ?? slugify(title);
 ---
 
-<div class={`accordion ${className ?? ""}`}>
+<div id={anchor} class={`accordion ${className ?? ""}`}>
   <button type="button" class="accordion-header">
     {title}
     <svg
@@ -30,11 +36,30 @@ const { title, className } = Astro.props as Props;
 </div>
 
 <script>
-  // one delegated listener covers every accordion on the page, however many
-  // <Accordion> instances were rendered
-  document.querySelectorAll(".accordion-header").forEach((header) => {
-    header.addEventListener("click", () => {
-      header.closest(".accordion")?.classList.toggle("active");
+  const accordions = document.querySelectorAll<HTMLElement>(".accordion");
+
+  // open (and scroll to) the accordion named by the URL hash
+  const openFromHash = () => {
+    const id = decodeURIComponent(location.hash.slice(1));
+    const target = id ? document.getElementById(id) : null;
+    if (target?.classList.contains("accordion")) {
+      target.classList.add("active");
+      target.scrollIntoView({ block: "start" });
+    }
+  };
+
+  accordions.forEach((accordion) => {
+    accordion.querySelector(".accordion-header")?.addEventListener("click", () => {
+      const open = accordion.classList.toggle("active");
+      // keep the URL shareable: opening an item puts its anchor in the hash
+      history.replaceState(
+        null,
+        "",
+        open ? `#${accordion.id}` : location.pathname + location.search,
+      );
     });
   });
+
+  openFromHash();
+  window.addEventListener("hashchange", openFromHash);
 </script>
