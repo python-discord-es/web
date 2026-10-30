@@ -243,6 +243,25 @@ ti, puedes probar [uv](https://docs.astral.sh/uv/).
 
 </Accordion>
 
+<Accordion title="¿Qué es uv? ¿Tengo que usarlo en lugar de pip?">
+
+[uv](https://docs.astral.sh/uv/) es una herramienta más nueva para instalar
+paquetes y gestionar entornos virtuales y versiones de Python. Puede usarse en
+lugar de `pip` y `venv`, y suele ser bastante más rápida.
+
+**No es obligatorio.** `pip` y `venv` siguen siendo la forma estándar, vienen
+con Python y son lo que explican la mayoría de los cursos y libros, así que
+puedes seguir usándolos con normalidad. Elige la que te resulte más cómoda:
+
+- Con pip: `python -m venv nombre` y luego `pip install paquete`.
+- Con uv: `uv venv` y luego `uv pip install paquete`, o `uv add paquete` si
+  usas un proyecto con `pyproject.toml`.
+
+Lo importante en ambos casos es lo mismo: usar un entorno virtual por
+proyecto.
+
+</Accordion>
+
 <Accordion title="¿Dónde puedo practicar?">
 
 Además de los [cursos y libros](/cursos-y-libros) recomendados:
