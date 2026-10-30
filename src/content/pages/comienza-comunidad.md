@@ -140,7 +140,7 @@ comunidad.
 
 Principalmente para transparentar el funcionamiento interno de la comunidad,
 implementar un sistema de membresías para gente interesada, optar a beneficios
-legales, o incluso de servicios online (Google Suite, servicios Microsoft,
+legales, o incluso de servicios online (Google Workspace, servicios Microsoft,
 GitHub, Canva, etc.) ya que al ser una entidad sin fines de lucro,
 se formaliza que tu comunidad no es una comunidad gubernamental, y también
 es una asociación/corporación/fundación reconocida en tu país.

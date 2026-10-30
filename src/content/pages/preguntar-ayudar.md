@@ -1,10 +1,10 @@
 ---
 title: "Preguntar y ayudar"
-description: "Recomendaciones para Preguntar y Ayudar mejor"
+description: "Recomendaciones para preguntar y ayudar mejor"
 draft: false
 ---
 
-## ¿Cómo Preguntar?
+## ¿Cómo preguntar?
 
 Al tener una duda, puede parecer obvio que existe información
 que las personas no tienen, por eso intenta incluir un contexto
@@ -53,12 +53,12 @@ for i in range(a):
       break
 ```
 
-### ¿Necesitas ayuda con una Tarea?
+### ¿Necesitas ayuda con una tarea?
 
 Comparte tu solución parcial, o tus ideas para que la gente te pueda ayudar.
 No se harán tareas sin tener un esfuerzo inicial de tu parte.
 
-## ¿Cómo Ayudar?
+## ¿Cómo ayudar?
 
 Ayudar a personas es difícil debido a que no tenemos mucha información
 relacionada con la persona, su nivel de conocimiento, o tema general del cual

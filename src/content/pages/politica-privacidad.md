@@ -77,7 +77,7 @@ son visibles para todas las personas del equipo de Coordinación.
 Verificamos constantemente la seguridad de dicho servidor
 para manejar la información de cada persona que es recopilada
 por nuestro bot, y no guardamos más información que la descrita
-en la sección de Servicios. Nuestra política es ser transparentes
+en la sección «Detalles de los servicios». Nuestra política es ser transparentes
 con el proceso, con lo cual nuestro Bot de moderación es de acceso
 abierto, con lo que cualquier persona puede verificar qué datos
 se escriben en qué procesos.
@@ -89,7 +89,7 @@ personas. Se mantienen en un servidor privado para el control
 de amonestaciones, incumplimiento del reglamento, y registro de
 ofertas, eventos y spam.
 
-## Detalles de los Servicios
+## Detalles de los servicios
 
 En esta sección puedes encontrar los datos que almacenamos provenientes
 de nuestras dos plataformas de comunicación.
@@ -100,7 +100,7 @@ de privacidad de [Telegram](https://telegram.org/privacy) y
 [Discord](https://discord.com/privacy), para saber cómo dichas
 plataformas controlan tus datos.
 
-### Sitio Web
+### Sitio web
 
 No guardamos ninguna información, ya que no utilizamos ningún servicio
 de seguimiento. Si utilizas la dirección de contacto descrita al final
@@ -172,17 +172,15 @@ por su cuenta.
 En primera instancia, te recomendamos ponerte en contacto con alguna
 persona con el rol **Coordinación** en el
 <a href="https://discord.gg/35E3Ph7Fez">servidor de Discord</a>
-o directamente con el dueño actual del servidor: `cmaureir#4041`.
+o directamente con el dueño actual del servidor: `cmaureir`.
 
 En caso que necesites enviar un correo electrónico, puedes escribir
 a `contacto@hablemospython.dev`.
 
-Recuerda incluir la información de tu cuenta de Discord al realizar
-esta petición. El *username* tiene la forma `username#XXXX` donde las
-`X` representan números (`discorg tag`).
-Mira la [ayuda  de Discord](https://support.discord.com/hc/es)
-para encontrar información sobre tu `username` y `discord tag`.
+Recuerda incluir tu nombre de usuario de Discord al realizar esta
+petición. Mira la [ayuda de Discord](https://support.discord.com/hc/es)
+para encontrar información sobre tu nombre de usuario.
 
 ---
 
-*Última actualización: 2026-08-15.*
+*Última actualización: 2026-10-30.*

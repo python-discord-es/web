@@ -13,6 +13,6 @@ social:
     link: https://discord.gg/hablemospython
 ---
 
-BitaBit es el podcast oficial de Python en Español, conducido por
+Bit a bit es el podcast oficial de Python en Español, conducido por
 integrantes de la comunidad que entrevistan a invitados especiales sobre su
 camino con Python y la tecnología.

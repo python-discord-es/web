@@ -1,6 +1,6 @@
 ---
 title: "Transmisiones"
-description: "Comienza o únete a un proyecto para aprender Python desarrollando un proyecto"
+description: "Transmisiones, grupos de estudio y otras actividades que se realizan en el servidor de Discord de la comunidad"
 draft: false
 ---
 

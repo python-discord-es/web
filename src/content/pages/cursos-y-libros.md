@@ -1,6 +1,6 @@
 ---
-title: "Cursos y Libros"
-description: "Cursos, Libros y material para que puedas aprender Python desde cero, o mejorar tus conocimientos actuales."
+title: "Cursos y libros"
+description: "Cursos, libros y material para que puedas aprender Python desde cero, o mejorar tus conocimientos actuales."
 draft: false
 ---
 
@@ -36,7 +36,7 @@ tiene una página con material recopilado muy buena en caso de que necesites má
 
 * [Python 3 para impacientes](http://python-para-impacientes.blogspot.com/p/indice.html)
 
-## Recursos en Inglés
+## Recursos en inglés
 
 En caso de no tener problema con leer en inglés, la oferta es mucho mayor:
 

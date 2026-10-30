@@ -47,7 +47,7 @@ draft: false
 * Dinos con qué versión de Python estás trabajando, sobre todo si
   tienes problemas de instalación.
 
-## Ten Paciencia y ¡sigue aprendiendo!
+## Ten paciencia y ¡sigue aprendiendo!
 
 A veces no tendrás respuestas inmediatas debido a que las personas que
 suelen ayudar en nuestras plataformas son voluntarias, con lo que te pedimos

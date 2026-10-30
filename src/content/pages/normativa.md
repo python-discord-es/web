@@ -4,7 +4,7 @@ description: "La comunidad está abierta a todas las personas, y en ella se habl
 draft: false
 ---
 
-## Normas Generales
+## Normas generales
 
 Recuerda que hay gente que está comenzando con programación o Python, nada es
 obvio y todas las preguntas son bienvenidas.
@@ -23,8 +23,8 @@ Sé amable y paciente, especialmente con quienes están empezando.
 - No hace falta que preguntes «¿alguien me puede ayudar con X?» o «¿hay algún
   experto en X?», pregunta directamente
 - [Preguntas Frecuentes](/faq)
-- La versión 2.7 de Python ha llegado a su fin de vida. Si tienes que empezar
-  que sea con una 3.7 o superior
+- La versión 2.7 de Python ha llegado al final de su vida útil. Si tienes que
+  empezar, que sea con la última versión estable de Python 3
 - Si eres principiante te recomendamos [lectura para
     empezar](/principiantes)
 - Romper el código de conducta o cualquiera de estas normas podrá suponer la
