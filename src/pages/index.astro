@@ -14,6 +14,33 @@ const homepage = await getListPage("homepage", "-index");
 
 const { banner, features } = homepage.data;
 
+const highlights = [
+  {
+    title: "Ayuda cuando la necesitas",
+    text: "Pregunta tus dudas de Python, sea cual sea tu nivel, y recibe respuestas de otras personas de la comunidad.",
+    link: "/discord/",
+    label: "Cómo empezar",
+  },
+  {
+    title: "Aprender en compañía",
+    text: "Forma un equipo, construye un proyecto o súmate a un grupo de estudio.",
+    link: "/aprende-python/",
+    label: "Aprende construyendo",
+  },
+  {
+    title: "Podcast y transmisiones",
+    text: "Conversaciones con personas de la comunidad y actividades en vivo dentro del servidor.",
+    link: "/podcast/",
+    label: "Escuchar el podcast",
+  },
+  {
+    title: "Ofertas y eventos",
+    text: "Un espacio moderado para compartir oportunidades de trabajo y eventos de Python.",
+    link: "/ofertas/",
+    label: "Ver las normas",
+  },
+];
+
 const initiatives = [
   {
     title: "PyLadies en Español",
@@ -23,7 +50,7 @@ const initiatives = [
   {
     title: "Podcast: Bit a bit",
     image: "/images/site/bit_a_bit.png",
-    link: "/categories/podcast/",
+    link: "/podcast/",
   },
   {
     title: "Aprende Python Construyendo",
@@ -88,6 +115,9 @@ const initiatives = [
               Telegram
             </a>
           </div>
+          <p class="mb-6">
+            <a class="underline" href="/discord/">¿Primera vez en Discord? Mira cómo empezar</a>
+          </p>
           <p class="mb-6 text-lg">{flags}</p>
           <p set:html={markdownify(banner.content)} class="mb-8" />
         </div>
@@ -95,6 +125,29 @@ const initiatives = [
     </div>
   </section>
   <!-- /Banner -->
+
+  <!-- Qué encontrarás -->
+  <section class="section-sm">
+    <div class="container">
+      <h2 class="mb-10 text-center">Qué encontrarás aquí</h2>
+      <div class="row justify-center">
+        {
+          highlights.map((item) => (
+            <div class="mb-8 md:col-6 lg:col-3">
+              <div class="flex h-full flex-col rounded-2xl bg-light p-6 dark:bg-darkmode-light">
+                <h3 class="mb-3 text-xl">{item.title}</h3>
+                <p class="mb-4">{item.text}</p>
+                <a class="mt-auto font-semibold" href={item.link}>
+                  {item.label}
+                </a>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+  <!-- /Qué encontrarás -->
 
   <!-- Features -->
   {
@@ -139,6 +192,30 @@ const initiatives = [
     ))
   }
   <!-- /Features -->
+
+  <!-- Sin comunidad cerca -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="rounded-2xl bg-light p-8 text-center dark:bg-darkmode-light md:p-12">
+        <h2 class="mb-4">¿No tienes una comunidad cerca?</h2>
+        <p class="mx-auto mb-8 max-w-2xl text-lg">
+          Aquí puedes quedarte. Personas de muchos países se reúnen para aprender
+          y ayudarse, estés donde estés. Y si quieres crear la comunidad de tu
+          ciudad o país, te acompañamos.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <a class="btn btn-primary" href="/discord/">Cómo empezar en Discord</a>
+          <a class="btn btn-outline-primary" href="/quienes-somos/">
+            Quiénes somos
+          </a>
+          <a class="btn btn-outline-primary" href="/comienza-comunidad/">
+            Comienza una comunidad
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Sin comunidad cerca -->
 
   <!-- Iniciativas -->
   <section class="section-sm">

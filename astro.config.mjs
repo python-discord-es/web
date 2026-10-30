@@ -50,15 +50,15 @@ export default defineConfig({
     "/preguntarayudar.html": "/preguntar-ayudar/",
     "/ofertas.html": "/ofertas/",
     "/pyladies.html": "/pyladies/",
-    "/podcast.html": "/categories/podcast/",
+    "/podcast.html": "/podcast/",
     "/aprendepython.html": "/aprende-python/",
     "/transmisiones.html": "/transmisiones/",
     // removed /tags and /authors sections
     "/tags": "/categories/",
-    "/tags/podcast": "/categories/podcast/",
+    "/tags/podcast": "/podcast/",
     "/tags/blog": "/categories/blog/",
     "/authors": "/blog/",
-    "/authors/equipo-bit-a-bit": "/categories/podcast/",
+    "/authors/equipo-bit-a-bit": "/podcast/",
   },
 
   integrations: [

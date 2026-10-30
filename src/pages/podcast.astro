@@ -1,0 +1,64 @@
+---
+import BlogCard from "@/components/BlogCard.astro";
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { sortByDate } from "@/lib/utils/sortFunctions";
+import taxonomyFilter from "@/lib/utils/taxonomyFilter";
+import PageHeader from "@/partials/PageHeader.astro";
+
+const title = "Podcast: Bit a bit";
+const description =
+  "Bit a bit es el podcast de Python en Español: conversaciones con personas de la comunidad hispanohablante sobre su camino con Python y la tecnología.";
+
+const posts = await getSinglePage("blog");
+const episodes = sortByDate(taxonomyFilter(posts, "categories", "podcast"));
+---
+
+<Base title={title} description={description}>
+  <PageHeader title={title} />
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-8">
+          <div class="content">
+            <p>
+              Bit a bit es el podcast oficial de Python en Español. Lo conducen
+              integrantes de la comunidad y en cada episodio conversan con una
+              persona invitada sobre cómo llegó a Python, en qué trabaja y qué
+              ha aprendido por el camino.
+            </p>
+            <h3>Dónde escucharlo</h3>
+            <p>
+              Los episodios están en nuestro canal de{" "}
+              <a
+                href="https://youtube.com/@hablemospython"
+                target="_blank"
+                rel="noopener">YouTube</a
+              >. También puedes verlos aquí, en la página de cada episodio.
+            </p>
+            <h3>Cuéntanos qué te pareció</h3>
+            <p>
+              Cada episodio tiene su propio hilo en el servidor de{" "}
+              <a href="/discord/">Discord</a>, donde puedes dejar tus comentarios
+              y conversar con otras personas de la comunidad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-sm pt-0">
+    <div class="container">
+      <h2 class="h3 mb-10 text-center">Episodios</h2>
+      <div class="row">
+        {
+          episodes.map((post) => (
+            <div class="mb-14 md:col-6 lg:col-3">
+              <BlogCard data={post} />
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

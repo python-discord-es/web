@@ -22,6 +22,7 @@ const blogCollection = defineCollection({
     date: z.coerce.date().optional(),
     image: z.string().optional(),
     author: z.string().default("Admin"),
+    guest: z.string().optional(),
     // Use factory functions for mutable array defaults (Zod 4 best practice)
     categories: z.array(z.string()).default(() => ["others"]),
     tags: z.array(z.string()).default(() => ["others"]),

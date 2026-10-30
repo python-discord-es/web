@@ -7,7 +7,7 @@ import PostImage from "./PostImage.astro";
 
 const { blog_folder }: { blog_folder: string } = config.settings;
 const { data } = Astro.props;
-const { title, image, date, author, categories } = data.data;
+const { title, image, date, author, categories, guest } = data.data;
 ---
 
 <div class="flex h-full flex-col bg-body dark:bg-darkmode-body">
@@ -19,11 +19,12 @@ const { title, image, date, author, categories } = data.data;
     height={400}
     fit="cover"
   />
-  <h4 class="mb-3 line-clamp-2 min-h-[2lh]">
+  <h4 class={`line-clamp-2 min-h-[2lh] ${guest ? "mb-1" : "mb-3"}`}>
     <a href={`/${blog_folder}/${data.id}/`}>
       {title}
     </a>
   </h4>
+  {guest && <p class="mb-3 line-clamp-1">Con {guest}</p>}
   <ul class="mb-4">
     <li class="mr-4 inline-block">
       <Icon name="FaRegUserCircle" className="mr-2 -mt-1 inline-block" />

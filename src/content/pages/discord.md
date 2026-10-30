@@ -45,7 +45,7 @@ No tienes que hacer todo esto el primer día, pero esta es una buena secuencia:
   comparten en el canal `hagamos-equipo`.
 - **Transmisiones y grupos de estudio:** en [Transmisiones](/transmisiones/)
   encontrarás el tipo de actividades que se organizan en el servidor.
-- **El podcast:** [Bit a bit](/categories/podcast/) es el podcast de la
+- **El podcast:** [Bit a bit](/podcast/) es el podcast de la
   comunidad, con entrevistas a personas de la comunidad hispanohablante de
   Python.
 
