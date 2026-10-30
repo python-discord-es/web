@@ -8,9 +8,7 @@ En primer lugar, queremos dejar claro que hay sitios específicos para publicar
 ofertas de empleo del sector tecnológico, y que nos consta que funcionan
 bastante bien. Personalmente, recomendamos:
 
-- [Betabeers](https://betabeers.com/post/), por supuesto. Obligada cita
-  mensual. Precio más que razonable para el resultado obtenido.
-- [Job&Talent](http://www.jobandtalent.com/es/sobre-nosotros),
+- [Job&Talent](https://www.jobandtalent.com/),
   empresa española, con un enfoque muy interesante de "match" entre empresa y
   empleado.
 - [LinkedIn](https://es.linkedin.com/in/ofertasdeempleo), el gigante del empleo.

@@ -2,6 +2,7 @@
 import BlogCard from "@/components/BlogCard.astro";
 import Icon from "@/components/Icon.astro";
 import Share from "@/components/Share.astro";
+import config from "@/config/config.json";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import dateFormat from "@/lib/utils/dateFormat";
 import similarItems from "@/lib/utils/similarItems";
@@ -86,7 +87,7 @@ const { title, description, author, categories, image, date, tags } = post.data;
               className="social-icons"
               title={title}
               description={description}
-              slug={post.id}
+              url={new URL(Astro.url.pathname, config.site.base_url).href}
             />
           </div>
         </div>

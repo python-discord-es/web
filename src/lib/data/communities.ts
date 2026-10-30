@@ -28,11 +28,6 @@ export const discord: Community[] = [
     url: "https://discord.gg/Fr2HUqv64P",
     img: "/images/communities/python_lapaz.jpg",
   },
-  {
-    name: "Python Panama",
-    url: "https://discord.gg/3mEkGHK2",
-    img: "/images/communities/python_panama.jpg",
-  },
 ];
 
 export const telegramLatam: Community[] = [
