@@ -1,8 +1,7 @@
 {
-  "name": "astroplate",
+  "name": "hablemospython-web",
   "version": "6.2.1",
-  "description": "Astro and Tailwindcss boilerplate",
-  "author": "zeon.studio",
+  "description": "Sitio web de Python en Español",
   "license": "MIT",
   "packageManager": "pnpm@11.17.0",
   "type": "module",
