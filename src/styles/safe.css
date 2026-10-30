@@ -10,12 +10,3 @@ input#nav-toggle:checked + label #hide-button {
 input#nav-toggle:checked ~ #nav-menu {
   @apply max-lg:block;
 }
-
-/* swiper pagination */
-.swiper-pagination-bullet {
-  @apply size-2.5! bg-light! opacity-100! dark:bg-darkmode-light!;
-}
-
-.swiper-pagination-bullet-active {
-  @apply size-4! bg-primary! dark:bg-darkmode-primary!;
-}

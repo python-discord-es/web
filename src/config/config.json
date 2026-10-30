@@ -22,32 +22,13 @@
     "blog_folder": "blog"
   },
 
-  "announcement": {
-    "enable": false,
-    "content": "",
-    "expire_days": 7
-  },
-
   "params": {
-    "contact_form_action": "#",
     "copyright": "Python en Español © 2026"
-  },
-
-  "navigation_button": {
-    "enable": false,
-    "label": "Discord",
-    "link": "https://discord.gg/hablemospython"
   },
 
   "google_tag_manager": {
     "enable": false,
     "gtm_id": "GTM-XXXXXX"
-  },
-
-  "disqus": {
-    "enable": false,
-    "shortname": "",
-    "settings": {}
   },
 
   "metadata": {
