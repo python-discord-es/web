@@ -1,6 +1,6 @@
 /**
  * Design tokens for Python en Español, as plain Tailwind v4 `@theme` custom
- * properties. Hand-maintained — edit the values below directly (no build
+ * properties. Hand-maintained: edit the values below directly (no build
  * step, unlike the old theme.json -> themeGenerator.js -> this-file pipeline).
  */
 @theme {
