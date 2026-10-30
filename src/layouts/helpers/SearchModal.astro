@@ -83,7 +83,6 @@
 </div>
 
 <script>
-  import { plainify, titleify } from "@/lib/utils/textConverter";
 
   interface SearchItem {
     group: string;
@@ -139,7 +138,7 @@
     highlight(text, substring, (part) => `<span class="underline">${part}</span>`);
 
   const matchContent = (content: string, substring: string) => {
-    const plainContent = plainify(content);
+    const plainContent = content;
     const position = plainContent.toLowerCase().indexOf(substring.toLowerCase());
     if (position === -1) return escapeHtml(plainContent.slice(0, 80));
 
@@ -252,7 +251,7 @@
         .map(
           (g) => `
         <div class="search-result-group">
-          <p class="search-result-group-title">${escapeHtml(titleify(g.group))}</p>
+          <p class="search-result-group-title">${escapeHtml(g.group)}</p>
           ${g.items.map((item) => renderItem(item, searchString)).join("")}
         </div>`,
         )
