@@ -7,11 +7,10 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/llmsGenerator.js",
+    "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "format": "prettier -w ./src",
-    "generate-llms": "node scripts/llmsGenerator.js"
+    "format": "prettier -w ./src"
   },
   "dependencies": {
     "@astrojs/check": "0.9.12",
@@ -34,12 +33,10 @@
     "@tailwindcss/typography": "^0.5.20",
     "@tailwindcss/vite": "^4.3.3",
     "@types/node": "26.6.6",
-    "node-html-parser": "^9.0.5",
     "prettier": "^3.9.10",
     "prettier-plugin-astro": "^1.1.2",
     "tailwind-bootstrap-grid": "^7.0.0",
     "tailwindcss": "^4.3.3",
-    "turndown": "^7.2.4",
     "typescript": "^6.0.3"
   },
   "overrides": {

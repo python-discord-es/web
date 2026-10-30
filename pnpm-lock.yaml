@@ -63,9 +63,6 @@ importers:
       '@types/node':
         specifier: 26.6.6
         version: 26.6.6
-      node-html-parser:
-        specifier: ^9.0.5
-        version: 9.0.5
       prettier:
         specifier: ^3.9.10
         version: 3.9.10
@@ -78,9 +75,6 @@ importers:
       tailwindcss:
         specifier: ^4.3.3
         version: 4.3.3
-      turndown:
-        specifier: ^7.2.4
-        version: 7.2.4
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -676,9 +670,6 @@ packages:
   '@mdx-js/mdx@3.1.1':
     resolution: {integrity: sha512-f6ZO2ifpwAQIpzGWaBQT2TXxPv6z3RBzQKpVftEWN78Vl/YweF1uwussDx8ECAXVtr3Rs89fKyG9YlzUs9DyGQ==}
 
-  '@mixmark-io/domino@2.2.0':
-    resolution: {integrity: sha512-Y28PR25bHXUg88kCV7nivXrP2Nj2RueZ3/l/jdx6J9f8J4nsEGcgX0Qe6lt7Pa+J79+kPiJU3LguR6O/6zrLOw==}
-
   '@napi-rs/wasm-runtime@1.2.4':
     resolution: {integrity: sha512-AJxoUD2/15ESHbvpcyjU274nsAPLuOtPHCk0vKJM5pj//Fg/B1FXNWjPnXTT9PymCYYiHo4zPj0ZomXBKhoy7g==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=23.5.0}
@@ -1164,9 +1155,6 @@ packages:
   crossws@0.3.5:
     resolution: {integrity: sha512-ojKiDvcmByhwa8YYqbQI/hg7MEU0NC03+pSdEq4ZUnZR9xXpwk7E43SMNGkn+JxJGPFtNvQ48+vV2p+P1ml5PA==}
 
-  css-select@5.2.2:
-    resolution: {integrity: sha512-TizTzUddG/xYLA3NXodFM0fSbNizXjOKhqiQQwvhlspadZokn1KDy0NZFS0wuEubIYAV5/c1/lAr0TaaFXEXzw==}
-
   css-select@6.0.0:
     resolution: {integrity: sha512-rZZVSLle8v0+EY8QAkDWrKhpgt6SA5OtHsgBnsj6ZaLb5dmDVOWUDtQitd9ydxxvEjhewNudS6eTVU7uOyzvXw==}
 
@@ -1177,10 +1165,6 @@ packages:
   css-tree@3.2.1:
     resolution: {integrity: sha512-X7sjQzceUhu1u7Y/ylrRZFU2FS6LRiFVp6rKLPg23y3x3c3DOKAwuXGDp+PAGjh6CSnCjYeAul8pcT8bAl+lSA==}
     engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
-
-  css-what@6.2.2:
-    resolution: {integrity: sha512-u/O3vwbptzhMs3L1fQE82ZSLHQQfto5gyZzwteVIEyeaY5Fc7R4dapF/BvRoSYFeqfBk4m0V1Vafq5Pjv25wvA==}
-    engines: {node: '>= 6'}
 
   css-what@7.0.0:
     resolution: {integrity: sha512-wD5oz5xibMOPHzy13CyGmogB3phdvcDaB5t0W/Nr5Z2O/agcB8YwOz6e2Lsp10pNDzBoDO9nVa3RGs/2BttpHQ==}
@@ -1269,10 +1253,6 @@ packages:
   entities@6.0.1:
     resolution: {integrity: sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==}
     engines: {node: '>=0.12'}
-
-  entities@8.1.0:
-    resolution: {integrity: sha512-kxL7msIffSuh9aaFAMD7rxAIuTRMAHMeBtgHW2yUdWw732ZNh4MehkF2gdjvtdmikkaIP9bFDDJOPlsvm7avrA==}
-    engines: {node: '>=20.19.0'}
 
   es-module-lexer@3.0.4:
     resolution: {integrity: sha512-BldNY5mwkVu+cQ5Ymn3e6hB9Sx8XHx4ZevWbiUyZbfKxJxYO27Hf0wfzkxIaD5CAJMaGl3YspKELj0ff/7nCMA==}
@@ -1852,9 +1832,6 @@ packages:
   node-fetch-native@1.6.7:
     resolution: {integrity: sha512-g9yhqoedzIUm0nTnTqAQvueMPVOuIY16bqgAJJC8XOOubYFNwz6IER9qs0Gq2Xd0+CecCKFjtdDTMA4u4xG06Q==}
 
-  node-html-parser@9.0.5:
-    resolution: {integrity: sha512-LpUc74Ax3L6AsxTEqoep0GDqCBbsPjtn74sYaiazxGXfwhe6iqD4E5sHTJFCU+wBxVMX+Dd7mvLim0QM1vsvpw==}
-
   node-mock-http@1.0.5:
     resolution: {integrity: sha512-KQyt/wLjG3TAc7DOUhpqWzgd4ERxR80JOlTK5VE5R1S12IaPVN5qkj4klBce9HPG1Njuup4Sb5bljaT34lIyjw==}
 
@@ -2181,10 +2158,6 @@ packages:
 
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
-
-  turndown@7.2.4:
-    resolution: {integrity: sha512-I8yFsfRzmzK0WV1pNNOA4A7y4RDfFxPRxb3t+e3ui14qSGOxGtiSP6GjeX+Y6CHb7HYaFj7ECUD7VE5kQMZWGQ==}
-    engines: {node: '>=18', npm: '>=9'}
 
   typesafe-path@0.2.2:
     resolution: {integrity: sha512-OJabfkAg1WLZSqJAJ0Z6Sdt3utnbzr/jh+NAHoyWHJe8CMSy79Gm085094M9nvTPy22KzTVn5Zq5mbapCI/hPA==}
@@ -3052,8 +3025,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@mixmark-io/domino@2.2.0': {}
-
   '@napi-rs/wasm-runtime@1.2.4(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)':
     dependencies:
       '@emnapi/core': 1.11.3
@@ -3537,14 +3508,6 @@ snapshots:
     dependencies:
       uncrypto: 0.1.3
 
-  css-select@5.2.2:
-    dependencies:
-      boolbase: 1.0.0
-      css-what: 6.2.2
-      domhandler: 5.0.3
-      domutils: 3.2.2
-      nth-check: 2.1.1
-
   css-select@6.0.0:
     dependencies:
       boolbase: 1.0.0
@@ -3562,8 +3525,6 @@ snapshots:
     dependencies:
       mdn-data: 2.27.1
       source-map-js: 1.2.2
-
-  css-what@6.2.2: {}
 
   css-what@7.0.0: {}
 
@@ -3636,8 +3597,6 @@ snapshots:
   entities@4.5.0: {}
 
   entities@6.0.1: {}
-
-  entities@8.1.0: {}
 
   es-module-lexer@3.0.4: {}
 
@@ -4540,11 +4499,6 @@ snapshots:
 
   node-fetch-native@1.6.7: {}
 
-  node-html-parser@9.0.5:
-    dependencies:
-      css-select: 5.2.2
-      entities: 8.1.0
-
   node-mock-http@1.0.5: {}
 
   normalize-path@3.0.0: {}
@@ -4982,10 +4936,6 @@ snapshots:
   trough@2.2.0: {}
 
   tslib@2.8.1: {}
-
-  turndown@7.2.4:
-    dependencies:
-      '@mixmark-io/domino': 2.2.0
 
   typesafe-path@0.2.2: {}
 
