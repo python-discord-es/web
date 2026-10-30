@@ -1,17 +1,17 @@
 ---
 title: "PyLadies en Español"
-description: "Comunidad para todas los capítulos hispanohablantes de PyLadies"
+description: "Comunidad para todos los capítulos hispanohablantes de PyLadies"
 draft: false
 ---
 
 ![PyLadies en Español](/images/site/pyladies_en_espanol.png)
 
 PyLadies en Español es una comunidad comprometida con el empoderamiento de las
-mujeres en el campo de la tecnología.Nuestra misión es impulsar la creación
+mujeres en el campo de la tecnología. Nuestra misión es impulsar la creación
 y el crecimiento de capítulos PyLadies en países de habla hispana. A través de
 apoyo, colaboración y recursos compartidos, buscamos fomentar la participación
 activa de las mujeres en la comunidad tecnológica, brindándoles las
-herramientas y el apoyo necesario para alcanzar sus objetivos profesionales
+herramientas y el apoyo necesarios para alcanzar sus objetivos profesionales
 y personales.
 
 ## Objetivos

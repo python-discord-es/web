@@ -8,13 +8,13 @@ draft: false
 
 * La fuente más fiable a la que puedes acudir es la
   [documentación oficial](https://docs.python.org/es/3/) que está
-  disponible en Español. No olvides que Python provee un
+  disponible en español. No olvides que Python provee un
   [Tutorial oficial](https://docs.python.org/es/3/tutorial/index.html).
 
 * Realiza tu consulta en un buscador como
   [Google](https://google.com) o [DuckDuckGo](https://duckduckgo.com) para
   comprobar si existe material pedagógico que pueda resolver tu duda. Si
-  tienes dudas de como hacer tus búsquedas, te recomendamos usar la palabra
+  tienes dudas de cómo hacer tus búsquedas, te recomendamos usar la palabra
   *"python"* acompañada por el módulo que estés usando, más la funcionalidad
   que necesitas.
 
@@ -24,14 +24,14 @@ draft: false
   una solución, ¡no te desanimes!
 
 * Consulta también páginas dedicadas en exclusiva a responder preguntas
-  sobre Python como [StackOverflow](https://stackoverflow.com),
-  o el [oficial de Python](https://discuss.python.org).
+  sobre Python como [Stack Overflow](https://stackoverflow.com),
+  o el [foro oficial de Python](https://discuss.python.org).
 
 ## Mejores preguntas
 
 * El **contexto es importante**, a pesar de que pienses que un término
-  pertenece a cierto módulo o problema, es mejor mencionar que
-  framework, biblioteca, tecnología estás usando.
+  pertenece a cierto módulo o problema, es mejor mencionar qué
+  framework, biblioteca o tecnología estás usando.
 
 * A veces las preguntas pueden ser muy abiertas, con lo que siempre
   es mejor **dividir un problema grande en problemas pequeños**, y pedir

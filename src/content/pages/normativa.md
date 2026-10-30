@@ -15,11 +15,11 @@ Sé amable y paciente, especialmente con quienes están empezando.
   actitud que haga sentir incómodas o amenazadas a otras personas están
   terminantemente prohibidas
 - Solo se permite compartir libros y recursos bajo licencias abiertas
-- Las bromas o comentarios negativos relacionados al desconocimiento de algún
+- Las bromas o comentarios negativos relacionados con el desconocimiento de algún
   tema no son admitidas en este espacio.
-- No se apoyan proyectos ilegales o relacionados a datos o acciones ilegales
+- No se apoyan proyectos ilegales o relacionados con datos o acciones ilegales
 - No se aceptan respuestas ni recomendaciones tipo "Let me google that for you", ni copiadas
-  literales de cualquier IA que responda preguntas.
+  literalmente de cualquier IA que responda preguntas.
 - No hace falta que preguntes «¿alguien me puede ayudar con X?» o «¿hay algún
   experto en X?», pregunta directamente
 - [Preguntas Frecuentes](/faq)
@@ -43,14 +43,14 @@ Debido a que Telegram es solo un canal, existen más restricciones para asegurar
 que el flujo de información no sea muy abrumador.
 
 - Temas on-topic: dudas sobre Python, instalación de paquetes, discusión general
-- Temas off-topic: todo lo que no es on-topic 😁. En caso que quieras de todas
-    manera discutir otros temas, puedes considerar otros canales como [offtopic
+- Temas off-topic: todo lo que no es on-topic 😁. En caso de que quieras, de todas
+    maneras, discutir otros temas, puedes considerar otros canales como [offtopic
     en español](https://t.me/offtopic_espanol).
 
 ### En Discord
 
 Al ser una plataforma con más canales, es posible discutir temas que no tengan
-relación a Python en distintos canales del servidor, el principal es el canal
+relación con Python en distintos canales del servidor, el principal es el canal
 `cafetería`, en la sección `💬 | Discusión`.
 
 ## Consejos al ingresar
@@ -75,7 +75,7 @@ tengas un buen comienzo en la comunidad.
 ### En Discord
 
 - Te recomendamos que te presentes en el canal `presentaciones` cuando llegues
-- ¿Algún proyecto, iniciativa, o campaña personal? anúncialo en el canal `sala-de-exposición`
+- ¿Algún proyecto, iniciativa, o campaña personal? Anúncialo en el canal `sala-de-exposición`
 - Pasa por el canal `encuestas📈` y ayúdanos a saber más de ti
 
 ¡Disfruta del grupo!

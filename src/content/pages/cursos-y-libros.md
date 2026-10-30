@@ -19,7 +19,7 @@ draft: false
 * [Tutorial de Django Girls](https://tutorial.djangogirls.org/es/)
 * [Introducción a la programación con Python 3](http://dx.doi.org/10.6035/Sapientia93) (Universitat Jaume I - Castellón)
 * [Introducción a la programación con Python](http://mclibre.org/consultar/python/) (Barto Sintes - IES Abastos - Valencia)
-* [Una guía simplificada para aprender python de nivel básico a nivel avanzado](https://ellibrodepython.com/)
+* [Una guía simplificada para aprender Python de nivel básico a nivel avanzado](https://ellibrodepython.com/)
 
 También hay videos con bastante popularidad, como:
 
@@ -27,7 +27,7 @@ También hay videos con bastante popularidad, como:
   (Píldoras informáticas).
 
 La comunidad [Argentina en Python](https://argentinaenpython.com)
-tiene una página con material recopilado muy buena en caso que necesites más material:
+tiene una página con material recopilado muy buena en caso de que necesites más material:
 [Quiero aprender Python](https://argentinaenpython.com/quiero-aprender-python/).
 
 ## Si ya sabes programar
@@ -49,8 +49,8 @@ En caso de no tener problema con leer en inglés, la oferta es mucho mayor:
 
 ## Podcasts
 
-Transporte público, tareas del hogar... escuchar podcasts es una forma amena de mantenerse al día de lo que pasa en la comunidad python:
+Transporte público, tareas del hogar... escuchar podcasts es una forma amena de mantenerse al día de lo que pasa en la comunidad Python:
 
-* [Pybites](https://www.pybitespodcast.com/) de Julian Sequeira y Bob Belderbos. Formato: 30', semanal. Comentario y consejos sobre python y desarrollo profesional (en inglés)
+* [Pybites](https://www.pybitespodcast.com/) de Julian Sequeira y Bob Belderbos. Formato: 30', semanal. Comentario y consejos sobre Python y desarrollo profesional (en inglés)
 * [Talk Python to me](https://talkpython.fm/) de Michael Kennedy. Formato: 60', semanal. Entrevistas informales con expertos de la industria (en inglés)
 * [Real Python](https://realpython.com/podcasts/rpp/) de Christopher Bailey. Formato: 60', semanal. Entrevistas y consejos sobre programación y desarrollo profesional (en inglés)

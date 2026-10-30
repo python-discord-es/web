@@ -36,14 +36,14 @@ el caso.
 Ejemplos de comportamiento que contribuyen a crear un ambiente positivo al
 grupo:
 
-* Demostrar empatía y amabilidad ante otras personas. No insultes o humilles
+* Demostrar empatía y amabilidad ante otras personas. No insultes ni humilles
   a otros asistentes. Recuerda que las bromas sexistas, racistas
   o discriminatorias no son apropiadas. Nunca lo son.
 * Respetar las diferentes opiniones, puntos de vista y experiencias.
 * Dar y aceptar adecuadamente críticas constructivas.
 * Aceptar la responsabilidad y disculparse ante quienes se vean afectados por
   nuestros errores, aprendiendo de la experiencia.
-* Centrarse en lo que sea mejor no sólo para nosotros como individuos, si no
+* Centrarse en lo que sea mejor no solo para nosotros como individuos, sino
   para la comunidad en general.
 * Prestar especial atención a las personas que recién llegan a la comunidad.
 
@@ -71,7 +71,7 @@ deseada.
 
 La administración del grupo es responsable de aclarar y hacer cumplir este
 código de conducta; en caso de que se determine un comportamiento inadecuado,
-tomará las acciones que considere oportunas. Éstas van desde exigir el cese del
+tomará las acciones que considere oportunas. Estas van desde exigir el cese del
 comportamiento, hasta la expulsión de una persona de un evento o del grupo, sin
 derecho a reclamo.
 
@@ -94,7 +94,7 @@ cumplimiento:
   mecanismos, los casos de comportamiento abusivo, acosador o inaceptable de
   otro modo podrán ser denunciados a las personas con el rol "Coordinación".
 * Si es un **evento presencial**, ponte en contacto directamente con las personas
-  organizadoras del evento. Es muy probable que hayan publicando un código de
+  organizadoras del evento. Es muy probable que hayan publicado un código de
   conducta específico del evento con instrucciones de a quién acudir; te
   proporcionarán un espacio seguro para ayudarte.
 

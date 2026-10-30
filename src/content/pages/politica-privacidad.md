@@ -1,6 +1,6 @@
 ---
 title: "Política de privacidad"
-description: "Documento que detalla los datos que se almacenan relacionados a cada usuario la comunidad Python en Español"
+description: "Documento que detalla los datos que se almacenan relacionados con cada usuario de la comunidad Python en Español"
 draft: false
 ---
 
@@ -18,7 +18,7 @@ realizadas por la comunidad.
 
 Existen servicios automatizados (bots) que manejan información
 para asegurar el funcionamiento de las plataformas, lo que conlleva
-manipulación de datos temporales de cada usuarios de las dos
+manipulación de datos temporales de cada usuario de las dos
 plataformas de la comunidad: [Telegram](https://telegram.org)
 y [Discord](https://discord.com).
 
@@ -55,7 +55,7 @@ y registro del hecho.
 ## ¿Qué datos no guardamos?
 
 No guardamos información a sabiendas de menores de 13 años,
-pues es la edad límite que Discord tiene
+pues es la edad límite que Discord establece en sus
 [Términos de servicio](https://discord.com/terms#age-requirements-and-responsibility-of-parents-and-guardians)
 para permitir el uso de la plataforma, con lo que al conocer esta
 situación, nos comunicaremos con Discord para que tome las medidas
@@ -68,21 +68,21 @@ en la pregunta anterior.
 ## Seguridad del acceso y procesamiento de datos
 
 Los datos recopilados por el bot de Discord están almacenados
-en un VPS, al que solo tienen acceso un sub grupo
+en un VPS, al que solo tienen acceso un subgrupo
 de las personas del equipo de Coordinación.
 
-Los datos relacionados a la moderación de ofertas, eventos, y spam
-es visible para todas las personas del equipo de Coordinación.
+Los datos relacionados con la moderación de ofertas, eventos, y spam
+son visibles para todas las personas del equipo de Coordinación.
 
 Verificamos constantemente la seguridad de dicho servidor
 para manejar la información de cada persona que es recopilada
 por nuestro bot, y no guardamos más información que la descrita
 en la sección de Servicios. Nuestra política es ser transparentes
-con el proceso, con lo cual nuestro Bot de moderación de es acceso
-abierto, con lo que cualquier persona puede verificar que datos
+con el proceso, con lo cual nuestro Bot de moderación es de acceso
+abierto, con lo que cualquier persona puede verificar qué datos
 se escriben en qué procesos.
 
-## ¿Que hacemos con los datos?
+## ¿Qué hacemos con los datos?
 
 Los datos almacenados no son ni vendidos, ni compartidos a terceras
 personas. Se mantienen en un servidor privado para el control
@@ -97,7 +97,7 @@ de nuestras dos plataformas de comunicación.
 Ya que las plataformas no están hospedadas en servicios privados,
 y pertenecen a otras empresas, te recomendamos leer la política
 de privacidad de [Telegram](https://telegram.org/privacy) y
-[Discord](https://discord.com/privacy), para saber como dichas
+[Discord](https://discord.com/privacy), para saber cómo dichas
 plataformas controlan tus datos.
 
 ### Sitio Web
@@ -119,7 +119,7 @@ el bot [Rose](https://missrose.org/) que mantiene registros:
 ### Servidor de Discord
 
 La coordinación y moderación del servidor se realiza con un Bot
-hospedado en un servidor privado, el cuál almacena los siguientes
+hospedado en un servidor privado, el cual almacena los siguientes
 registros respecto a tu usuario de Discord. Salvo que se indique lo
 contrario, estos registros se eliminan automáticamente 30 días
 después de su creación:
@@ -146,7 +146,7 @@ entidad pública, fundación, corporación, etc - intentamos apegarnos a la
 (RGPD) de manera parcial.
 
 En caso de residir en Europa, y si el procesamiento de tus Datos personales
-está sujeto a la RGPD tienes ciertos derechos con respecto a esos datos:
+está sujeto al RGPD tienes ciertos derechos con respecto a esos datos:
 
 * Puedes solicitar el acceso, rectificación o eliminación de los datos
   personales. Y tienes derecho a recibir una copia de los datos personales
