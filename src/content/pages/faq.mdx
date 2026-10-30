@@ -29,6 +29,23 @@ Para ejecutar un programa guarda tu código en un archivo, por ejemplo
 
 </Accordion>
 
+<Accordion title="Me dice que «python» no se reconoce o «command not found»">
+
+Significa que tu terminal no encuentra el ejecutable de Python. Las causas más
+comunes son:
+
+- **No está instalado.** Revisa [cómo instalar Python](#cómo-instalo-python).
+- **Windows: no se marcó *Add python.exe to PATH* al instalar.** Vuelve a
+  ejecutar el instalador y márcala, o usa el lanzador `py` (por ejemplo
+  `py hola.py`), que se instala con Python. También hay más información en la
+  [documentación para Windows](https://docs.python.org/es/3/using/windows.html).
+- **Linux y macOS: el comando se llama `python3`**, no `python`. Prueba con
+  `python3 --version` y `pip3 --version`.
+- **La terminal estaba abierta durante la instalación.** Ciérrala y abre una
+  nueva para que cargue los cambios.
+
+</Accordion>
+
 <Accordion title="¿Qué versión de Python debería usar?">
 
 Usa siempre Python 3, preferiblemente la última versión estable. Python 2 dejó
@@ -107,6 +124,22 @@ listados exhaustivos sobre editores e IDEs:
 
 - [Editor de texto](https://wiki.python.org/moin/PythonEditors)
 - [IDEs](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
+
+</Accordion>
+
+<Accordion title="¿Qué es Jupyter o Google Colab? ¿Cuándo los uso?">
+
+[Jupyter](https://jupyter.org/) es un entorno donde combinas código, resultados,
+gráficos y texto en un mismo documento organizado en celdas llamadas
+*notebooks*. Es muy popular en análisis de datos, ciencia y enseñanza, porque
+puedes ejecutar el código por partes y ver el resultado al instante.
+
+[Google Colab](https://colab.research.google.com/) ofrece notebooks en el
+navegador, sin instalar nada y con una cuenta de Google.
+
+Son ideales para explorar datos y aprender, pero para programas más grandes,
+aplicaciones o scripts que quieras ejecutar desde la terminal, lo habitual es
+usar un editor o IDE y archivos `.py`.
 
 </Accordion>
 
@@ -262,6 +295,29 @@ proyecto.
 
 </Accordion>
 
+<Accordion title="¿Cómo instalo paquetes con pip y qué es requirements.txt?">
+
+Con tu entorno virtual activado, instala un paquete con:
+
+```
+python -m pip install nombre-del-paquete
+```
+
+Usar `python -m pip` asegura que se instale en el mismo Python que ejecutas.
+Otros comandos útiles:
+
+- `python -m pip list`: muestra lo que tienes instalado.
+- `python -m pip install --upgrade nombre-del-paquete`: actualiza un paquete.
+- `python -m pip uninstall nombre-del-paquete`: lo desinstala.
+
+Un archivo `requirements.txt` es una lista de los paquetes que necesita tu
+proyecto, uno por línea. Puedes generarlo con `python -m pip freeze > requirements.txt`
+y quien reciba tu proyecto instalará todo de una vez con
+`python -m pip install -r requirements.txt`. Más detalles en la
+[documentación de pip](https://pip.pypa.io/en/stable/).
+
+</Accordion>
+
 <Accordion title="¿Dónde puedo practicar?">
 
 Además de los [cursos y libros](/cursos-y-libros) recomendados:
@@ -274,6 +330,48 @@ Además de los [cursos y libros](/cursos-y-libros) recomendados:
   ejecuta tu código.
 - [Aprende Python Construyendo](/aprende-python): proyectos para mejorar tu
   portafolio.
+
+</Accordion>
+
+<Accordion title="¿Dónde encuentro documentación en español?">
+
+La documentación oficial de Python tiene una
+[traducción al español](https://docs.python.org/es/3/), incluyendo el
+[tutorial](https://docs.python.org/es/3/tutorial/), que es un excelente punto
+de partida. Algunas secciones pueden estar menos actualizadas que la versión
+en inglés. Para bibliotecas externas, la documentación suele estar solo en
+inglés.
+
+</Accordion>
+
+<Accordion title="¿Python o algún otro lenguaje? ¿Se puede trabajar con Python?">
+
+Python es un lenguaje de propósito general que se usa en desarrollo web,
+análisis de datos, ciencia, automatización, inteligencia artificial,
+administración de sistemas y más. Puedes ver ejemplos en la sección de
+[aplicaciones de Python](https://www.python.org/about/apps/).
+
+Qué lenguaje te conviene depende de lo que quieras hacer, y no hay una
+respuesta única. Si tu objetivo es conseguir un trabajo, ten en cuenta que
+casi siempre se piden también otras habilidades además del lenguaje
+(bases de datos, Git, el framework o área concreta, inglés técnico...).
+Para empezar, mira la página de [principiantes](/principiantes) y las ofertas
+publicadas en nuestras comunidades.
+
+</Accordion>
+
+<Accordion title="¿Cómo puedo contribuir a la comunidad?">
+
+Hay muchas formas de aportar, no hace falta ser experto:
+
+- Ayudar a otras personas respondiendo preguntas en nuestras comunidades (mira
+  [preguntar y ayudar](/preguntar-ayudar)).
+- Traducir la documentación oficial al español en el proyecto
+  [python-docs-es](https://github.com/python/python-docs-es). Hay una
+  [guía para traducir](https://devguide.python.org/documentation/translating/)
+  de la documentación de Python.
+- [Empezar una comunidad](/comienza-comunidad) en tu ciudad o país.
+- Conocer otras [comunidades e iniciativas](/otras-comunidades) y participar.
 
 </Accordion>
 
