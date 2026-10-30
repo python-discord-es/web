@@ -17,7 +17,6 @@
     "@astrojs/markdown-remark": "^7.3.5",
     "@astrojs/mdx": "8.1.2",
     "@astrojs/sitemap": "3.7.4",
-    "@digi4care/astro-google-tagmanager": "^2.1.0",
     "@justinribeiro/lite-youtube": "^1.9.0",
     "astro": "7.4.4",
     "astro-auto-import": "^0.6.0",

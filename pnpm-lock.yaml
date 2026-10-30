@@ -20,9 +20,6 @@ importers:
       '@astrojs/sitemap':
         specifier: 3.7.4
         version: 3.7.4
-      '@digi4care/astro-google-tagmanager':
-        specifier: ^2.1.0
-        version: 2.1.0(astro@7.4.4(@astrojs/markdown-remark@7.3.5(supports-color@10.2.2))(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1))
       '@justinribeiro/lite-youtube':
         specifier: ^1.9.0
         version: 1.9.0
@@ -285,11 +282,6 @@ packages:
   '@clack/prompts@1.8.1':
     resolution: {integrity: sha512-dlT1m5e/0yUL0kRNcQn7yGLVThkgbB0Ga/1AmfDDC/8ik6AIiSf2QLQO2zPYvefsHP0aFgxO93cVLCCfDp7kzQ==}
     engines: {node: '>= 20.12.0'}
-
-  '@digi4care/astro-google-tagmanager@2.1.0':
-    resolution: {integrity: sha512-1SNCbiMKnPOQoq/gnZ/GO3TTgG1cTCdzsUQxJe+1xlyMHcG3YinZWWxV7U/klGYtK3y1X4oU20lou2av3oY89Q==}
-    peerDependencies:
-      astro: ^6.0.0 || ^7.0.0
 
   '@emmetio/abbreviation@2.3.3':
     resolution: {integrity: sha512-mgv58UrU3rh4YgbE/TzgLQwJ3pFsHHhCLqY20aJq+9comytTXUDNGG/SMtSeMJdkpxgXSXunBGLD8Boka3JyVA==}
@@ -2733,10 +2725,6 @@ snapshots:
       fast-string-width: 3.0.2
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
-
-  '@digi4care/astro-google-tagmanager@2.1.0(astro@7.4.4(@astrojs/markdown-remark@7.3.5(supports-color@10.2.2))(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1))':
-    dependencies:
-      astro: 7.4.4(@astrojs/markdown-remark@7.3.5(supports-color@10.2.2))(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1)
 
   '@emmetio/abbreviation@2.3.3':
     dependencies:

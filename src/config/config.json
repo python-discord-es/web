@@ -26,11 +26,6 @@
     "copyright": "Python en Español © 2026"
   },
 
-  "google_tag_manager": {
-    "enable": false,
-    "gtm_id": "GTM-XXXXXX"
-  },
-
   "metadata": {
     "meta_author": "Python en Español",
     "meta_image": "/images/og-image.png",
