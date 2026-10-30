@@ -23,44 +23,47 @@ const { title, description, author, categories, image, date, tags } = post.data;
   <div class="container">
     <div class="row justify-center">
       <article class="lg:col-10">
-        {
-          image && (
-            <div class="mb-10">
+        <div class="mb-10 flex flex-col gap-6 sm:flex-row sm:items-center">
+          {
+            image && (
               <ImageMod
                 src={image}
-                height={500}
-                width={1200}
+                height={320}
+                width={320}
                 alt={title}
-                class="w-full rounded"
+                class="size-40 shrink-0 rounded"
+                fit="cover"
                 format="webp"
               />
-            </div>
-          )
-        }
-        <h1 set:html={markdownify(title)} class="h2 mb-4" />
-        <ul class="mb-4">
-          <li class="mr-4 inline-block">
-            <a href={`/authors/${slugify(author)}`}>
-              <Icon name="FaRegUserCircle" className="mr-2 -mt-1 inline-block" />
-              {humanize(author)}
-            </a>
-          </li>
-          <li class="mr-4 inline-block">
-            <Icon name="FaRegFolder" className="mr-2 -mt-1 inline-block" />
-            {
-              categories.map((category: string, index: number) => (
-                <a href={`/categories/${slugify(category)}`}>
-                  {humanize(category)}
-                  {index !== categories.length - 1 && ","}
+            )
+          }
+          <div>
+            <h1 set:html={markdownify(title)} class="h2 mb-4" />
+            <ul class="mb-4">
+              <li class="mr-4 inline-block">
+                <a href={`/authors/${slugify(author)}`}>
+                  <Icon name="FaRegUserCircle" className="mr-2 -mt-1 inline-block" />
+                  {humanize(author)}
                 </a>
-              ))
-            }
-          </li>
-          <li class="mr-4 inline-block">
-            <Icon name="FaRegClock" className="mr-2 -mt-1 inline-block" />
-            {dateFormat(date)}
-          </li>
-        </ul>
+              </li>
+              <li class="mr-4 inline-block">
+                <Icon name="FaRegFolder" className="mr-2 -mt-1 inline-block" />
+                {
+                  categories.map((category: string, index: number) => (
+                    <a href={`/categories/${slugify(category)}`}>
+                      {humanize(category)}
+                      {index !== categories.length - 1 && ","}
+                    </a>
+                  ))
+                }
+              </li>
+              <li class="mr-4 inline-block">
+                <Icon name="FaRegClock" className="mr-2 -mt-1 inline-block" />
+                {dateFormat(date)}
+              </li>
+            </ul>
+          </div>
+        </div>
         <div class="content mb-10">
           <Content />
         </div>
