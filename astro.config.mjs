@@ -53,6 +53,12 @@ export default defineConfig({
     "/podcast.html": "/categories/podcast/",
     "/aprendepython.html": "/aprende-python/",
     "/transmisiones.html": "/transmisiones/",
+    // removed /tags and /authors sections
+    "/tags": "/categories/",
+    "/tags/podcast": "/categories/podcast/",
+    "/tags/blog": "/categories/blog/",
+    "/authors": "/blog/",
+    "/authors/equipo-bit-a-bit": "/categories/podcast/",
   },
 
   integrations: [

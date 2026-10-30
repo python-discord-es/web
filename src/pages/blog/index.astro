@@ -19,7 +19,6 @@ if (!buildDrafts && postIndex.data.draft) {
 const posts = await getSinglePage(BLOG_FOLDER);
 const allCategories = await getAllTaxonomy(BLOG_FOLDER, "categories");
 const categories = await getTaxonomy(BLOG_FOLDER, "categories");
-const tags = await getTaxonomy(BLOG_FOLDER, "tags");
 const sortedPosts = sortByDate(posts);
 const totalPages: number = Math.ceil(posts.length / config.settings.pagination);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination);
@@ -56,7 +55,6 @@ const currentPosts = sortedPosts.slice(0, config.settings.pagination);
         <!-- sidebar -->
         <PostSidebar
           categories={categories}
-          tags={tags}
           allCategories={allCategories}
         />
       </div>

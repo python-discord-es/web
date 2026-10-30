@@ -20,11 +20,9 @@ archivos Markdown o MDX dentro de `src/content/`.
 - `src/content/blog/`: el blog y los episodios del podcast *Bit a bit*. Los
   episodios se distinguen por la categoría `podcast` y se publican en
   `/blog/<nombre>/`.
-- `src/content/authors/` y `src/content/homepage/`: los autores y el contenido
-  de la portada.
+- `src/content/homepage/`: el contenido de la portada.
 - `src/pages/`: las rutas que no son solo Markdown, como la portada,
-  `/otras-comunidades/`, los listados del blog, las categorías, los tags y los
-  autores. Aquí también está `search.json.ts`, que genera el índice del
+  `/otras-comunidades/`, los listados del blog y las categorías. Aquí también está `search.json.ts`, que genera el índice del
   buscador.
 - `src/config/`: la configuración del sitio. `config.json` tiene los datos
   generales, `menu.json` el menú y `social.json` las redes sociales. Los
