@@ -10,6 +10,48 @@ Mira nuestras recomendaciones de [cursos y libros](/cursos-y-libros).
 
 </Accordion>
 
+<Accordion title="¿Cómo instalo Python?">
+
+Descarga el instalador oficial desde [python.org/downloads](https://www.python.org/downloads/)
+y elige la última versión estable. Más detalles en la
+[documentación oficial](https://docs.python.org/es/3/using/index.html).
+
+- **Windows:** al ejecutar el instalador marca la casilla *Add python.exe to
+  PATH*. Luego abre una terminal y comprueba con `python --version` (o
+  `py --version`).
+- **macOS:** usa el instalador de python.org o [Homebrew](https://brew.sh/)
+  (`brew install python`).
+- **Linux:** normalmente ya viene instalado. Comprueba con `python3 --version`
+  y, si falta, instálalo con el gestor de paquetes de tu distribución.
+
+Para ejecutar un programa guarda tu código en un archivo, por ejemplo
+`hola.py`, y ejecuta `python hola.py` (o `python3 hola.py` en Linux y macOS).
+
+</Accordion>
+
+<Accordion title="¿Qué versión de Python debería usar?">
+
+Usa siempre Python 3, preferiblemente la última versión estable. Python 2 dejó
+de recibir soporte el 1 de enero de 2020, y los libros, cursos o respuestas
+que lo usan (por ejemplo `print "hola"` sin paréntesis) están desactualizados.
+
+</Accordion>
+
+<Accordion title="Me aparece un error enorme, ¿cómo lo leo?">
+
+Python te muestra un *traceback*: la secuencia de llamadas que llevó al error.
+Lo más útil está al final:
+
+- La **última línea** indica el tipo de error (`NameError`, `TypeError`,
+  `SyntaxError`...) y un mensaje explicativo.
+- Las líneas anteriores indican el archivo y el número de línea donde ocurrió.
+
+Lee primero la última línea y luego sube hasta tu propio código. Si pides
+ayuda, copia el error completo, no solo la última línea. Más información en
+el [tutorial oficial](https://docs.python.org/es/3/tutorial/errors.html).
+
+</Accordion>
+
 <Accordion title="¿Hay más grupos de Telegram relacionados con Python en español?">
 
 ¡Claro! Mira la sección [otras comunidades](/otras-comunidades)
@@ -31,8 +73,8 @@ a ciegas, es recomendable que pegues tu código en una de las utilidades de
 abajo y compartas la URL generada en el canal:
 
 * [pastebin.com](https://pastebin.com)
-* [bpaste.net](https://bpaste.net)
-* [repl.it/languages/python3](https://repl.it/languages/python3)
+* [bpa.st](https://bpa.st)
+* [replit.com/languages/python3](https://replit.com/languages/python3)
 * [trinket.io/python](https://trinket.io/python)
 * [gist.github.com](https://gist.github.com)
 
@@ -88,71 +130,41 @@ recomendación.
 
 <Accordion title="Aplicaciones gráficas (GUI)">
 
-Las principales opciones que hay ahora mismo (Octubre 2018) en Python para
-crear aplicaciones gráficas son:
+Las principales opciones para crear aplicaciones gráficas en Python son:
 
 * [Tkinter](https://docs.python.org/3/library/tk.html):
-  Framework multiplataforma base incluido en Python por defecto en la librería
-  estándar. Basado en [Tcl/Tk](http://www.tcl.tk/) con licencia
-  [Python License](https://docs.python.org/3/license.html)
+  Framework multiplataforma incluido en la biblioteca estándar de Python.
+  Basado en [Tcl/Tk](https://www.tcl.tk/). Es la opción más sencilla para
+  empezar, ya que no hay que instalar nada.
+* [PySide (Qt for Python)](https://doc.qt.io/qtforpython-6/):
+  Bindings oficiales de [Qt](https://qt.io), multiplataforma y con licencia
+  [LGPL](https://www.gnu.org/licenses/lgpl-3.0.en.html), apta también para
+  uso comercial. Diseñador visual: [Qt Creator](https://www.qt.io/ide/).
 * [PyQt](https://riverbankcomputing.com/software/pyqt/intro):
-  Framework multiplataforma muy popular basado en Qt. Para uso comercial
-  requiere la compra de una licencia. Diseñador visual:
-  [Qt Creator](https://www.qt.io/ide/)
-  Basado en [Qt](https://qt.io) con licencia
-  [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) y
-  [Riverbank Commercial License](https://www.riverbankcomputing.com/commercial/pyqt).
-  Última versión estable: PyQt6 (Qt 6.2)
-* [PySide (Qt for Python)](https://doc.qt.io/qtforpython):
-  Framework multiplataforma basado en Qt, pero con una licencia menos restrictiva.
-  Soporta Qt4 (PySide), Qt5 (PySide2), y Qt6 (PySide6).
-  Requiere Python 3.6 o superior. Diseñador visual:
-  [Qt Creator](https://www.qt.io/ide/)
-  Basado en [Qt](https://qt.io) con licencia
-  [LGPL](https://www.gnu.org/licenses/lgpl-3.0.en.html).
-  Última versión estable: PySide6 (Qt 6.2)
+  Alternativa muy popular, también basada en Qt. Licencia
+  [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) o
+  [licencia comercial](https://www.riverbankcomputing.com/commercial/pyqt)
+  de pago.
 * [wxPython](https://www.wxpython.org/):
-  Framework multiplataforma bastante popular basado en wxWidgets que tiene como
-  principal ventaja que los componentes son nativos y por lo tanto su apariencia
-  es igual a la del SO en el que se usan. Diseñador visual:
-  [wxGlade](http://wxglade.sourceforge.net/)
-  o [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder).
-  Basado en [wxWidgets](https://www.wxwidgets.org/) con licencia
-  [wxWindows Library Licence](https://www.wxpython.org/pages/license/).
-  Última versión estable: 4.1
-* [Python GTK+](https://python-gtk-3-tutorial.readthedocs.io/en/latest/index.html):
-  Framework multiplataforma basado en GTK+3. (PyGTK es la versión antigua y usa
-  GTK+2). Diseñador visual: [glade](https://glade.gnome.org/)
-  Basado en [GTK+](https://www.gtk.org/) con licencia
-  [LGPL](https://www.gnu.org/licenses/lgpl-3.0.en.html).
-  Última versión estable: 3.4
+  Basado en [wxWidgets](https://www.wxwidgets.org/); los componentes son
+  nativos, por lo que la apariencia es igual a la del sistema operativo.
+  Diseñador visual: [wxGlade](https://wxglade.sourceforge.net/) o
+  [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder).
+* [Python GTK](https://pygobject.gnome.org/):
+  Bindings de GTK mediante PyGObject, la base del escritorio GNOME. Diseñador
+  visual: [Glade](https://glade.gnome.org/).
 * [Kivy](https://kivy.org/):
-  Framework multiplataforma diseñado para funcionar además de en entornos de
-  escritorio, en Android o IOS. Diseñador visual:
-  [Kivy Designer](https://kivy-designer.readthedocs.io/en/latest/)
-  Licencia [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-  Última versión estable: 2.0
-* [Toga](https://pybee.org/project/projects/libraries/toga/):
-  Framework multiplataforma orientado a desarrollo móvil con widgets nativos
-  (en Linux requiere GTK+3). Está en desarrollo.
-  Licencia [New BSD License](https://en.wikipedia.org/wiki/BSD_licenses).
-  Última versión estable: 0.3.0.dev11
+  Framework multiplataforma pensado también para dispositivos táctiles, con
+  soporte para Android e iOS. Licencia MIT.
+* [Toga](https://beeware.org/project/projects/libraries/toga/):
+  Parte del proyecto [BeeWare](https://beeware.org/). Usa widgets nativos de
+  cada plataforma, incluyendo móviles.
 * [pywebview](https://github.com/r0x0r/pywebview):
-  Es un wrapper de un componente webview que se basa en distintos frameworks
-  dependiendo de la plataforma en la que se instala. Al ser un componente
-  webview, el render lo decide el SO, por lo que en Windows (por ejemplo) estás
-  atado a Internet Explorer. Por lo tanto, la base
-  [depende del SO](https://github.com/r0x0r/pywebview#dependencies).
-  Licencia [New BSD License](https://en.wikipedia.org/wiki/BSD_licenses)
-  Última versión estable: 3.5
-* [PySimpleGUI](https://github.com/MikeTheWatchGuy/PySimpleGUI):
-  Framework basado en Tkinter que simplifica notablemente la elaboración de
-  interfaces gráficas.
-  Basado en Tkinter / [Tcl/Tk](http://www.tcl.tk/) con licencia
-  [LGPL](https://www.gnu.org/licenses/lgpl-3.0.en.html).
-  Última versión estable: 3.10.3
+  Muestra una interfaz web (HTML, CSS y JavaScript) en una ventana nativa,
+  usando el componente webview de cada sistema operativo.
 
-Si quieres ver todas las opciones, puedes leer el
+Antes de decidirte revisa que la licencia sea compatible con tu proyecto y que
+la biblioteca siga mantenida. Si quieres ver más opciones, puedes leer el
 [listado de GUIs](https://docs.python.org/3/faq/gui.html) en la web de Python así como
 [herramientas de diseño](https://wiki.python.org/moin/GuiProgramming#GUIDesignToolsandIDEs)
 en la wiki de Python.
@@ -163,15 +175,21 @@ en la wiki de Python.
 
 Básicamente tienes dos opciones:
 
-- Usar [Requests](http://docs.python-requests.org/) para el acceso y
+- Usar [Requests](https://requests.readthedocs.io/) para el acceso y
   [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
   para la extracción.
 - Usar el framework [Scrapy](https://scrapy.org/).
 
-También puede resultarte de ayuda el capítulo de
-[Web scraping](https://automatetheboringstuff.com/chapter11/)
-del libro [Automate the boring stuff](https://automatetheboringstuff.com/)
-en el que también se utiliza [Selenium](http://www.seleniumhq.org/).
+Si la página genera su contenido con JavaScript, necesitarás automatizar un
+navegador con [Playwright](https://playwright.dev/python/) o
+[Selenium](https://www.selenium.dev/).
+
+También puede resultarte de ayuda el libro
+[Automate the boring stuff](https://automatetheboringstuff.com/), que incluye
+un capítulo sobre web scraping (en inglés).
+
+Antes de extraer datos de un sitio, revisa sus términos de uso y su
+`robots.txt`.
 
 </Accordion>
 
@@ -182,7 +200,11 @@ que te dicen? Te recomendamos que leas un par de páginas para formarte una idea
 más realista:
 
 - [Yes, Python is Slow, and I Don't Care](https://medium.com/pyslackers/yes-python-is-slow-and-i-dont-care-13763980b5a1)
-- [10 Myths of Enterprise Python](http://sedimental.org/10_myths_of_enterprise_python.html)
+- [10 Myths of Enterprise Python](https://sedimental.org/10_myths_of_enterprise_python.html)
+
+Además, cada versión nueva de Python mejora el rendimiento (desde Python 3.11
+la mejora es notable), y para las partes que necesitan más velocidad existen
+bibliotecas como NumPy, que ejecutan el trabajo pesado en código compilado.
 
 </Accordion>
 
@@ -214,6 +236,25 @@ y luego para activarlo:
 
 - En Linux y macOS, `source nombre/bin/activate`,
 - En Windows, `nombre\Scripts\activate`.
+
+Más detalles en la [documentación de venv](https://docs.python.org/es/3/library/venv.html).
+Si prefieres una herramienta moderna que gestiona entornos y dependencias por
+ti, puedes probar [uv](https://docs.astral.sh/uv/).
+
+</Accordion>
+
+<Accordion title="¿Dónde puedo practicar?">
+
+Además de los [cursos y libros](/cursos-y-libros) recomendados:
+
+- [Exercism](https://exercism.org/tracks/python): ejercicios con
+  retroalimentación de mentores, gratis.
+- [Advent of Code](https://adventofcode.com/): retos de programación cada
+  diciembre.
+- [Python Tutor](https://pythontutor.com/): visualiza paso a paso cómo se
+  ejecuta tu código.
+- [Aprende Python Construyendo](/aprende-python): proyectos para mejorar tu
+  portafolio.
 
 </Accordion>
 
