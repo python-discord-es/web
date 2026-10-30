@@ -35,7 +35,7 @@ const sortedPosts = sortByDate(filterByCategories);
       <div class="row">
         {
           sortedPosts.map((post) => (
-            <div class="mb-14 md:col-6 lg:col-4">
+            <div class="mb-14 md:col-6 lg:col-3">
               <BlogCard data={post} />
             </div>
           ))
