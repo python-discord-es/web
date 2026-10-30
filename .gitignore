@@ -1,7 +1,6 @@
 # build output
 dist/
 .output/
-.json/
 
 # TypeScript incremental build cache
 *.tsbuildinfo

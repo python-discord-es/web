@@ -1,9 +1,7 @@
 ---
 // Vanilla-JS site search (no React). Static shell here; all the behavior
-// lives in the <script> tag below, which imports the search index generated
-// by scripts/jsonGenerator.js (now covering pages/posts/blog, not just the
-// podcast) and mirrors the same match-highlighting/keyboard-nav logic the
-// previous React version had.
+// lives in the <script> tag below, which loads the search index from
+// src/pages/search.json.ts.
 ---
 
 <div id="searchModal" class="search-modal">
@@ -86,7 +84,6 @@
 
 <script>
   import { plainify, titleify } from "@/lib/utils/textConverter";
-  import searchData from "../../../.json/search.json";
 
   interface SearchItem {
     group: string;
@@ -100,6 +97,9 @@
     };
     content: string;
   }
+
+  // search index (see src/pages/search.json.ts), fetched on first open
+  let searchData: SearchItem[] | null = null;
 
   const escapeHtml = (text: string) =>
     text.replace(
@@ -159,7 +159,7 @@
   const doSearch = (searchString: string): SearchItem[] => {
     if (!searchString) return [];
     const regex = new RegExp(searchString, "gi");
-    return (searchData as SearchItem[]).filter((item) => {
+    return (searchData ?? []).filter((item) => {
       const title = item.frontmatter.title?.toLowerCase().match(regex);
       const description = item.frontmatter.description?.toLowerCase().match(regex);
       const categories = item.frontmatter.categories?.join(" ").toLowerCase().match(regex);
@@ -268,9 +268,16 @@
   const searchIconSearch = document.getElementById("searchIconSearch")!;
   const searchIconClose = document.getElementById("searchIconClose")!;
 
-  const openModal = () => {
+  const openModal = async () => {
     searchModal.classList.add("show");
     searchInput.focus();
+    if (searchData) return;
+    try {
+      searchData = await (await fetch("/search.json")).json();
+      if (searchInput.value) searchInput.dispatchEvent(new Event("input"));
+    } catch {
+      searchData = null;
+    }
   };
   const closeModal = () => searchModal.classList.remove("show");
 

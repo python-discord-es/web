@@ -6,12 +6,11 @@
   "packageManager": "pnpm@11.17.0",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/jsonGenerator.js && astro dev",
-    "build": "node scripts/jsonGenerator.js && astro build && node scripts/llmsGenerator.js",
+    "dev": "astro dev",
+    "build": "astro build && node scripts/llmsGenerator.js",
     "preview": "astro preview",
     "check": "astro check",
     "format": "prettier -w ./src",
-    "generate-json": "node scripts/jsonGenerator.js",
     "generate-llms": "node scripts/llmsGenerator.js"
   },
   "dependencies": {
@@ -25,7 +24,6 @@
     "astro-auto-import": "^0.6.0",
     "date-fns": "^4.4.0",
     "github-slugger": "^2.0.0",
-    "gray-matter": "^4.0.3",
     "marked": "^18.1.2",
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
