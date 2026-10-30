@@ -10,7 +10,7 @@ Recuerda que hay gente que está comenzando con programación o Python, nada es
 obvio y todas las preguntas son bienvenidas.
 Sé amable y paciente, especialmente con quienes están empezando.
 
-- La comunidad se rige por nuestro [Código de Conducta](/codigo-de-conducta)
+- La comunidad se rige por nuestro [Código de Conducta](/codigo-de-conducta/)
 - Las bromas de contenido sexual, los comentarios machistas y cualquier otra
   actitud que haga sentir incómodas o amenazadas a otras personas están
   terminantemente prohibidas
@@ -22,11 +22,11 @@ Sé amable y paciente, especialmente con quienes están empezando.
   literalmente de cualquier IA que responda preguntas.
 - No hace falta que preguntes «¿alguien me puede ayudar con X?» o «¿hay algún
   experto en X?», pregunta directamente
-- [Preguntas Frecuentes](/faq)
+- [Preguntas Frecuentes](/faq/)
 - La versión 2.7 de Python ha llegado al final de su vida útil. Si tienes que
   empezar, que sea con la última versión estable de Python 3
 - Si eres principiante te recomendamos [lectura para
-    empezar](/principiantes)
+    empezar](/principiantes/)
 - Romper el código de conducta o cualquiera de estas normas podrá suponer la
   expulsión del grupo
 

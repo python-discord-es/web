@@ -13,9 +13,9 @@ features:
     image: "/images/site/recursos.png"
     content: "Encuentra consejos para dar tus primeros pasos con Python, cursos y libros recomendados por la comunidad, y respuestas a las preguntas que más se repiten."
     bulletpoints:
-      - "[Principiantes](/principiantes)"
-      - "[Cursos y libros](/cursos-y-libros)"
-      - "[Preguntas frecuentes](/faq)"
+      - "[Principiantes](/principiantes/)"
+      - "[Cursos y libros](/cursos-y-libros/)"
+      - "[Preguntas frecuentes](/faq/)"
     button:
       enable: false
       label: ""
@@ -25,9 +25,9 @@ features:
     image: "/images/site/comunidad.png"
     content: "Descubre cómo comenzar tu propia comunidad local, conoce otros grupos e iniciativas de Python en español, y entérate del trabajo de la Python Software Foundation."
     bulletpoints:
-      - "[Comienza una comunidad](/comienza-comunidad)"
-      - "[Otros grupos e iniciativas](/otras-comunidades)"
-      - "[Python Software Foundation](/psf)"
+      - "[Comienza una comunidad](/comienza-comunidad/)"
+      - "[Otros grupos e iniciativas](/otras-comunidades/)"
+      - "[Python Software Foundation](/psf/)"
     button:
       enable: false
       label: ""
@@ -37,9 +37,9 @@ features:
     image: "/images/site/informacion.png"
     content: "Revisa las normas de convivencia de la comunidad, aprende a preguntar y ayudar de la mejor forma, y consulta cómo publicar o encontrar ofertas de trabajo."
     bulletpoints:
-      - "[Normativa](/normativa)"
-      - "[Preguntar y ayudar](/preguntar-ayudar)"
-      - "[Ofertas de trabajo](/ofertas)"
+      - "[Normativa](/normativa/)"
+      - "[Preguntar y ayudar](/preguntar-ayudar/)"
+      - "[Ofertas de trabajo](/ofertas/)"
     button:
       enable: false
       label: ""

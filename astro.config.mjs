@@ -40,19 +40,19 @@ export default defineConfig({
 
   // Old (pre-Astro) URLs -> new URLs
   redirects: {
-    "/cursosylibros.html": "/cursos-y-libros",
-    "/principiantes.html": "/principiantes",
-    "/faq.html": "/faq",
-    "/comienzacomunidad.html": "/comienza-comunidad",
-    "/otrascomunidades.html": "/otras-comunidades",
-    "/psf.html": "/psf",
-    "/normativa.html": "/normativa",
-    "/preguntarayudar.html": "/preguntar-ayudar",
-    "/ofertas.html": "/ofertas",
-    "/pyladies.html": "/pyladies",
-    "/podcast.html": "/categories/podcast",
-    "/aprendepython.html": "/aprende-python",
-    "/transmisiones.html": "/transmisiones",
+    "/cursosylibros.html": "/cursos-y-libros/",
+    "/principiantes.html": "/principiantes/",
+    "/faq.html": "/faq/",
+    "/comienzacomunidad.html": "/comienza-comunidad/",
+    "/otrascomunidades.html": "/otras-comunidades/",
+    "/psf.html": "/psf/",
+    "/normativa.html": "/normativa/",
+    "/preguntarayudar.html": "/preguntar-ayudar/",
+    "/ofertas.html": "/ofertas/",
+    "/pyladies.html": "/pyladies/",
+    "/podcast.html": "/categories/podcast/",
+    "/aprendepython.html": "/aprende-python/",
+    "/transmisiones.html": "/transmisiones/",
   },
 
   integrations: [

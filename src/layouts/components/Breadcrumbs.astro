@@ -13,7 +13,7 @@ let parts = [
 ];
 
 paths.forEach((label: string, i: number) => {
-  const href = `/${paths.slice(0, i + 1).join("/")}`;
+  const href = `/${paths.slice(0, i + 1).join("/")}/`;
   label !== "page" &&
     parts.push({
       label: humanize(label.replace(".html", "").replace(/[-_]/g, " ")) || "",
