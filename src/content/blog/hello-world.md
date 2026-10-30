@@ -2,7 +2,7 @@
 title: "Hello world"
 description: "El primer artículo del blog de Python en Español."
 date: 2026-08-25T00:00:00Z
-author: "Equipo Bit a bit"
+author: "Coordinación"
 categories: ["blog"]
 tags: ["blog"]
 draft: false

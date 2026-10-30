@@ -12,11 +12,12 @@ const { title, image, date, author, categories } = data.data;
 
 <div class="flex h-full flex-col bg-body dark:bg-darkmode-body">
   <PostImage
-    class="mb-6 w-full rounded"
+    class="mb-6 aspect-square w-full rounded object-cover"
     src={image}
     alt={title}
-    width={445}
-    height={230}
+    width={400}
+    height={400}
+    fit="cover"
   />
   <h4 class="mb-3 line-clamp-2 min-h-[2lh]">
     <a href={`/${blog_folder}/${data.id}`}>

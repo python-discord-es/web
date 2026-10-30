@@ -29,7 +29,7 @@ const { logo, logo_darkmode } = config.site;
   ) : (
     // default thumbnail: the site logo on a tinted background
     <div
-      class={`flex items-center justify-center bg-light dark:bg-darkmode-light ${className ?? ""}`}
+      class={`flex items-center justify-center overflow-hidden bg-light dark:bg-darkmode-light ${className ?? ""}`}
       style={{ aspectRatio: `${width} / ${height}` }}
     >
       <ImageMod
