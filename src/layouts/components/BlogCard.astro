@@ -3,7 +3,7 @@ import config from "@/config/config.json";
 import dateFormat from "@/lib/utils/dateFormat";
 import { humanize, slugify } from "@/lib/utils/textConverter";
 import Icon from "./Icon.astro";
-import ImageMod from "./ImageMod.astro";
+import PostImage from "./PostImage.astro";
 
 const { blog_folder }: { blog_folder: string } = config.settings;
 const { data } = Astro.props;
@@ -11,18 +11,13 @@ const { title, image, date, author, categories } = data.data;
 ---
 
 <div class="flex h-full flex-col bg-body dark:bg-darkmode-body">
-  {
-    image && (
-      <ImageMod
-        class="mb-6 w-full rounded"
-        src={image}
-        alt={title}
-        width={445}
-        height={230}
-        format="webp"
-      />
-    )
-  }
+  <PostImage
+    class="mb-6 w-full rounded"
+    src={image}
+    alt={title}
+    width={445}
+    height={230}
+  />
   <h4 class="mb-3 line-clamp-2 min-h-[2lh]">
     <a href={`/${blog_folder}/${data.id}`}>
       {title}

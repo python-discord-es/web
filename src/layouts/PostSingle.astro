@@ -7,7 +7,7 @@ import dateFormat from "@/lib/utils/dateFormat";
 import similarItems from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import { render } from "astro:content";
-import ImageMod from "./components/ImageMod.astro";
+import PostImage from "./components/PostImage.astro";
 
 const { post } = Astro.props;
 
@@ -24,19 +24,14 @@ const { title, description, author, categories, image, date, tags } = post.data;
     <div class="row justify-center">
       <article class="lg:col-10">
         <div class="mb-10 flex flex-col gap-6 sm:flex-row sm:items-center">
-          {
-            image && (
-              <ImageMod
-                src={image}
-                height={320}
-                width={320}
-                alt={title}
-                class="size-40 shrink-0 rounded"
-                fit="cover"
-                format="webp"
-              />
-            )
-          }
+          <PostImage
+            src={image}
+            height={320}
+            width={320}
+            alt={title}
+            class="size-40 shrink-0 rounded"
+            fit="cover"
+          />
           <div>
             <h1 set:html={markdownify(title)} class="h2 mb-4" />
             <ul class="mb-4">

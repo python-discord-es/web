@@ -1,0 +1,53 @@
+---
+import config from "@/config/config.json";
+import ImageMod from "./ImageMod.astro";
+
+interface Props {
+  src?: string;
+  alt: string;
+  width: number;
+  height: number;
+  class?: string;
+  fit?: "cover" | "contain" | "fill" | "none" | "scale-down";
+}
+
+const { src, alt, width, height, class: className, fit } = Astro.props;
+const { logo, logo_darkmode } = config.site;
+---
+
+{
+  src ? (
+    <ImageMod
+      src={src}
+      alt={alt}
+      width={width}
+      height={height}
+      class={className}
+      fit={fit}
+      format="webp"
+    />
+  ) : (
+    // default thumbnail: the site logo on a tinted background
+    <div
+      class={`flex items-center justify-center bg-light dark:bg-darkmode-light ${className ?? ""}`}
+      style={{ aspectRatio: `${width} / ${height}` }}
+    >
+      <ImageMod
+        src={logo}
+        alt={alt}
+        width={160}
+        height={160}
+        class="h-1/2 w-auto dark:hidden"
+        format="webp"
+      />
+      <ImageMod
+        src={logo_darkmode}
+        alt={alt}
+        width={160}
+        height={160}
+        class="hidden h-1/2 w-auto dark:block"
+        format="webp"
+      />
+    </div>
+  )
+}
