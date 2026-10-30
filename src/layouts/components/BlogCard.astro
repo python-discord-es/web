@@ -1,19 +1,16 @@
 ---
 import config from "@/config/config.json";
 import dateFormat from "@/lib/utils/dateFormat";
-import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
+import { humanize, slugify } from "@/lib/utils/textConverter";
 import Icon from "./Icon.astro";
 import ImageMod from "./ImageMod.astro";
 
-const {
-  summary_length,
-  blog_folder,
-}: { summary_length: number; blog_folder: string } = config.settings;
+const { blog_folder }: { blog_folder: string } = config.settings;
 const { data } = Astro.props;
 const { title, image, date, author, categories } = data.data;
 ---
 
-<div class="bg-body dark:bg-darkmode-body">
+<div class="flex h-full flex-col bg-body dark:bg-darkmode-body">
   {
     image && (
       <ImageMod
@@ -26,7 +23,7 @@ const { title, image, date, author, categories } = data.data;
       />
     )
   }
-  <h4 class="mb-3">
+  <h4 class="mb-3 line-clamp-2 min-h-[2lh]">
     <a href={`/${blog_folder}/${data.id}`}>
       {title}
     </a>
@@ -51,8 +48,7 @@ const { title, image, date, author, categories } = data.data;
     </li>
     {date && <li class="inline-block">{dateFormat(date)}</li>}
   </ul>
-  <p class="mb-6">{plainify(data.body?.slice(0, Number(summary_length)))}</p>
-  <a class="btn btn-outline-primary btn-sm" href={`/${blog_folder}/${data.id}`}>
+  <a class="btn btn-outline-primary btn-sm mt-auto self-start" href={`/${blog_folder}/${data.id}`}>
     leer más
   </a>
 </div>
