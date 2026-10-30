@@ -28,6 +28,11 @@ export const discord: Community[] = [
     url: "https://discord.gg/Fr2HUqv64P",
     img: "/images/communities/python_lapaz.jpg",
   },
+  {
+    name: "Python Valencia (España)",
+    url: "https://discord.gg/ZMjuba3kNc",
+    img: "/images/communities/python_valencia.jpg",
+  },
 ];
 
 export const telegramLatam: Community[] = [
@@ -218,7 +223,15 @@ export const telegramTopics: Community[] = [
   { name: "Ciencia y tecnología", url: "https://t.me/natayadevcomunidad" },
 ];
 
-export const whatsappTopics: Community[] = [
+export const whatsapp: Community[] = [
+  {
+    name: "Python SV (El Salvador)",
+    url: "https://chat.whatsapp.com/Ly7exFkvNe0AJ8dFR2utwp",
+  },
+  {
+    name: "PyData Panamá",
+    url: "https://chat.whatsapp.com/KeWcVYLSqxcFuARF8Pb67w",
+  },
   {
     name: "Ingeniería de datos",
     url: "https://chat.whatsapp.com/CgXo5yI6LwhEdbRJpBWs4u",

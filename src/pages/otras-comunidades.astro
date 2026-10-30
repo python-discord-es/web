@@ -6,7 +6,7 @@ import {
   telegramLatam,
   telegramSpain,
   telegramTopics,
-  whatsappTopics,
+  whatsapp,
 } from "@/lib/data/communities";
 import PageHeader from "@/partials/PageHeader.astro";
 
@@ -62,7 +62,18 @@ const description =
 
           <h3 class="mb-6">Grupos por temática</h3>
           <ul class="mb-6 list-disc pl-6">
-            {[...telegramTopics, ...whatsappTopics].map((community) => (
+            {telegramTopics.map((community) => (
+              <li>
+                <a href={community.url} target="_blank" rel="noopener noreferrer">
+                  {community.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+
+          <h2 class="mb-6">WhatsApp</h2>
+          <ul class="mb-6 list-disc pl-6">
+            {whatsapp.map((community) => (
               <li>
                 <a href={community.url} target="_blank" rel="noopener noreferrer">
                   {community.name}
