@@ -21,6 +21,13 @@ export interface Props {
 // destructure frontmatter
 const { title, meta_title, description, image, noindex, canonical } =
   Astro.props;
+
+// "Page name | Site name", or just the site name on the home page
+const pageName = plainify(meta_title ? meta_title : title ? title : "").trim();
+const pageTitle =
+  pageName && pageName !== config.site.title
+    ? `${pageName} | ${config.site.title}`
+    : config.site.title;
 ---
 
 <!doctype html>
@@ -54,9 +61,7 @@ const { title, meta_title, description, image, noindex, canonical } =
     />
 
     <!-- title -->
-    <title>
-      {plainify(meta_title ? meta_title : title ? title : config.site.title)}
-    </title>
+    <title>{pageTitle}</title>
 
     <!-- canonical url -->
     {canonical && <link rel="canonical" href={canonical} item-prop="url" />}

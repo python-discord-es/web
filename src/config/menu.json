@@ -29,6 +29,10 @@
       "hasChildren": true,
       "children": [
         {
+          "name": "Quiénes somos",
+          "url": "/quienes-somos/"
+        },
+        {
           "name": "Comienza una comunidad",
           "url": "/comienza-comunidad/"
         },
@@ -37,8 +41,35 @@
           "url": "/otras-comunidades/"
         },
         {
+          "name": "PyLadies en Español",
+          "url": "/pyladies/"
+        },
+        {
           "name": "Python Software Foundation",
           "url": "/psf/"
+        }
+      ]
+    },
+    {
+      "name": "Discord",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Cómo empezar",
+          "url": "/discord/"
+        },
+        {
+          "name": "Aprende Python Construyendo",
+          "url": "/aprende-python/"
+        },
+        {
+          "name": "Transmisiones",
+          "url": "/transmisiones/"
+        },
+        {
+          "name": "Ofertas de trabajo",
+          "url": "/ofertas/"
         }
       ]
     },
@@ -52,44 +83,25 @@
           "url": "/blog/"
         },
         {
+          "name": "Podcast: Bit a bit",
+          "url": "/categories/podcast/"
+        },
+        {
           "name": "Normativa",
           "url": "/normativa/"
         },
         {
           "name": "Preguntar y ayudar",
           "url": "/preguntar-ayudar/"
-        },
-        {
-          "name": "Ofertas de trabajo",
-          "url": "/ofertas/"
-        }
-      ]
-    },
-    {
-      "name": "Iniciativas",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "PyLadies en Español",
-          "url": "/pyladies/"
-        },
-        {
-          "name": "Podcast: Bit a bit",
-          "url": "/categories/podcast/"
-        },
-        {
-          "name": "Aprende Python Construyendo",
-          "url": "/aprende-python/"
-        },
-        {
-          "name": "Transmisiones",
-          "url": "/transmisiones/"
         }
       ]
     }
   ],
   "footer": [
+    {
+      "name": "Quiénes somos",
+      "url": "/quienes-somos/"
+    },
     {
       "name": "Política de privacidad",
       "url": "/politica-privacidad/"
