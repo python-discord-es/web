@@ -36,7 +36,6 @@
     "@tailwindcss/typography": "^0.5.20",
     "@tailwindcss/vite": "^4.3.3",
     "@types/node": "26.6.6",
-    "glob": "^14.0.3",
     "node-html-parser": "^9.0.5",
     "prettier": "^3.9.10",
     "prettier-plugin-astro": "^1.1.2",

@@ -59,8 +59,6 @@
   "llms": {
     "generate_llms_txt": true,
     "generate_llms_full_txt": true,
-    "generate_individual_md": true,
-    "include": [],
-    "exclude": []
+    "generate_individual_md": true
   }
 }

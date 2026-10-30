@@ -6,9 +6,6 @@ dist/
 # TypeScript incremental build cache
 *.tsbuildinfo
 
-# stray temp file left behind if scripts/llmsGenerator.js is killed mid-run
-astro.config.llms-temp-*.mjs
-
 # dependencies
 node_modules/
 
